@@ -1,5 +1,7 @@
 # ESP32 系统学习手册
 
+[![验证状态](https://github.com/MFSAWUY/ESP32_LearningRecord/actions/workflows/validate.yml/badge.svg)](https://github.com/MFSAWUY/ESP32_LearningRecord/actions/workflows/validate.yml)
+
 面向有少量 C/C++ 和电路基础、希望系统复习并独立完成项目的学习者。以经典 ESP32-D0WD、4 MB Flash、CH340 Type-C 开发板及四针 I²C OLED 为主线。
 
 **学习路线：基础复习 → VS Code + PlatformIO + Arduino → ESP-IDF + FreeRTOS → 完整项目。** 数学推导、物理模型、代码、接线和验收放在同一学习链路中。
@@ -13,7 +15,7 @@
 
 **电脑运行与开发板运行：** Python上位机及仿真脚本直接运行在Windows/Linux；Arduino和ESP-IDF固件由电脑交叉编译，再在ESP32上运行。软件回环、仿真和编译成功均不能替代真机实验。
 
-**2026-10-31验证进展：** Ubuntu已完成28个Arduino/综合工程、11个原生IDF工程及两种OTA配置编译；Windows原生IDF已在真实路径重建，旧临时盘符不再需要。详见[验证报告](validation/REPORT.md)、[缓存与失败记录](validation/CONTINUATION-2026-10-31.md)、[本地Git与Actions说明](validation/LOCAL_GIT_AND_CI.md)。按当前安排，硬件实测和GitHub执行暂缓。
+**验证进展：** Ubuntu已完成28个Arduino/综合工程、11个原生IDF工程及两种OTA配置编译；Windows原生IDF已在真实路径重建，旧临时盘符不再需要。2026-11-01已上传GitHub并启用Actions，结果见[GitHub验证](validation/GITHUB_ACTIONS.md)。另见[本地验证报告](validation/REPORT.md)、[缓存与失败记录](validation/CONTINUATION-2026-10-31.md)。硬件实测仍按用户安排暂缓。
 
 ## 完整目录
 

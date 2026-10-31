@@ -1,0 +1,413 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-31T18:30:38.748691+00:00",
+  "host": "Linux-7.0.0-1017-azure-x86_64-with-glibc2.39",
+  "python": "3.12.15",
+  "python_executable": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python",
+  "hardware_tested": false,
+  "opened_serial_ports": false,
+  "firmware_flashed": false,
+  "serial_inventory": {
+    "status": "enumerated",
+    "ports": [
+      {
+        "device": "/dev/ttyS0",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS1",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS10",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS11",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS12",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS13",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS14",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS15",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS16",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS17",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS18",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS19",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS2",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS20",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS21",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS22",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS23",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS24",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS25",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS26",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS27",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS28",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS29",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS3",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS30",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS31",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS4",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS5",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS6",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS7",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS8",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      },
+      {
+        "device": "/dev/ttyS9",
+        "description": "n/a",
+        "hwid": "n/a",
+        "vid": null,
+        "pid": null,
+        "manufacturer": null,
+        "serial_number": null,
+        "location": null
+      }
+    ],
+    "error": null
+  },
+  "selected_port": null,
+  "selected_port_present": null,
+  "usb_inventory": {
+    "status": "not_requested"
+  },
+  "tools_on_path": {
+    "git": "/usr/bin/git",
+    "pio": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/pio",
+    "platformio": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/platformio",
+    "idf.py": null,
+    "cmake": "/usr/local/bin/cmake",
+    "ninja": "/usr/local/bin/ninja",
+    "openocd": null,
+    "xtensa-esp-elf-gdb": null
+  },
+  "idf_environment_selected": false,
+  "limitations": [
+    "A USB UART bridge or serial port does not prove an ESP32 is connected.",
+    "Enumeration does not verify port permissions, baud rate, firmware or flash size.",
+    "SSH does not forward a Windows USB device to the remote Linux host.",
+    "CH340 is a USB UART bridge, not the classic ESP32 JTAG interface.",
+    "No OLED, sensor, OTA, power or JTAG experiment is performed by this script."
+  ],
+  "experiments": {
+    "serial": {
+      "status": "not_run",
+      "needs": [
+        "identified board",
+        "data USB cable",
+        "selected usable port"
+      ]
+    },
+    "oled": {
+      "status": "not_run",
+      "needs": [
+        "I2C wiring",
+        "address scan",
+        "controller/resolution confirmation",
+        "visual inspection"
+      ]
+    },
+    "sht30": {
+      "status": "not_run",
+      "needs": [
+        "physical 3.3 V compatible SHT30 module",
+        "CRC and recovery logs"
+      ]
+    },
+    "ota_rollback": {
+      "status": "not_run",
+      "needs": [
+        "confirmed baseline image",
+        "two OTA slots",
+        "trusted HTTPS server",
+        "good and failing updates"
+      ]
+    },
+    "power": {
+      "status": "not_run",
+      "needs": [
+        "current measurement instrument",
+        "documented measurement point",
+        "active/sleep waveform or samples"
+      ]
+    },
+    "jtag": {
+      "status": "not_run",
+      "needs": [
+        "external ESP32 compatible JTAG probe",
+        "correct drivers",
+        "matching ELF",
+        "breakpoint/backtrace evidence"
+      ]
+    }
+  },
+  "exit_code": 0,
+  "exit_meaning": "inventory completed; no physical experiment passed"
+}

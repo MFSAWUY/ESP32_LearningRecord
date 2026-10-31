@@ -2,7 +2,7 @@
 
 更新日期：2026-10-31。Windows旧映射缓存已通过真实路径新目录重建替代；Ubuntu工具链已安装，全部固件工程实际编译通过。最新过程与日志位置见[本轮记录](CONTINUATION-2026-10-31.md)，当日早先状态保留为[历史快照](AUDIT-2026-10-31.md)。
 
-用户本轮决定暂不连接外设、仅在本地初始化Git。真机实验及GitHub Actions实际运行保持待验收，不能用编译成功代替。
+2026-11-01后续：用户已指定GitHub仓库，手册已推送并启用Actions；真实运行状态见[GitHub验证记录](GITHUB_ACTIONS.md)。真机实验仍按用户安排暂缓，不能用编译成功代替。
 
 ## 交付与实际结果
 
@@ -20,7 +20,7 @@
 | Windows新缓存、ROM符号辅助文件 | 13个构建缓存无已撤销映射，ROM符号文件生成 | [检查](windows-repair/cache-check.json) |
 | Windows / Ubuntu Python | 各9项通过 | [Windows](python-windows-resume.log)、[Ubuntu](linux-resume/python-linux.log) |
 | Windows / Ubuntu桌面C++ | 各1项通过 | [Windows](cpp-windows-test.log)、[Ubuntu](cpp-linux-test.log) |
-| GitHub Actions | 工作流已补齐、YAML解析检查；未上传、未执行 | [配置](../.github/workflows/validate.yml)、[Git说明](LOCAL_GIT_AND_CI.md) |
+| GitHub Actions | 已上传并启用；运行状态独立记录 | [运行记录](GITHUB_ACTIONS.md)、[配置](../.github/workflows/validate.yml) |
 | 真机、OLED、传感器、网络恢复、NVS、OTA回滚、功耗、完整JTAG | 按用户安排暂不执行 | [规程](HARDWARE_RUNBOOK.md)、[验收表](HARDWARE_CHECKLIST.md) |
 
 Python测试覆盖RC、滤波、混叠、功耗、PID限幅/积分约束、数据协议、HTTP成功/503故障、pySerial软件回环与CSV；HTTP503属于预期故障注入。C++测试覆盖输入边界、非法命令不改变配置、宽位累计与重置。仿真、软件回环和交叉编译均不证明实际电路和设备正常。
@@ -92,4 +92,4 @@ python -m unittest discover -s examples/python/tests -v
 .\scripts\sync_to_ubuntu.ps1 -Python '.\.tools\venv\Scripts\python.exe'
 ```
 
-本地Git已初始化，没有remote或上传；远端文件同步不代表在Ubuntu初始化了同一Git仓库。
+本地Git现已关联并推送到origin：MFSAWUY/ESP32_LearningRecord。Ubuntu文件同步不代表在Ubuntu初始化了同一Git仓库。

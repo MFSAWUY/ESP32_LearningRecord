@@ -1,0 +1,413 @@
+2026-10-31T18:30:24.3548518Z Current runner version: '2.338.2'
+2026-10-31T18:30:24.3585131Z ##[group]Runner Image Provisioner
+2026-10-31T18:30:24.3586632Z Hosted Compute Agent
+2026-10-31T18:30:24.3588035Z Version: 20261021.618
+2026-10-31T18:30:24.3589239Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+2026-10-31T18:30:24.3590797Z Build Date: 2026-10-21T00:45:21Z
+2026-10-31T18:30:24.3592061Z Worker ID: {58d368b9-a05a-4c64-b28b-3a1f9a2eaf89}
+2026-10-31T18:30:24.3593600Z Region: eastus2
+2026-10-31T18:30:24.3594881Z Cloud: Azure
+2026-10-31T18:30:24.3595888Z ##[endgroup]
+2026-10-31T18:30:24.3599342Z ##[group]Operating System
+2026-10-31T18:30:24.3600519Z Ubuntu
+2026-10-31T18:30:24.3601429Z 24.04.5
+2026-10-31T18:30:24.3602540Z LTS
+2026-10-31T18:30:24.3603522Z ##[endgroup]
+2026-10-31T18:30:24.3605453Z ##[group]Runner Image
+2026-10-31T18:30:24.3606607Z Image: ubuntu-24.04
+2026-10-31T18:30:24.3607952Z Version: 20261025.353.1
+2026-10-31T18:30:24.3610370Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261025.353/images/ubuntu/Ubuntu2404-Readme.md
+2026-10-31T18:30:24.3613412Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261025.353
+2026-10-31T18:30:24.3615332Z ##[endgroup]
+2026-10-31T18:30:24.3617555Z ##[group]GITHUB_TOKEN Permissions
+2026-10-31T18:30:24.3620698Z Contents: read
+2026-10-31T18:30:24.3621710Z Metadata: read
+2026-10-31T18:30:24.3622834Z ##[endgroup]
+2026-10-31T18:30:24.3625715Z Secret source: Actions
+2026-10-31T18:30:24.3627736Z Cache mode: write
+2026-10-31T18:30:24.3629191Z Prepare workflow directory
+2026-10-31T18:30:24.4243982Z Prepare all required actions
+2026-10-31T18:30:24.4316574Z Getting action download info
+2026-10-31T18:30:24.6609936Z Download action repository 'actions/checkout@v7' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+2026-10-31T18:30:24.7740803Z Download action repository 'actions/upload-artifact@v7' (SHA:cf430e030ddbb5b0abf93d22962f4752f3646cd9)
+2026-10-31T18:30:24.9591068Z Complete job name: idf
+2026-10-31T18:30:25.0225005Z ##[group]Checking docker version
+2026-10-31T18:30:25.0238559Z ##[command]/usr/bin/docker version --format '{{.Server.APIVersion}}'
+2026-10-31T18:30:25.1005692Z '1.48'
+2026-10-31T18:30:25.1022103Z Docker daemon API version: '1.48'
+2026-10-31T18:30:25.1022893Z ##[command]/usr/bin/docker version --format '{{.Client.APIVersion}}'
+2026-10-31T18:30:25.1228806Z '1.48'
+2026-10-31T18:30:25.1240835Z Docker client API version: '1.48'
+2026-10-31T18:30:25.1248299Z ##[endgroup]
+2026-10-31T18:30:25.1252181Z ##[group]Clean up resources from previous jobs
+2026-10-31T18:30:25.1259087Z ##[command]/usr/bin/docker ps --all --quiet --no-trunc --filter "label=304781"
+2026-10-31T18:30:25.1439946Z ##[command]/usr/bin/docker network prune --force --filter "label=304781"
+2026-10-31T18:30:25.1598887Z ##[endgroup]
+2026-10-31T18:30:25.1599441Z ##[group]Create local container network
+2026-10-31T18:30:25.1609367Z ##[command]/usr/bin/docker network create --label 304781 github_network_676899d0a8f441a288e43e1f3d57e313
+2026-10-31T18:30:25.2145914Z b22e3d3a9d7e280aa7e9e93bcee7b7cba952c0c2cf359f60efa8f7439bfd7ddb
+2026-10-31T18:30:25.2170519Z ##[endgroup]
+2026-10-31T18:30:25.2195857Z ##[group]Starting job container
+2026-10-31T18:30:25.2219335Z ##[command]/usr/bin/docker pull espressif/idf:v6.1
+2026-10-31T18:30:25.5254669Z v6.1: Pulling from espressif/idf
+2026-10-31T18:30:25.6135741Z 0926a8eb0e60: Pulling fs layer
+2026-10-31T18:30:25.6137073Z 87a7657aab4b: Pulling fs layer
+2026-10-31T18:30:25.6138185Z b308d72109cc: Pulling fs layer
+2026-10-31T18:30:25.6138802Z 71acb9096687: Pulling fs layer
+2026-10-31T18:30:25.6139387Z bb3b8f52c9c1: Pulling fs layer
+2026-10-31T18:30:25.6139953Z f1206a11965a: Pulling fs layer
+2026-10-31T18:30:25.6140521Z dd4ff7637e4e: Pulling fs layer
+2026-10-31T18:30:25.6141106Z 4f4fb700ef54: Pulling fs layer
+2026-10-31T18:30:25.6141662Z 71acb9096687: Waiting
+2026-10-31T18:30:25.6142154Z bb3b8f52c9c1: Waiting
+2026-10-31T18:30:25.6142649Z f1206a11965a: Waiting
+2026-10-31T18:30:25.6143180Z dd4ff7637e4e: Waiting
+2026-10-31T18:30:25.6143667Z 4f4fb700ef54: Waiting
+2026-10-31T18:30:25.7901501Z b308d72109cc: Verifying Checksum
+2026-10-31T18:30:25.7903592Z b308d72109cc: Download complete
+2026-10-31T18:30:25.8133296Z 0926a8eb0e60: Verifying Checksum
+2026-10-31T18:30:25.8135199Z 0926a8eb0e60: Download complete
+2026-10-31T18:30:26.6977629Z 87a7657aab4b: Verifying Checksum
+2026-10-31T18:30:26.6981225Z 87a7657aab4b: Download complete
+2026-10-31T18:30:26.7510225Z f1206a11965a: Verifying Checksum
+2026-10-31T18:30:26.7512455Z f1206a11965a: Download complete
+2026-10-31T18:30:26.8041694Z dd4ff7637e4e: Verifying Checksum
+2026-10-31T18:30:26.8044835Z dd4ff7637e4e: Download complete
+2026-10-31T18:30:26.8570076Z 4f4fb700ef54: Verifying Checksum
+2026-10-31T18:30:26.8572020Z 4f4fb700ef54: Download complete
+2026-10-31T18:30:27.7841556Z 0926a8eb0e60: Pull complete
+2026-10-31T18:30:31.1795491Z bb3b8f52c9c1: Verifying Checksum
+2026-10-31T18:30:31.1796284Z bb3b8f52c9c1: Download complete
+2026-10-31T18:30:33.8861032Z 71acb9096687: Verifying Checksum
+2026-10-31T18:30:33.8861867Z 71acb9096687: Download complete
+2026-10-31T18:30:42.3215285Z 87a7657aab4b: Pull complete
+2026-10-31T18:30:42.9451525Z b308d72109cc: Pull complete
+2026-10-31T18:31:04.7132035Z 71acb9096687: Pull complete
+2026-10-31T18:31:32.3126894Z bb3b8f52c9c1: Pull complete
+2026-10-31T18:31:32.3218582Z f1206a11965a: Pull complete
+2026-10-31T18:31:32.3307621Z dd4ff7637e4e: Pull complete
+2026-10-31T18:31:32.3436243Z 4f4fb700ef54: Pull complete
+2026-10-31T18:31:32.3477710Z Digest: sha256:81893c71bb5e570088901f21def8684c25cd2a9020281bd01b843a7655edb18c
+2026-10-31T18:31:32.3489233Z Status: Downloaded newer image for espressif/idf:v6.1
+2026-10-31T18:31:32.3497843Z docker.io/espressif/idf:v6.1
+2026-10-31T18:31:32.3585653Z ##[command]/usr/bin/docker create --name 08f480787d1c4f03827d35bf3aa87180_espressifidfv61_98406c --label 304781 --workdir /__w/ESP32_LearningRecord/ESP32_LearningRecord --network github_network_676899d0a8f441a288e43e1f3d57e313  -e "HOME=/github/home" -e GITHUB_ACTIONS=true -e CI=true -v "/var/run/docker.sock":"/var/run/docker.sock" -v "/home/runner/work":"/__w" -v "/home/runner/actions-runner/cached/2.338.2/externals":"/__e":ro -v "/home/runner/work/_temp":"/__w/_temp" -v "/home/runner/work/_actions":"/__w/_actions" -v "/opt/hostedtoolcache":"/__t" -v "/home/runner/work/_temp/_github_home":"/github/home" -v "/home/runner/work/_temp/_github_workflow":"/github/workflow" --entrypoint "tail" espressif/idf:v6.1 "-f" "/dev/null"
+2026-10-31T18:31:32.3865476Z 2837c4803130f2570a00786db91bc6909878dd966a92e21323509fa74022bc56
+2026-10-31T18:31:32.3894237Z ##[command]/usr/bin/docker start 2837c4803130f2570a00786db91bc6909878dd966a92e21323509fa74022bc56
+2026-10-31T18:31:32.5714298Z 2837c4803130f2570a00786db91bc6909878dd966a92e21323509fa74022bc56
+2026-10-31T18:31:32.5742805Z ##[command]/usr/bin/docker ps --all --filter id=2837c4803130f2570a00786db91bc6909878dd966a92e21323509fa74022bc56 --filter status=running --no-trunc --format "{{.ID}} {{.Status}}"
+2026-10-31T18:31:32.5886619Z 2837c4803130f2570a00786db91bc6909878dd966a92e21323509fa74022bc56 Up Less than a second
+2026-10-31T18:31:32.5910171Z ##[command]/usr/bin/docker inspect --format "{{range .Config.Env}}{{println .}}{{end}}" 2837c4803130f2570a00786db91bc6909878dd966a92e21323509fa74022bc56
+2026-10-31T18:31:32.6054034Z HOME=/github/home
+2026-10-31T18:31:32.6054714Z GITHUB_ACTIONS=true
+2026-10-31T18:31:32.6068164Z CI=true
+2026-10-31T18:31:32.6068511Z PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+2026-10-31T18:31:32.6068907Z IDF_PATH=/opt/esp/idf
+2026-10-31T18:31:32.6069150Z IDF_TOOLS_PATH=/opt/esp
+2026-10-31T18:31:32.6069424Z IDF_GITHUB_ASSETS=
+2026-10-31T18:31:32.6069810Z IDF_PYTHON_CHECK_CONSTRAINTS=no
+2026-10-31T18:31:32.6070089Z IDF_CCACHE_ENABLE=1
+2026-10-31T18:31:32.6076814Z ##[endgroup]
+2026-10-31T18:31:32.6086117Z ##[group]Waiting for all services to be ready
+2026-10-31T18:31:32.6088166Z ##[endgroup]
+2026-10-31T18:31:32.6387180Z ##[group]Run actions/checkout@v7
+2026-10-31T18:31:32.6388189Z with:
+2026-10-31T18:31:32.6388419Z   persist-credentials: false
+2026-10-31T18:31:32.6388943Z   repository: MFSAWUY/ESP32_LearningRecord
+2026-10-31T18:31:32.6391516Z   token: ***
+2026-10-31T18:31:32.6391726Z   ssh-strict: true
+2026-10-31T18:31:32.6391936Z   ssh-user: git
+2026-10-31T18:31:32.6392125Z   clean: true
+2026-10-31T18:31:32.6392338Z   sparse-checkout-cone-mode: true
+2026-10-31T18:31:32.6392591Z   fetch-depth: 1
+2026-10-31T18:31:32.6392784Z   fetch-tags: false
+2026-10-31T18:31:32.6392987Z   show-progress: true
+2026-10-31T18:31:32.6393196Z   lfs: false
+2026-10-31T18:31:32.6393376Z   submodules: false
+2026-10-31T18:31:32.6393580Z   set-safe-directory: true
+2026-10-31T18:31:32.6393896Z   allow-unsafe-pr-checkout: false
+2026-10-31T18:31:32.6394422Z env:
+2026-10-31T18:31:32.6394616Z   PYTHONUTF8: 1
+2026-10-31T18:31:32.6394815Z ##[endgroup]
+2026-10-31T18:31:32.6459463Z ##[command]/usr/bin/docker exec  2837c4803130f2570a00786db91bc6909878dd966a92e21323509fa74022bc56 sh -c "cat /etc/*release | grep ^ID"
+2026-10-31T18:31:32.9956814Z Syncing repository: MFSAWUY/ESP32_LearningRecord
+2026-10-31T18:31:32.9959198Z ##[group]Getting Git version info
+2026-10-31T18:31:32.9959893Z Working directory is '/__w/ESP32_LearningRecord/ESP32_LearningRecord'
+2026-10-31T18:31:32.9960854Z [command]/usr/bin/git version
+2026-10-31T18:31:32.9961287Z git version 2.43.0
+2026-10-31T18:31:32.9981718Z ##[endgroup]
+2026-10-31T18:31:32.9993880Z Temporarily overriding HOME='/__w/_temp/dd0f8bf5-e205-4706-abb8-3ca67936f9fa' before making global git config changes
+2026-10-31T18:31:32.9995113Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-31T18:31:33.0004271Z [command]/usr/bin/git config --global --add safe.directory /__w/ESP32_LearningRecord/ESP32_LearningRecord
+2026-10-31T18:31:33.0044546Z Deleting the contents of '/__w/ESP32_LearningRecord/ESP32_LearningRecord'
+2026-10-31T18:31:33.0047477Z ##[group]Determining repository object format
+2026-10-31T18:31:33.0049659Z ##[endgroup]
+2026-10-31T18:31:33.0054670Z ##[group]Initializing the repository
+2026-10-31T18:31:33.0055330Z [command]/usr/bin/git init /__w/ESP32_LearningRecord/ESP32_LearningRecord
+2026-10-31T18:31:33.0102900Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-10-31T18:31:33.0104283Z hint: is subject to change. To configure the initial branch name to use in all
+2026-10-31T18:31:33.0105517Z hint: of your new repositories, which will suppress this warning, call:
+2026-10-31T18:31:33.0106177Z hint: 
+2026-10-31T18:31:33.0106664Z hint: 	git config --global init.defaultBranch <name>
+2026-10-31T18:31:33.0107488Z hint: 
+2026-10-31T18:31:33.0108037Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-10-31T18:31:33.0108908Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-10-31T18:31:33.0109587Z hint: 
+2026-10-31T18:31:33.0109938Z hint: 	git branch -m <name>
+2026-10-31T18:31:33.0115773Z Initialized empty Git repository in /__w/ESP32_LearningRecord/ESP32_LearningRecord/.git/
+2026-10-31T18:31:33.0124693Z [command]/usr/bin/git remote add origin https://github.com/MFSAWUY/ESP32_LearningRecord
+2026-10-31T18:31:33.0201294Z ##[endgroup]
+2026-10-31T18:31:33.0202305Z ##[group]Disabling automatic garbage collection
+2026-10-31T18:31:33.0203237Z [command]/usr/bin/git config --local gc.auto 0
+2026-10-31T18:31:33.0211972Z ##[endgroup]
+2026-10-31T18:31:33.0214149Z ##[group]Setting up auth
+2026-10-31T18:31:33.0214709Z Removing SSH command configuration
+2026-10-31T18:31:33.0220124Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-31T18:31:33.0259697Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-31T18:31:33.0522322Z Removing HTTP extra header
+2026-10-31T18:31:33.0528150Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-31T18:31:33.0567648Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-31T18:31:33.0840718Z Removing includeIf entries pointing to credentials config files
+2026-10-31T18:31:33.0848435Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-31T18:31:33.0897451Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-31T18:31:33.1166551Z [command]/usr/bin/git config --file /__w/_temp/git-credentials-74d996bd-8085-4616-b006-e51b6eccbc4d.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-10-31T18:31:33.1228531Z [command]/usr/bin/git config --local includeIf.gitdir:/__w/ESP32_LearningRecord/ESP32_LearningRecord/.git.path /__w/_temp/git-credentials-74d996bd-8085-4616-b006-e51b6eccbc4d.config
+2026-10-31T18:31:33.1279237Z [command]/usr/bin/git config --local includeIf.gitdir:/__w/ESP32_LearningRecord/ESP32_LearningRecord/.git/worktrees/*.path /__w/_temp/git-credentials-74d996bd-8085-4616-b006-e51b6eccbc4d.config
+2026-10-31T18:31:33.1320852Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-74d996bd-8085-4616-b006-e51b6eccbc4d.config
+2026-10-31T18:31:33.1364615Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-74d996bd-8085-4616-b006-e51b6eccbc4d.config
+2026-10-31T18:31:33.1405188Z ##[endgroup]
+2026-10-31T18:31:33.1405592Z ##[group]Fetching the repository
+2026-10-31T18:31:33.1413328Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +9ec3e4ec020a5cda734ab31c7b593eb6104df275:refs/remotes/origin/main
+2026-10-31T18:31:33.4017546Z From https://github.com/MFSAWUY/ESP32_LearningRecord
+2026-10-31T18:31:33.4018395Z  * [new ref]         9ec3e4ec020a5cda734ab31c7b593eb6104df275 -> origin/main
+2026-10-31T18:31:33.4052578Z [command]/usr/bin/git branch --list --remote origin/main
+2026-10-31T18:31:33.4097563Z   origin/main
+2026-10-31T18:31:33.4109147Z [command]/usr/bin/git rev-parse refs/remotes/origin/main
+2026-10-31T18:31:33.4149350Z 9ec3e4ec020a5cda734ab31c7b593eb6104df275
+2026-10-31T18:31:33.4154635Z ##[endgroup]
+2026-10-31T18:31:33.4155287Z ##[group]Determining the checkout info
+2026-10-31T18:31:33.4162243Z ##[endgroup]
+2026-10-31T18:31:33.4162891Z [command]/usr/bin/git sparse-checkout disable
+2026-10-31T18:31:33.4216762Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-10-31T18:31:33.4260449Z ##[group]Checking out the ref
+2026-10-31T18:31:33.4263679Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-10-31T18:31:33.4716140Z Switched to a new branch 'main'
+2026-10-31T18:31:33.4716832Z branch 'main' set up to track 'origin/main'.
+2026-10-31T18:31:33.4725917Z ##[endgroup]
+2026-10-31T18:31:33.4781987Z [command]/usr/bin/git log -1 --format=%H
+2026-10-31T18:31:33.4823021Z 9ec3e4ec020a5cda734ab31c7b593eb6104df275
+2026-10-31T18:31:33.4832319Z ##[group]Removing auth
+2026-10-31T18:31:33.4832837Z Removing SSH command configuration
+2026-10-31T18:31:33.4835586Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-31T18:31:33.4881113Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-31T18:31:33.5142948Z Removing HTTP extra header
+2026-10-31T18:31:33.5143971Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-31T18:31:33.5196463Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-31T18:31:33.5466357Z Removing includeIf entries pointing to credentials config files
+2026-10-31T18:31:33.5478447Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-31T18:31:33.5513273Z includeif.gitdir:/__w/ESP32_LearningRecord/ESP32_LearningRecord/.git.path
+2026-10-31T18:31:33.5514469Z includeif.gitdir:/__w/ESP32_LearningRecord/ESP32_LearningRecord/.git/worktrees/*.path
+2026-10-31T18:31:33.5515331Z includeif.gitdir:/github/workspace/.git.path
+2026-10-31T18:31:33.5515995Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+2026-10-31T18:31:33.5524060Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/__w/ESP32_LearningRecord/ESP32_LearningRecord/.git.path
+2026-10-31T18:31:33.5560171Z /__w/_temp/git-credentials-74d996bd-8085-4616-b006-e51b6eccbc4d.config
+2026-10-31T18:31:33.5571004Z [command]/usr/bin/git config --local --unset includeif.gitdir:/__w/ESP32_LearningRecord/ESP32_LearningRecord/.git.path \/__w\/_temp\/git\-credentials\-74d996bd\-8085\-4616\-b006\-e51b6eccbc4d\.config
+2026-10-31T18:31:33.5618929Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/__w/ESP32_LearningRecord/ESP32_LearningRecord/.git/worktrees/*.path
+2026-10-31T18:31:33.5655036Z /__w/_temp/git-credentials-74d996bd-8085-4616-b006-e51b6eccbc4d.config
+2026-10-31T18:31:33.5669244Z [command]/usr/bin/git config --local --unset includeif.gitdir:/__w/ESP32_LearningRecord/ESP32_LearningRecord/.git/worktrees/*.path \/__w\/_temp\/git\-credentials\-74d996bd\-8085\-4616\-b006\-e51b6eccbc4d\.config
+2026-10-31T18:31:33.5712037Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+2026-10-31T18:31:33.5747761Z /github/runner_temp/git-credentials-74d996bd-8085-4616-b006-e51b6eccbc4d.config
+2026-10-31T18:31:33.5759037Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-74d996bd\-8085\-4616\-b006\-e51b6eccbc4d\.config
+2026-10-31T18:31:33.5802126Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+2026-10-31T18:31:33.5837676Z /github/runner_temp/git-credentials-74d996bd-8085-4616-b006-e51b6eccbc4d.config
+2026-10-31T18:31:33.5846824Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-74d996bd\-8085\-4616\-b006\-e51b6eccbc4d\.config
+2026-10-31T18:31:33.5895244Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-31T18:31:33.6143451Z Removing credentials config '/__w/_temp/git-credentials-74d996bd-8085-4616-b006-e51b6eccbc4d.config'
+2026-10-31T18:31:33.6154217Z ##[endgroup]
+2026-10-31T18:31:33.6404840Z ##[group]Run . /opt/esp/idf/export.sh
+2026-10-31T18:31:33.6405204Z [36;1m. /opt/esp/idf/export.sh[0m
+2026-10-31T18:31:33.6405834Z [36;1mpython scripts/build_idf_native.py --work-root /tmp/handbook-idf --output "/home/runner/work/_temp/handbook-validation/idf.json"[0m
+2026-10-31T18:31:33.6410110Z shell: bash --noprofile --norc -e -o pipefail {0}
+2026-10-31T18:31:33.6410466Z env:
+2026-10-31T18:31:33.6410651Z   PYTHONUTF8: 1
+2026-10-31T18:31:33.6410850Z ##[endgroup]
+2026-10-31T18:31:33.7000981Z Checking "python3" ...
+2026-10-31T18:31:33.7235998Z Python 3.12.3
+2026-10-31T18:31:33.7238101Z "python3" has been detected
+2026-10-31T18:31:33.9056429Z Activating ESP-IDF 6.1
+2026-10-31T18:31:33.9059292Z Setting IDF_PATH to '/opt/esp/idf'.
+2026-10-31T18:31:33.9212320Z * Checking python version ... 3.12.3
+2026-10-31T18:31:34.2601519Z * Checking python dependencies ... OK
+2026-10-31T18:31:34.3522294Z * Deactivating the current ESP-IDF environment (if any) ... OK
+2026-10-31T18:31:34.5232723Z * Establishing a new ESP-IDF environment ... OK
+2026-10-31T18:31:34.5324761Z * Identifying shell ... bash
+2026-10-31T18:31:34.6927203Z * Detecting outdated tools in system ... OK - no outdated tools found
+2026-10-31T18:31:34.6962770Z * Shell completion ... Autocompletion code generated
+2026-10-31T18:31:35.2995420Z 
+2026-10-31T18:31:35.2996243Z Done! You can now compile ESP-IDF projects.
+2026-10-31T18:31:35.2997590Z Go to the project directory and run:
+2026-10-31T18:31:35.2997835Z 
+2026-10-31T18:31:35.2997953Z   idf.py build
+2026-10-31T18:31:35.3486212Z BUILD examples/esp-idf/audio_capture
+2026-10-31T18:32:14.6977653Z examples/esp-idf/audio_capture: passed
+2026-10-31T18:32:14.6999283Z BUILD examples/esp-idf/deep_sleep
+2026-10-31T18:32:51.7406945Z examples/esp-idf/deep_sleep: passed
+2026-10-31T18:32:51.7430546Z BUILD examples/esp-idf/diagnostics
+2026-10-31T18:33:28.7928066Z examples/esp-idf/diagnostics: passed
+2026-10-31T18:33:28.7950953Z BUILD examples/esp-idf/gpio
+2026-10-31T18:34:05.4981308Z examples/esp-idf/gpio: passed
+2026-10-31T18:34:05.5007161Z BUILD examples/esp-idf/i2c_sensor
+2026-10-31T18:34:42.8888542Z examples/esp-idf/i2c_sensor: passed
+2026-10-31T18:34:42.8911381Z BUILD examples/esp-idf/lcd_st7789
+2026-10-31T18:35:22.3845375Z examples/esp-idf/lcd_st7789: passed
+2026-10-31T18:35:22.3869803Z BUILD examples/esp-idf/nvs_storage
+2026-10-31T18:36:05.0428787Z examples/esp-idf/nvs_storage: passed
+2026-10-31T18:36:05.0458203Z BUILD examples/esp-idf/ota
+2026-10-31T18:37:09.8219346Z examples/esp-idf/ota: passed
+2026-10-31T18:37:09.8243193Z BUILD examples/esp-idf/rs485_echo
+2026-10-31T18:37:47.5309166Z examples/esp-idf/rs485_echo: passed
+2026-10-31T18:37:47.5331916Z BUILD examples/esp-idf/tasks_queue
+2026-10-31T18:38:24.3281124Z examples/esp-idf/tasks_queue: passed
+2026-10-31T18:38:24.3304303Z BUILD examples/esp-idf/twai_loopback
+2026-10-31T18:39:01.6525040Z examples/esp-idf/twai_loopback: passed
+2026-10-31T18:39:01.6762648Z ##[group]Run . /opt/esp/idf/export.sh
+2026-10-31T18:39:01.6763003Z [36;1m. /opt/esp/idf/export.sh[0m
+2026-10-31T18:39:01.6763663Z [36;1mpython scripts/check_idf_sizes.py --build-root /tmp/handbook-idf/builds --output "/home/runner/work/_temp/handbook-validation/idf-sizes.json"[0m
+2026-10-31T18:39:01.6764446Z shell: bash --noprofile --norc -e -o pipefail {0}
+2026-10-31T18:39:01.6764734Z env:
+2026-10-31T18:39:01.6764917Z   PYTHONUTF8: 1
+2026-10-31T18:39:01.6765127Z ##[endgroup]
+2026-10-31T18:39:01.7349099Z Checking "python3" ...
+2026-10-31T18:39:01.7589197Z Python 3.12.3
+2026-10-31T18:39:01.7599729Z "python3" has been detected
+2026-10-31T18:39:01.9309356Z Activating ESP-IDF 6.1
+2026-10-31T18:39:01.9310156Z Setting IDF_PATH to '/opt/esp/idf'.
+2026-10-31T18:39:01.9484646Z * Checking python version ... 3.12.3
+2026-10-31T18:39:02.2925072Z * Checking python dependencies ... OK
+2026-10-31T18:39:02.3839774Z * Deactivating the current ESP-IDF environment (if any) ... OK
+2026-10-31T18:39:02.5440605Z * Establishing a new ESP-IDF environment ... OK
+2026-10-31T18:39:02.5527511Z * Identifying shell ... bash
+2026-10-31T18:39:02.7103892Z * Detecting outdated tools in system ... OK - no outdated tools found
+2026-10-31T18:39:02.7139900Z * Shell completion ... Autocompletion code generated
+2026-10-31T18:39:03.2901553Z 
+2026-10-31T18:39:03.2902091Z Done! You can now compile ESP-IDF projects.
+2026-10-31T18:39:03.2902927Z Go to the project directory and run:
+2026-10-31T18:39:03.2903514Z 
+2026-10-31T18:39:03.2903721Z   idf.py build
+2026-10-31T18:39:03.3331216Z 11/11 native IDF images passed size and flash layout checks
+2026-10-31T18:39:03.3472198Z ##[group]Run . /opt/esp/idf/export.sh
+2026-10-31T18:39:03.3472536Z [36;1m. /opt/esp/idf/export.sh[0m
+2026-10-31T18:39:03.3473402Z [36;1mpython scripts/build_idf_native.py --match ota --work-root /tmp/handbook-idf-ota --defaults-overlay validation/ota-build-only.defaults --output "/home/runner/work/_temp/handbook-validation/ota/idf.json"[0m
+2026-10-31T18:39:03.3474402Z shell: bash --noprofile --norc -e -o pipefail {0}
+2026-10-31T18:39:03.3474698Z env:
+2026-10-31T18:39:03.3474880Z   PYTHONUTF8: 1
+2026-10-31T18:39:03.3475072Z ##[endgroup]
+2026-10-31T18:39:03.4010766Z Checking "python3" ...
+2026-10-31T18:39:03.4246009Z Python 3.12.3
+2026-10-31T18:39:03.4248846Z "python3" has been detected
+2026-10-31T18:39:03.5675332Z Activating ESP-IDF 6.1
+2026-10-31T18:39:03.5678138Z Setting IDF_PATH to '/opt/esp/idf'.
+2026-10-31T18:39:03.5877987Z * Checking python version ... 3.12.3
+2026-10-31T18:39:03.9234280Z * Checking python dependencies ... OK
+2026-10-31T18:39:04.0151972Z * Deactivating the current ESP-IDF environment (if any) ... OK
+2026-10-31T18:39:04.1758992Z * Establishing a new ESP-IDF environment ... OK
+2026-10-31T18:39:04.1843812Z * Identifying shell ... bash
+2026-10-31T18:39:04.3439734Z * Detecting outdated tools in system ... OK - no outdated tools found
+2026-10-31T18:39:04.3476998Z * Shell completion ... Autocompletion code generated
+2026-10-31T18:39:04.9178767Z 
+2026-10-31T18:39:04.9179759Z Done! You can now compile ESP-IDF projects.
+2026-10-31T18:39:04.9180332Z Go to the project directory and run:
+2026-10-31T18:39:04.9180628Z 
+2026-10-31T18:39:04.9180768Z   idf.py build
+2026-10-31T18:39:04.9666068Z BUILD examples/esp-idf/ota
+2026-10-31T18:40:11.5602968Z examples/esp-idf/ota: passed
+2026-10-31T18:40:11.5768390Z ##[group]Run . /opt/esp/idf/export.sh
+2026-10-31T18:40:11.5768780Z [36;1m. /opt/esp/idf/export.sh[0m
+2026-10-31T18:40:11.5769533Z [36;1mpython scripts/check_idf_sizes.py --match ota --build-root /tmp/handbook-idf-ota/builds --output "/home/runner/work/_temp/handbook-validation/ota/sizes.json"[0m
+2026-10-31T18:40:11.5770422Z shell: bash --noprofile --norc -e -o pipefail {0}
+2026-10-31T18:40:11.5770734Z env:
+2026-10-31T18:40:11.5770922Z   PYTHONUTF8: 1
+2026-10-31T18:40:11.5771131Z ##[endgroup]
+2026-10-31T18:40:11.6324410Z Checking "python3" ...
+2026-10-31T18:40:11.6560100Z Python 3.12.3
+2026-10-31T18:40:11.6561636Z "python3" has been detected
+2026-10-31T18:40:11.7996778Z Activating ESP-IDF 6.1
+2026-10-31T18:40:11.7998102Z Setting IDF_PATH to '/opt/esp/idf'.
+2026-10-31T18:40:11.8159642Z * Checking python version ... 3.12.3
+2026-10-31T18:40:12.1559525Z * Checking python dependencies ... OK
+2026-10-31T18:40:12.2480450Z * Deactivating the current ESP-IDF environment (if any) ... OK
+2026-10-31T18:40:12.4088986Z * Establishing a new ESP-IDF environment ... OK
+2026-10-31T18:40:12.4176865Z * Identifying shell ... bash
+2026-10-31T18:40:12.5755790Z * Detecting outdated tools in system ... OK - no outdated tools found
+2026-10-31T18:40:12.5792404Z * Shell completion ... Autocompletion code generated
+2026-10-31T18:40:13.1615646Z 
+2026-10-31T18:40:13.1616168Z Done! You can now compile ESP-IDF projects.
+2026-10-31T18:40:13.1616745Z Go to the project directory and run:
+2026-10-31T18:40:13.1617086Z 
+2026-10-31T18:40:13.1617456Z   idf.py build
+2026-10-31T18:40:13.1959826Z 1/1 native IDF images passed size and flash layout checks
+2026-10-31T18:40:13.2088844Z ##[group]Run . /opt/esp/idf/export.sh
+2026-10-31T18:40:13.2089449Z [36;1m. /opt/esp/idf/export.sh[0m
+2026-10-31T18:40:13.2091203Z [36;1mpython scripts/build_idf_native.py --match ota --work-root /tmp/handbook-idf-ota-fail --defaults-overlay validation/windows-repair/ota-selftest-fail.defaults --output "/home/runner/work/_temp/handbook-validation/ota-fail/idf.json"[0m
+2026-10-31T18:40:13.2093768Z [36;1mpython scripts/check_idf_sizes.py --match ota --build-root /tmp/handbook-idf-ota-fail/builds --output "/home/runner/work/_temp/handbook-validation/ota-fail/sizes.json"[0m
+2026-10-31T18:40:13.2095342Z shell: bash --noprofile --norc -e -o pipefail {0}
+2026-10-31T18:40:13.2095862Z env:
+2026-10-31T18:40:13.2096185Z   PYTHONUTF8: 1
+2026-10-31T18:40:13.2096540Z ##[endgroup]
+2026-10-31T18:40:13.2686889Z Checking "python3" ...
+2026-10-31T18:40:13.2914055Z Python 3.12.3
+2026-10-31T18:40:13.2917117Z "python3" has been detected
+2026-10-31T18:40:13.4321461Z Activating ESP-IDF 6.1
+2026-10-31T18:40:13.4324393Z Setting IDF_PATH to '/opt/esp/idf'.
+2026-10-31T18:40:13.4480181Z * Checking python version ... 3.12.3
+2026-10-31T18:40:13.7862065Z * Checking python dependencies ... OK
+2026-10-31T18:40:13.8776484Z * Deactivating the current ESP-IDF environment (if any) ... OK
+2026-10-31T18:40:14.0388657Z * Establishing a new ESP-IDF environment ... OK
+2026-10-31T18:40:14.0473199Z * Identifying shell ... bash
+2026-10-31T18:40:14.2061730Z * Detecting outdated tools in system ... OK - no outdated tools found
+2026-10-31T18:40:14.2100384Z * Shell completion ... Autocompletion code generated
+2026-10-31T18:40:14.7944123Z 
+2026-10-31T18:40:14.7944639Z Done! You can now compile ESP-IDF projects.
+2026-10-31T18:40:14.7945221Z Go to the project directory and run:
+2026-10-31T18:40:14.7945539Z 
+2026-10-31T18:40:14.7945676Z   idf.py build
+2026-10-31T18:40:14.8428020Z BUILD examples/esp-idf/ota
+2026-10-31T18:41:21.4281306Z examples/esp-idf/ota: passed
+2026-10-31T18:41:21.4702590Z 1/1 native IDF images passed size and flash layout checks
+2026-10-31T18:41:21.4854636Z ##[group]Run actions/upload-artifact@v7
+2026-10-31T18:41:21.4854949Z with:
+2026-10-31T18:41:21.4855161Z   name: validation-idf-41229731984-1
+2026-10-31T18:41:21.4855489Z   path: /home/runner/work/_temp/handbook-validation/
+2026-10-31T18:41:21.4855814Z   if-no-files-found: warn
+2026-10-31T18:41:21.4856045Z   retention-days: 14
+2026-10-31T18:41:21.4856256Z   compression-level: 6
+2026-10-31T18:41:21.4856467Z   overwrite: false
+2026-10-31T18:41:21.4856678Z   include-hidden-files: false
+2026-10-31T18:41:21.4856929Z   archive: true
+2026-10-31T18:41:21.4857118Z env:
+2026-10-31T18:41:21.4857635Z   PYTHONUTF8: 1
+2026-10-31T18:41:21.4857842Z ##[endgroup]
+2026-10-31T18:41:21.4861615Z ##[command]/usr/bin/docker exec  2837c4803130f2570a00786db91bc6909878dd966a92e21323509fa74022bc56 sh -c "cat /etc/*release | grep ^ID"
+2026-10-31T18:41:21.7412591Z ##[warning]No files were found with the provided path: /__w/_temp/handbook-validation/. No artifacts will be uploaded.
+2026-10-31T18:41:21.7657162Z Post job cleanup.
+2026-10-31T18:41:21.7664864Z ##[command]/usr/bin/docker exec  2837c4803130f2570a00786db91bc6909878dd966a92e21323509fa74022bc56 sh -c "cat /etc/*release | grep ^ID"
+2026-10-31T18:41:21.9689271Z [command]/usr/bin/git version
+2026-10-31T18:41:21.9735339Z git version 2.43.0
+2026-10-31T18:41:21.9793385Z Temporarily overriding HOME='/__w/_temp/01f8954c-ef2d-4700-a30f-55734d32a3b7' before making global git config changes
+2026-10-31T18:41:21.9794668Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-31T18:41:21.9808466Z [command]/usr/bin/git config --global --add safe.directory /__w/ESP32_LearningRecord/ESP32_LearningRecord
+2026-10-31T18:41:21.9846304Z Removing SSH command configuration
+2026-10-31T18:41:21.9852213Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-31T18:41:21.9930278Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-31T18:41:22.0321933Z Removing HTTP extra header
+2026-10-31T18:41:22.0323279Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-31T18:41:22.0372392Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-31T18:41:22.0719098Z Removing includeIf entries pointing to credentials config files
+2026-10-31T18:41:22.0738839Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-31T18:41:22.0788847Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-31T18:41:22.1204669Z Stop and remove container: 08f480787d1c4f03827d35bf3aa87180_espressifidfv61_98406c
+2026-10-31T18:41:22.1209935Z ##[command]/usr/bin/docker rm --force 2837c4803130f2570a00786db91bc6909878dd966a92e21323509fa74022bc56
+2026-10-31T18:41:23.8867199Z 2837c4803130f2570a00786db91bc6909878dd966a92e21323509fa74022bc56
+2026-10-31T18:41:23.8905837Z Remove container network: github_network_676899d0a8f441a288e43e1f3d57e313
+2026-10-31T18:41:23.8910484Z ##[command]/usr/bin/docker network rm github_network_676899d0a8f441a288e43e1f3d57e313
+2026-10-31T18:41:23.9945899Z github_network_676899d0a8f441a288e43e1f3d57e313
+2026-10-31T18:41:24.0030540Z Cleaning up orphan processes

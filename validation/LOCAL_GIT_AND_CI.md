@@ -1,5 +1,7 @@
 # 本地 Git 与 GitHub Actions 的区别
 
+**2026-11-01后续状态：** 用户已指定[ESP32_LearningRecord](https://github.com/MFSAWUY/ESP32_LearningRecord)，本地main已推送并关联origin/main，Actions已启用。实际运行记录见[GitHub验证](GITHUB_ACTIONS.md)。下文10月31日说明保留为上传前阶段记录。
+
 2026-10-31：已按用户要求在 Windows 手册根目录初始化本地 Git，初始分支为 `main`。没有设置远程地址，没有上传到 GitHub，也没有运行 GitHub Actions。首次本地提交 `1e90483` 保存忽略规则、换行规则和许可证；提交使用电脑上已有的 Git 身份配置，没有修改全局身份。
 
 刚初始化但没有提交的仓库曾使 ESP-IDF 的 Git 版本探测报 `git-data/head-ref` 不存在，建立有效 HEAD 后重新构建。本轮在验证和日志汇总后保存完整源码快照；之后新增改动是否已提交，以 `git status` 和 `git log` 的实际结果为准。

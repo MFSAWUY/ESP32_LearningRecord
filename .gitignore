@@ -1,5 +1,6 @@
 .tools/
 .venv/
+.ci-validation/
 **/.pio/
 **/build/
 **/__pycache__/
