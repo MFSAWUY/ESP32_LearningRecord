@@ -12,8 +12,6 @@ jobs:
         os: [windows-latest, ubuntu-24.04]
     runs-on: ${{ matrix.os }}
     timeout-minutes: 150
-    env:
-      PLATFORMIO_CORE_DIR: ${{ runner.temp }}/pio-core
     steps:
       - uses: actions/checkout@v7
         with:
@@ -33,6 +31,8 @@ jobs:
       - name: Run desktop C++ model tests
         run: ctest --test-dir "${{ runner.temp }}/handbook-cpp" -C Release --output-on-failure
       - name: Build all Arduino examples
+        env:
+          PLATFORMIO_CORE_DIR: ${{ runner.temp }}/pio-core
         run: python scripts/build_examples.py --kind arduino --build-root "${{ runner.temp }}/handbook-pio" --output "${{ runner.temp }}/handbook-validation/arduino.json"
       - name: Verify Arduino binary sizes and 4 MiB partitions
         if: ${{ !cancelled() }}
