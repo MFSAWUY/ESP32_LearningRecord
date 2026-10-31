@@ -1,0 +1,8 @@
+Internal ctest changing into directory: D:/VSCode_data/C++/ESP32/handbook/.tools/cpp-model
+Test project D:/VSCode_data/C++/ESP32/handbook/.tools/cpp-model
+    Start 1: model_contract
+1/1 Test #1: model_contract ...................   Passed    0.16 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   0.18 sec

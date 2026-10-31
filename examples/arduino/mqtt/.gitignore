@@ -1,0 +1,6 @@
+.pio/
+include/config.local.h
+include/tls_config.h
+passwords
+mosquitto.conf
+acl

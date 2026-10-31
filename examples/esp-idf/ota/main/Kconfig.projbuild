@@ -1,0 +1,17 @@
+menu "Handbook OTA"
+config EXAMPLE_WIFI_SSID
+    string "Wi-Fi SSID"
+    default ""
+config EXAMPLE_WIFI_PASSWORD
+    string "Wi-Fi password (stored in local sdkconfig)"
+    default ""
+config EXAMPLE_OTA_URL
+    string "HTTPS firmware URL"
+    default ""
+config EXAMPLE_SNTP_SERVER
+    string "SNTP server"
+    default "pool.ntp.org"
+config EXAMPLE_FORCE_SELFTEST_FAIL
+    bool "Fail self-test to demonstrate rollback"
+    default n
+endmenu

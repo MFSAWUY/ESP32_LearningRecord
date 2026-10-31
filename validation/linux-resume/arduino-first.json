@@ -1,0 +1,23 @@
+[
+  {
+    "project": "examples/arduino/serial_info",
+    "host": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "command": [
+      "/home/pc/wty/ESP32/test/desktop-venv/bin/python",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "/home/pc/wty/ESP32/handbook/examples/arduino/serial_info"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "src/main.cpp": "b71788fe702a737e137ec94ed43e8f4d2130d5d253fbe7656185ceab5297cc23"
+    },
+    "started_utc": "2026-10-30T18:43:07.469411+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "linux-serial_info.log"
+  }
+]

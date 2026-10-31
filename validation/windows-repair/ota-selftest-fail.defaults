@@ -1,0 +1,5 @@
+# Public placeholders: compilation of the OTA rejection branch only; not flashed.
+CONFIG_EXAMPLE_WIFI_SSID="handbook-build-test"
+CONFIG_EXAMPLE_WIFI_PASSWORD="example-password"
+CONFIG_EXAMPLE_OTA_URL="https://example.invalid/firmware.bin"
+CONFIG_EXAMPLE_FORCE_SELFTEST_FAIL=y

@@ -1,0 +1,93 @@
+[
+  {
+    "configuration": "default",
+    "project": "audio_capture",
+    "old_mapping_references": [],
+    "rom_gdbinit_exists": true,
+    "rom_gdbinit_has_elf": true
+  },
+  {
+    "configuration": "default",
+    "project": "deep_sleep",
+    "old_mapping_references": [],
+    "rom_gdbinit_exists": true,
+    "rom_gdbinit_has_elf": true
+  },
+  {
+    "configuration": "default",
+    "project": "diagnostics",
+    "old_mapping_references": [],
+    "rom_gdbinit_exists": true,
+    "rom_gdbinit_has_elf": true
+  },
+  {
+    "configuration": "default",
+    "project": "gpio",
+    "old_mapping_references": [],
+    "rom_gdbinit_exists": true,
+    "rom_gdbinit_has_elf": true
+  },
+  {
+    "configuration": "default",
+    "project": "i2c_sensor",
+    "old_mapping_references": [],
+    "rom_gdbinit_exists": true,
+    "rom_gdbinit_has_elf": true
+  },
+  {
+    "configuration": "default",
+    "project": "lcd_st7789",
+    "old_mapping_references": [],
+    "rom_gdbinit_exists": true,
+    "rom_gdbinit_has_elf": true
+  },
+  {
+    "configuration": "default",
+    "project": "nvs_storage",
+    "old_mapping_references": [],
+    "rom_gdbinit_exists": true,
+    "rom_gdbinit_has_elf": true
+  },
+  {
+    "configuration": "default",
+    "project": "ota",
+    "old_mapping_references": [],
+    "rom_gdbinit_exists": true,
+    "rom_gdbinit_has_elf": true
+  },
+  {
+    "configuration": "default",
+    "project": "rs485_echo",
+    "old_mapping_references": [],
+    "rom_gdbinit_exists": true,
+    "rom_gdbinit_has_elf": true
+  },
+  {
+    "configuration": "default",
+    "project": "tasks_queue",
+    "old_mapping_references": [],
+    "rom_gdbinit_exists": true,
+    "rom_gdbinit_has_elf": true
+  },
+  {
+    "configuration": "default",
+    "project": "twai_loopback",
+    "old_mapping_references": [],
+    "rom_gdbinit_exists": true,
+    "rom_gdbinit_has_elf": true
+  },
+  {
+    "configuration": "ota-configured",
+    "project": "ota",
+    "old_mapping_references": [],
+    "rom_gdbinit_exists": true,
+    "rom_gdbinit_has_elf": true
+  },
+  {
+    "configuration": "ota-selftest-fail",
+    "project": "ota",
+    "old_mapping_references": [],
+    "rom_gdbinit_exists": true,
+    "rom_gdbinit_has_elf": true
+  }
+]

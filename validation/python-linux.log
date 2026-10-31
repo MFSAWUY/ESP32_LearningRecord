@@ -1,0 +1,16 @@
+test_alias_indistinguishable_samples (test_tools.Mathematics.test_alias_indistinguishable_samples) ... ok
+test_filter_constant_converges_without_overshoot (test_tools.Mathematics.test_filter_constant_converges_without_overshoot) ... ok
+test_pid_saturation_recovers (test_tools.Mathematics.test_pid_saturation_recovers) ... ok
+test_power_boundaries_and_invalid_period (test_tools.Mathematics.test_power_boundaries_and_invalid_period) ... ok
+test_rc_initial_and_time_constant (test_tools.Mathematics.test_rc_initial_and_time_constant) ... ok
+test_http_success_then_failure (test_tools.Networking.test_http_success_then_failure) ... 127.0.0.1 - - [29/Oct/2026 19:25:32] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2026 19:25:32] "GET /api/status HTTP/1.1" 503 -
+ok
+test_missing_sensor_and_extensibility (test_tools.Protocol.test_missing_sensor_and_extensibility) ... ok
+test_reject_bad_records (test_tools.Protocol.test_reject_bad_records) ... ok
+test_loopback_csv (test_tools.SerialIntegration.test_loopback_csv) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.055s
+
+OK

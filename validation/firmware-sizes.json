@@ -1,0 +1,1718 @@
+{
+  "flash_bytes": 4194304,
+  "hardware_tested": false,
+  "images": [
+    {
+      "project": "examples/arduino/actuator",
+      "environment": "esp32dev",
+      "image_bytes": 302240,
+      "image_sha256": "f77b5c4fb43a60dfebb102312ab04e20831e210e4229a73f74e967b3d622f2f3",
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 20480,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 57344,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "app0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "app1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 1376256,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "spiffs",
+          "type": 1,
+          "subtype": 130,
+          "offset": 2686976,
+          "size": 1441792,
+          "flags": 0
+        },
+        {
+          "name": "coredump",
+          "type": 1,
+          "subtype": 3,
+          "offset": 4128768,
+          "size": 65536,
+          "flags": 0
+        }
+      ],
+      "smallest_app_free_bytes": 1008480,
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "project": "examples/arduino/adc",
+      "environment": "esp32dev",
+      "image_bytes": 302224,
+      "image_sha256": "8ce68aade7fe572565f652cf854a614223abd92f0f765d17e85ea11d1cde9553",
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 20480,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 57344,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "app0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "app1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 1376256,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "spiffs",
+          "type": 1,
+          "subtype": 130,
+          "offset": 2686976,
+          "size": 1441792,
+          "flags": 0
+        },
+        {
+          "name": "coredump",
+          "type": 1,
+          "subtype": 3,
+          "offset": 4128768,
+          "size": 65536,
+          "flags": 0
+        }
+      ],
+      "smallest_app_free_bytes": 1008496,
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "project": "examples/arduino/ble",
+      "environment": "esp32dev",
+      "image_bytes": 1233904,
+      "image_sha256": "58771d1aabc5545ce250638a46699837f8878b0a076bd8540a1819e0aec89adb",
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 20480,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 57344,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "app0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "app1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 1376256,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "spiffs",
+          "type": 1,
+          "subtype": 130,
+          "offset": 2686976,
+          "size": 1441792,
+          "flags": 0
+        },
+        {
+          "name": "coredump",
+          "type": 1,
+          "subtype": 3,
+          "offset": 4128768,
+          "size": 65536,
+          "flags": 0
+        }
+      ],
+      "smallest_app_free_bytes": 76816,
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "project": "examples/arduino/bluetooth_serial",
+      "environment": "esp32dev",
+      "image_bytes": 1110592,
+      "image_sha256": "277ce17eaaf6b49450cf752ba56e121b3c90d21ed51cffaefb10a01441548638",
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 20480,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 57344,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "app0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "app1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 1376256,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "spiffs",
+          "type": 1,
+          "subtype": 130,
+          "offset": 2686976,
+          "size": 1441792,
+          "flags": 0
+        },
+        {
+          "name": "coredump",
+          "type": 1,
+          "subtype": 3,
+          "offset": 4128768,
+          "size": 65536,
+          "flags": 0
+        }
+      ],
+      "smallest_app_free_bytes": 200128,
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "project": "examples/arduino/espnow",
+      "environment": "esp32dev",
+      "image_bytes": 937680,
+      "image_sha256": "1d13071a00d06aa99c152b2490c0e5fc1b9e07e5a23452ea1ccd2fc7785ab03e",
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 20480,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 57344,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "app0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "app1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 1376256,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "spiffs",
+          "type": 1,
+          "subtype": 130,
+          "offset": 2686976,
+          "size": 1441792,
+          "flags": 0
+        },
+        {
+          "name": "coredump",
+          "type": 1,
+          "subtype": 3,
+          "offset": 4128768,
+          "size": 65536,
+          "flags": 0
+        }
+      ],
+      "smallest_app_free_bytes": 373040,
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "project": "examples/arduino/filter",
+      "environment": "esp32dev",
+      "image_bytes": 301984,
+      "image_sha256": "eecb9de1f26ac74629e52ad14eeb17b8f645d3c51b5f5eca38da0f08452565e8",
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 20480,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 57344,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "app0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "app1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 1376256,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "spiffs",
+          "type": 1,
+          "subtype": 130,
+          "offset": 2686976,
+          "size": 1441792,
+          "flags": 0
+        },
+        {
+          "name": "coredump",
+          "type": 1,
+          "subtype": 3,
+          "offset": 4128768,
+          "size": 65536,
+          "flags": 0
+        }
+      ],
+      "smallest_app_free_bytes": 1008736,
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "project": "examples/arduino/gpio_button",
+      "environment": "esp32dev",
+      "image_bytes": 295008,
+      "image_sha256": "e25077171dfe8b8b0012a0ffed5eeacc7cb8ec30d3f87eedd93ba2f4ad0dc2ab",
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 20480,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 57344,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "app0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "app1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 1376256,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "spiffs",
+          "type": 1,
+          "subtype": 130,
+          "offset": 2686976,
+          "size": 1441792,
+          "flags": 0
+        },
+        {
+          "name": "coredump",
+          "type": 1,
+          "subtype": 3,
+          "offset": 4128768,
+          "size": 65536,
+          "flags": 0
+        }
+      ],
+      "smallest_app_free_bytes": 1015712,
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "project": "examples/arduino/http",
+      "environment": "esp32dev",
+      "image_bytes": 1065840,
+      "image_sha256": "ed4e06be2cd576706174538048bd502872cb0b87c2e13c9b1ccd814efd91b001",
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 20480,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 57344,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "app0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "app1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 1376256,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "spiffs",
+          "type": 1,
+          "subtype": 130,
+          "offset": 2686976,
+          "size": 1441792,
+          "flags": 0
+        },
+        {
+          "name": "coredump",
+          "type": 1,
+          "subtype": 3,
+          "offset": 4128768,
+          "size": 65536,
+          "flags": 0
+        }
+      ],
+      "smallest_app_free_bytes": 244880,
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "project": "examples/arduino/i2c_scan",
+      "environment": "esp32dev",
+      "image_bytes": 331808,
+      "image_sha256": "528bab40ac743d1679cbd9f78b26f67e7b1aac48f66554776898d157db0031da",
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 20480,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 57344,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "app0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "app1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 1376256,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "spiffs",
+          "type": 1,
+          "subtype": 130,
+          "offset": 2686976,
+          "size": 1441792,
+          "flags": 0
+        },
+        {
+          "name": "coredump",
+          "type": 1,
+          "subtype": 3,
+          "offset": 4128768,
+          "size": 65536,
+          "flags": 0
+        }
+      ],
+      "smallest_app_free_bytes": 978912,
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "project": "examples/arduino/language_basics",
+      "environment": "esp32dev",
+      "image_bytes": 295840,
+      "image_sha256": "b7690012dbde457022be2054038dca6df2ce483b89a99f432b8851917dcb2fec",
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 20480,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 57344,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "app0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "app1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 1376256,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "spiffs",
+          "type": 1,
+          "subtype": 130,
+          "offset": 2686976,
+          "size": 1441792,
+          "flags": 0
+        },
+        {
+          "name": "coredump",
+          "type": 1,
+          "subtype": 3,
+          "offset": 4128768,
+          "size": 65536,
+          "flags": 0
+        }
+      ],
+      "smallest_app_free_bytes": 1014880,
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "project": "examples/arduino/mqtt",
+      "environment": "esp32dev",
+      "image_bytes": 970224,
+      "image_sha256": "b877f535c4ab814635aaf4ba5b603a5cbc276177a996af8ba37148f9cc808157",
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 20480,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 57344,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "app0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "app1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 1376256,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "spiffs",
+          "type": 1,
+          "subtype": 130,
+          "offset": 2686976,
+          "size": 1441792,
+          "flags": 0
+        },
+        {
+          "name": "coredump",
+          "type": 1,
+          "subtype": 3,
+          "offset": 4128768,
+          "size": 65536,
+          "flags": 0
+        }
+      ],
+      "smallest_app_free_bytes": 340496,
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "project": "examples/arduino/oled",
+      "environment": "esp32dev",
+      "image_bytes": 354752,
+      "image_sha256": "bfdfca5693a0d501e7d2a9c0ed7c90e0a5c5d1b67a7e790301f34de7eee5dab4",
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 20480,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 57344,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "app0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "app1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 1376256,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "spiffs",
+          "type": 1,
+          "subtype": 130,
+          "offset": 2686976,
+          "size": 1441792,
+          "flags": 0
+        },
+        {
+          "name": "coredump",
+          "type": 1,
+          "subtype": 3,
+          "offset": 4128768,
+          "size": 65536,
+          "flags": 0
+        }
+      ],
+      "smallest_app_free_bytes": 955968,
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "project": "examples/arduino/pid",
+      "environment": "esp32dev",
+      "image_bytes": 292640,
+      "image_sha256": "26d80d2faff099690db4baf424d69db40f1674c9a1c1ea49c85adf90c5034110",
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 20480,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 57344,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "app0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "app1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 1376256,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "spiffs",
+          "type": 1,
+          "subtype": 130,
+          "offset": 2686976,
+          "size": 1441792,
+          "flags": 0
+        },
+        {
+          "name": "coredump",
+          "type": 1,
+          "subtype": 3,
+          "offset": 4128768,
+          "size": 65536,
+          "flags": 0
+        }
+      ],
+      "smallest_app_free_bytes": 1018080,
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "project": "examples/arduino/pulse_touch",
+      "environment": "esp32dev",
+      "image_bytes": 331936,
+      "image_sha256": "10a6f2cbaab1f914469aff434b5595372bace2a0e20a0d197c86aac6ea021c81",
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 20480,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 57344,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "app0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "app1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 1376256,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "spiffs",
+          "type": 1,
+          "subtype": 130,
+          "offset": 2686976,
+          "size": 1441792,
+          "flags": 0
+        },
+        {
+          "name": "coredump",
+          "type": 1,
+          "subtype": 3,
+          "offset": 4128768,
+          "size": 65536,
+          "flags": 0
+        }
+      ],
+      "smallest_app_free_bytes": 978784,
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "project": "examples/arduino/pwm_dac",
+      "environment": "esp32dev",
+      "image_bytes": 305664,
+      "image_sha256": "9503ff0bbe0d143ab7edd1aaa6da47b13287138b9687f70b98e4fba66294310e",
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 20480,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 57344,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "app0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "app1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 1376256,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "spiffs",
+          "type": 1,
+          "subtype": 130,
+          "offset": 2686976,
+          "size": 1441792,
+          "flags": 0
+        },
+        {
+          "name": "coredump",
+          "type": 1,
+          "subtype": 3,
+          "offset": 4128768,
+          "size": 65536,
+          "flags": 0
+        }
+      ],
+      "smallest_app_free_bytes": 1005056,
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "project": "examples/arduino/sd_logger",
+      "environment": "esp32dev",
+      "image_bytes": 376128,
+      "image_sha256": "baa9502557d42b632a35cf3b590bf6c36499fb731a9718bcef94eb27a5786b3a",
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 20480,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 57344,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "app0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "app1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 1376256,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "spiffs",
+          "type": 1,
+          "subtype": 130,
+          "offset": 2686976,
+          "size": 1441792,
+          "flags": 0
+        },
+        {
+          "name": "coredump",
+          "type": 1,
+          "subtype": 3,
+          "offset": 4128768,
+          "size": 65536,
+          "flags": 0
+        }
+      ],
+      "smallest_app_free_bytes": 934592,
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "project": "examples/arduino/serial_info",
+      "environment": "esp32dev",
+      "image_bytes": 293536,
+      "image_sha256": "4c0e6d449debbe1edbd56685f38222a0dbfdafc7584f2a74555f03fd6d613713",
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 20480,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 57344,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "app0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "app1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 1376256,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "spiffs",
+          "type": 1,
+          "subtype": 130,
+          "offset": 2686976,
+          "size": 1441792,
+          "flags": 0
+        },
+        {
+          "name": "coredump",
+          "type": 1,
+          "subtype": 3,
+          "offset": 4128768,
+          "size": 65536,
+          "flags": 0
+        }
+      ],
+      "smallest_app_free_bytes": 1017184,
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "project": "examples/arduino/sht30",
+      "environment": "esp32dev",
+      "image_bytes": 332816,
+      "image_sha256": "1c27ad3b81938f19947a6a6f27c0d991bf6fb8b422a08728f97267428574da9d",
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 20480,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 57344,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "app0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "app1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 1376256,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "spiffs",
+          "type": 1,
+          "subtype": 130,
+          "offset": 2686976,
+          "size": 1441792,
+          "flags": 0
+        },
+        {
+          "name": "coredump",
+          "type": 1,
+          "subtype": 3,
+          "offset": 4128768,
+          "size": 65536,
+          "flags": 0
+        }
+      ],
+      "smallest_app_free_bytes": 977904,
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "project": "examples/arduino/tcp_udp",
+      "environment": "esp32dev",
+      "image_bytes": 969488,
+      "image_sha256": "bce6dd60ce5303de1e58f569bc19b1285b57a116a7b0f0bc40b01f578f5de0f2",
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 20480,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 57344,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "app0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "app1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 1376256,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "spiffs",
+          "type": 1,
+          "subtype": 130,
+          "offset": 2686976,
+          "size": 1441792,
+          "flags": 0
+        },
+        {
+          "name": "coredump",
+          "type": 1,
+          "subtype": 3,
+          "offset": 4128768,
+          "size": 65536,
+          "flags": 0
+        }
+      ],
+      "smallest_app_free_bytes": 341232,
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "project": "examples/arduino/time_provision",
+      "environment": "esp32dev",
+      "image_bytes": 1086528,
+      "image_sha256": "15fe7ec96c4eb67911dabbf13bf0b9aaf926bd879b7c35195fe91edfcbed8873",
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 20480,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 57344,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "app0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "app1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 1376256,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "spiffs",
+          "type": 1,
+          "subtype": 130,
+          "offset": 2686976,
+          "size": 1441792,
+          "flags": 0
+        },
+        {
+          "name": "coredump",
+          "type": 1,
+          "subtype": 3,
+          "offset": 4128768,
+          "size": 65536,
+          "flags": 0
+        }
+      ],
+      "smallest_app_free_bytes": 224192,
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "project": "examples/arduino/timing_interrupt",
+      "environment": "esp32dev",
+      "image_bytes": 297760,
+      "image_sha256": "e14178579481b54626006730f36f063f733653504bbb35df5ccde07e5d662181",
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 20480,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 57344,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "app0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "app1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 1376256,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "spiffs",
+          "type": 1,
+          "subtype": 130,
+          "offset": 2686976,
+          "size": 1441792,
+          "flags": 0
+        },
+        {
+          "name": "coredump",
+          "type": 1,
+          "subtype": 3,
+          "offset": 4128768,
+          "size": 65536,
+          "flags": 0
+        }
+      ],
+      "smallest_app_free_bytes": 1012960,
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "project": "examples/arduino/uart",
+      "environment": "esp32dev",
+      "image_bytes": 292304,
+      "image_sha256": "3b1235be0558626c493c94518bffe1390d12a0bcb5a591d8c870726fce5e5541",
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 20480,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 57344,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "app0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "app1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 1376256,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "spiffs",
+          "type": 1,
+          "subtype": 130,
+          "offset": 2686976,
+          "size": 1441792,
+          "flags": 0
+        },
+        {
+          "name": "coredump",
+          "type": 1,
+          "subtype": 3,
+          "offset": 4128768,
+          "size": 65536,
+          "flags": 0
+        }
+      ],
+      "smallest_app_free_bytes": 1018416,
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "project": "examples/arduino/wifi",
+      "environment": "esp32dev",
+      "image_bytes": 930480,
+      "image_sha256": "c6f146a0d20603bf3173af1139e8e6828e83e91ab6e31736478e98021036ed49",
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 20480,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 57344,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "app0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "app1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 1376256,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "spiffs",
+          "type": 1,
+          "subtype": 130,
+          "offset": 2686976,
+          "size": 1441792,
+          "flags": 0
+        },
+        {
+          "name": "coredump",
+          "type": 1,
+          "subtype": 3,
+          "offset": 4128768,
+          "size": 65536,
+          "flags": 0
+        }
+      ],
+      "smallest_app_free_bytes": 380240,
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "project": "examples/projects/battery_node",
+      "environment": "esp32dev",
+      "image_bytes": 1011456,
+      "image_sha256": "61cb825d0ed914f7dfc486402b4c9e48ddad3aa898e784ff9b24505c6cbf65ab",
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 20480,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 57344,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "app0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "app1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 1376256,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "spiffs",
+          "type": 1,
+          "subtype": 130,
+          "offset": 2686976,
+          "size": 1441792,
+          "flags": 0
+        },
+        {
+          "name": "coredump",
+          "type": 1,
+          "subtype": 3,
+          "offset": 4128768,
+          "size": 65536,
+          "flags": 0
+        }
+      ],
+      "smallest_app_free_bytes": 299264,
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "project": "examples/projects/environment_station",
+      "environment": "esp32dev",
+      "image_bytes": 1081088,
+      "image_sha256": "ed38458da14391234bd15ee1b08b8e791fd9e8ffef67e403e7cc7d2ad61d6d6e",
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 20480,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 57344,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "app0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "app1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 1376256,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "spiffs",
+          "type": 1,
+          "subtype": 130,
+          "offset": 2686976,
+          "size": 1441792,
+          "flags": 0
+        },
+        {
+          "name": "coredump",
+          "type": 1,
+          "subtype": 3,
+          "offset": 4128768,
+          "size": 65536,
+          "flags": 0
+        }
+      ],
+      "smallest_app_free_bytes": 229632,
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "project": "examples/projects/espnow_gateway",
+      "environment": "esp32dev",
+      "image_bytes": 977488,
+      "image_sha256": "b0da1f62e90fdfde0a54cbdced7528eedcd7b364f869ee465a6eccefe798541b",
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 20480,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 57344,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "app0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "app1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 1376256,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "spiffs",
+          "type": 1,
+          "subtype": 130,
+          "offset": 2686976,
+          "size": 1441792,
+          "flags": 0
+        },
+        {
+          "name": "coredump",
+          "type": 1,
+          "subtype": 3,
+          "offset": 4128768,
+          "size": 65536,
+          "flags": 0
+        }
+      ],
+      "smallest_app_free_bytes": 333232,
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "project": "examples/projects/espnow_gateway",
+      "environment": "node",
+      "image_bytes": 978272,
+      "image_sha256": "3db9739c20beb111f6da036a673d522ad459d5991debb81a91013ea274ac8520",
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 20480,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 57344,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "app0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "app1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 1376256,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "spiffs",
+          "type": 1,
+          "subtype": 130,
+          "offset": 2686976,
+          "size": 1441792,
+          "flags": 0
+        },
+        {
+          "name": "coredump",
+          "type": 1,
+          "subtype": 3,
+          "offset": 4128768,
+          "size": 65536,
+          "flags": 0
+        }
+      ],
+      "smallest_app_free_bytes": 332448,
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "project": "examples/projects/low_voltage_controller",
+      "environment": "esp32dev",
+      "image_bytes": 1021120,
+      "image_sha256": "83a6a2f209314f0b59821eda4c2cbd43ce20766f122d239d0a8ef5f2d7bccf08",
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 20480,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 57344,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "app0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "app1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 1376256,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "spiffs",
+          "type": 1,
+          "subtype": 130,
+          "offset": 2686976,
+          "size": 1441792,
+          "flags": 0
+        },
+        {
+          "name": "coredump",
+          "type": 1,
+          "subtype": 3,
+          "offset": 4128768,
+          "size": 65536,
+          "flags": 0
+        }
+      ],
+      "smallest_app_free_bytes": 289600,
+      "status": "passed",
+      "errors": []
+    },
+    {
+      "project": "examples/projects/oled_clock",
+      "environment": "esp32dev",
+      "image_bytes": 1028384,
+      "image_sha256": "62a5c953ddaca95643a75fa6155e9a9ff12cbb6b23254fb728341384544fd77d",
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 20480,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 57344,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "app0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "app1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 1376256,
+          "size": 1310720,
+          "flags": 0
+        },
+        {
+          "name": "spiffs",
+          "type": 1,
+          "subtype": 130,
+          "offset": 2686976,
+          "size": 1441792,
+          "flags": 0
+        },
+        {
+          "name": "coredump",
+          "type": 1,
+          "subtype": 3,
+          "offset": 4128768,
+          "size": 65536,
+          "flags": 0
+        }
+      ],
+      "smallest_app_free_bytes": 282336,
+      "status": "passed",
+      "errors": []
+    }
+  ],
+  "unbuilt_projects": []
+}

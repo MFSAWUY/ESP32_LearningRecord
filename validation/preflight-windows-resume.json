@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-31T12:43:40.969407+00:00",
+  "host": "Windows-11-10.0.26300-SP0",
+  "python": "3.12.8",
+  "python_executable": "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\venv\\Scripts\\python.exe",
+  "hardware_tested": false,
+  "opened_serial_ports": false,
+  "firmware_flashed": false,
+  "serial_inventory": {
+    "status": "enumerated",
+    "ports": [],
+    "error": null
+  },
+  "selected_port": null,
+  "selected_port_present": null,
+  "usb_inventory": {
+    "status": "not_requested"
+  },
+  "tools_on_path": {
+    "git": "C:\\Program Files\\Git\\cmd\\git.EXE",
+    "pio": null,
+    "platformio": null,
+    "idf.py": null,
+    "cmake": null,
+    "ninja": null,
+    "openocd": null,
+    "xtensa-esp-elf-gdb": null
+  },
+  "idf_environment_selected": false,
+  "limitations": [
+    "A USB UART bridge or serial port does not prove an ESP32 is connected.",
+    "Enumeration does not verify port permissions, baud rate, firmware or flash size.",
+    "SSH does not forward a Windows USB device to the remote Linux host.",
+    "CH340 is a USB UART bridge, not the classic ESP32 JTAG interface.",
+    "No OLED, sensor, OTA, power or JTAG experiment is performed by this script."
+  ],
+  "experiments": {
+    "serial": {
+      "status": "not_run",
+      "needs": [
+        "identified board",
+        "data USB cable",
+        "selected usable port"
+      ]
+    },
+    "oled": {
+      "status": "not_run",
+      "needs": [
+        "I2C wiring",
+        "address scan",
+        "controller/resolution confirmation",
+        "visual inspection"
+      ]
+    },
+    "sht30": {
+      "status": "not_run",
+      "needs": [
+        "physical 3.3 V compatible SHT30 module",
+        "CRC and recovery logs"
+      ]
+    },
+    "ota_rollback": {
+      "status": "not_run",
+      "needs": [
+        "confirmed baseline image",
+        "two OTA slots",
+        "trusted HTTPS server",
+        "good and failing updates"
+      ]
+    },
+    "power": {
+      "status": "not_run",
+      "needs": [
+        "current measurement instrument",
+        "documented measurement point",
+        "active/sleep waveform or samples"
+      ]
+    },
+    "jtag": {
+      "status": "not_run",
+      "needs": [
+        "external ESP32 compatible JTAG probe",
+        "correct drivers",
+        "matching ELF",
+        "breakpoint/backtrace evidence"
+      ]
+    }
+  },
+  "exit_code": 0,
+  "exit_meaning": "inventory completed; no physical experiment passed"
+}

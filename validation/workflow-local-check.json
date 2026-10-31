@@ -1,0 +1,10 @@
+{
+  "status": "parsed",
+  "github_run_executed": false,
+  "checks": [
+    "YAML parse",
+    "trigger keys",
+    "desktop and IDF jobs"
+  ],
+  "limitation": "Does not validate GitHub runner execution"
+}

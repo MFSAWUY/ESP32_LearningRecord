@@ -1,0 +1,619 @@
+{
+  "checked_utc": "2026-10-31T12:49:10.688954+00:00",
+  "flash_bytes": 4194304,
+  "hardware_tested": false,
+  "images": [
+    {
+      "project": "examples/esp-idf/audio_capture",
+      "status": "passed",
+      "errors": [],
+      "image_bytes": 153984,
+      "image_sha256": "891213aa569dfc8434dc5a462bcf5aa26261d8477a3bf6c0d7aec01841e5aa5e",
+      "smallest_app_free_bytes": 894592,
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 24576,
+          "flags": 0
+        },
+        {
+          "name": "phy_init",
+          "type": 1,
+          "subtype": 1,
+          "offset": 61440,
+          "size": 4096,
+          "flags": 0
+        },
+        {
+          "name": "factory",
+          "type": 0,
+          "subtype": 0,
+          "offset": 65536,
+          "size": 1048576,
+          "flags": 0
+        }
+      ],
+      "flash_ranges": [
+        {
+          "file": "bootloader/bootloader.bin",
+          "offset": 4096,
+          "size": 26176
+        },
+        {
+          "file": "partition_table/partition-table.bin",
+          "offset": 32768,
+          "size": 3072
+        },
+        {
+          "file": "audio_capture.bin",
+          "offset": 65536,
+          "size": 153984
+        }
+      ],
+      "rollback_enabled": false,
+      "ota_slots": 0
+    },
+    {
+      "project": "examples/esp-idf/deep_sleep",
+      "status": "passed",
+      "errors": [],
+      "image_bytes": 140880,
+      "image_sha256": "6bf034d2ee832d852f60d2c0c347691a416e63349e09811da727b48b735a11e9",
+      "smallest_app_free_bytes": 907696,
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 24576,
+          "flags": 0
+        },
+        {
+          "name": "phy_init",
+          "type": 1,
+          "subtype": 1,
+          "offset": 61440,
+          "size": 4096,
+          "flags": 0
+        },
+        {
+          "name": "factory",
+          "type": 0,
+          "subtype": 0,
+          "offset": 65536,
+          "size": 1048576,
+          "flags": 0
+        }
+      ],
+      "flash_ranges": [
+        {
+          "file": "bootloader/bootloader.bin",
+          "offset": 4096,
+          "size": 26176
+        },
+        {
+          "file": "partition_table/partition-table.bin",
+          "offset": 32768,
+          "size": 3072
+        },
+        {
+          "file": "deep_sleep.bin",
+          "offset": 65536,
+          "size": 140880
+        }
+      ],
+      "rollback_enabled": false,
+      "ota_slots": 0
+    },
+    {
+      "project": "examples/esp-idf/diagnostics",
+      "status": "passed",
+      "errors": [],
+      "image_bytes": 126336,
+      "image_sha256": "f537090dcee42238289b71b994665d05f7ab4d9d1517946210a652e4aee04106",
+      "smallest_app_free_bytes": 922240,
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 24576,
+          "flags": 0
+        },
+        {
+          "name": "phy_init",
+          "type": 1,
+          "subtype": 1,
+          "offset": 61440,
+          "size": 4096,
+          "flags": 0
+        },
+        {
+          "name": "factory",
+          "type": 0,
+          "subtype": 0,
+          "offset": 65536,
+          "size": 1048576,
+          "flags": 0
+        }
+      ],
+      "flash_ranges": [
+        {
+          "file": "bootloader/bootloader.bin",
+          "offset": 4096,
+          "size": 26176
+        },
+        {
+          "file": "partition_table/partition-table.bin",
+          "offset": 32768,
+          "size": 3072
+        },
+        {
+          "file": "diagnostics.bin",
+          "offset": 65536,
+          "size": 126336
+        }
+      ],
+      "rollback_enabled": false,
+      "ota_slots": 0
+    },
+    {
+      "project": "examples/esp-idf/gpio",
+      "status": "passed",
+      "errors": [],
+      "image_bytes": 132336,
+      "image_sha256": "13b9b0ebf04293c1c838d825864b2da22c3a418275a6d7e627b8de62675bcfed",
+      "smallest_app_free_bytes": 916240,
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 24576,
+          "flags": 0
+        },
+        {
+          "name": "phy_init",
+          "type": 1,
+          "subtype": 1,
+          "offset": 61440,
+          "size": 4096,
+          "flags": 0
+        },
+        {
+          "name": "factory",
+          "type": 0,
+          "subtype": 0,
+          "offset": 65536,
+          "size": 1048576,
+          "flags": 0
+        }
+      ],
+      "flash_ranges": [
+        {
+          "file": "bootloader/bootloader.bin",
+          "offset": 4096,
+          "size": 26176
+        },
+        {
+          "file": "partition_table/partition-table.bin",
+          "offset": 32768,
+          "size": 3072
+        },
+        {
+          "file": "gpio.bin",
+          "offset": 65536,
+          "size": 132336
+        }
+      ],
+      "rollback_enabled": false,
+      "ota_slots": 0
+    },
+    {
+      "project": "examples/esp-idf/i2c_sensor",
+      "status": "passed",
+      "errors": [],
+      "image_bytes": 149920,
+      "image_sha256": "de866412dbd5aecea5971d98229a0962df4d6aa73ae5c850aa135155b18da1c4",
+      "smallest_app_free_bytes": 898656,
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 24576,
+          "flags": 0
+        },
+        {
+          "name": "phy_init",
+          "type": 1,
+          "subtype": 1,
+          "offset": 61440,
+          "size": 4096,
+          "flags": 0
+        },
+        {
+          "name": "factory",
+          "type": 0,
+          "subtype": 0,
+          "offset": 65536,
+          "size": 1048576,
+          "flags": 0
+        }
+      ],
+      "flash_ranges": [
+        {
+          "file": "bootloader/bootloader.bin",
+          "offset": 4096,
+          "size": 26176
+        },
+        {
+          "file": "partition_table/partition-table.bin",
+          "offset": 32768,
+          "size": 3072
+        },
+        {
+          "file": "i2c_sensor.bin",
+          "offset": 65536,
+          "size": 149920
+        }
+      ],
+      "rollback_enabled": false,
+      "ota_slots": 0
+    },
+    {
+      "project": "examples/esp-idf/lcd_st7789",
+      "status": "passed",
+      "errors": [],
+      "image_bytes": 171760,
+      "image_sha256": "edba7d58ed3fe9a78ed40dec0cac9d0c624601a97ba25b9c4c733909b067e460",
+      "smallest_app_free_bytes": 876816,
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 24576,
+          "flags": 0
+        },
+        {
+          "name": "phy_init",
+          "type": 1,
+          "subtype": 1,
+          "offset": 61440,
+          "size": 4096,
+          "flags": 0
+        },
+        {
+          "name": "factory",
+          "type": 0,
+          "subtype": 0,
+          "offset": 65536,
+          "size": 1048576,
+          "flags": 0
+        }
+      ],
+      "flash_ranges": [
+        {
+          "file": "bootloader/bootloader.bin",
+          "offset": 4096,
+          "size": 26176
+        },
+        {
+          "file": "partition_table/partition-table.bin",
+          "offset": 32768,
+          "size": 3072
+        },
+        {
+          "file": "lcd_st7789.bin",
+          "offset": 65536,
+          "size": 171760
+        }
+      ],
+      "rollback_enabled": false,
+      "ota_slots": 0
+    },
+    {
+      "project": "examples/esp-idf/nvs_storage",
+      "status": "passed",
+      "errors": [],
+      "image_bytes": 146576,
+      "image_sha256": "f26b62e0920f59bd96b415d835c8a5b1dc42185cf990c54952b3e2c36da9c258",
+      "smallest_app_free_bytes": 902000,
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 24576,
+          "flags": 0
+        },
+        {
+          "name": "phy_init",
+          "type": 1,
+          "subtype": 1,
+          "offset": 61440,
+          "size": 4096,
+          "flags": 0
+        },
+        {
+          "name": "factory",
+          "type": 0,
+          "subtype": 0,
+          "offset": 65536,
+          "size": 1048576,
+          "flags": 0
+        }
+      ],
+      "flash_ranges": [
+        {
+          "file": "bootloader/bootloader.bin",
+          "offset": 4096,
+          "size": 26176
+        },
+        {
+          "file": "partition_table/partition-table.bin",
+          "offset": 32768,
+          "size": 3072
+        },
+        {
+          "file": "nvs_storage.bin",
+          "offset": 65536,
+          "size": 146576
+        }
+      ],
+      "rollback_enabled": false,
+      "ota_slots": 0
+    },
+    {
+      "project": "examples/esp-idf/ota",
+      "status": "passed",
+      "errors": [],
+      "image_bytes": 172448,
+      "image_sha256": "28b7405e3acd684c1abdc20cd8084f2a0f6910785e670a1bdf7c18a39709e4da",
+      "smallest_app_free_bytes": 1793632,
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 16384,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 53248,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "phy_init",
+          "type": 1,
+          "subtype": 1,
+          "offset": 61440,
+          "size": 4096,
+          "flags": 0
+        },
+        {
+          "name": "ota_0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1966080,
+          "flags": 0
+        },
+        {
+          "name": "ota_1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 2031616,
+          "size": 1966080,
+          "flags": 0
+        },
+        {
+          "name": "storage",
+          "type": 1,
+          "subtype": 130,
+          "offset": 3997696,
+          "size": 196608,
+          "flags": 0
+        }
+      ],
+      "flash_ranges": [
+        {
+          "file": "bootloader/bootloader.bin",
+          "offset": 4096,
+          "size": 26240
+        },
+        {
+          "file": "partition_table/partition-table.bin",
+          "offset": 32768,
+          "size": 3072
+        },
+        {
+          "file": "ota_data_initial.bin",
+          "offset": 53248,
+          "size": 8192
+        },
+        {
+          "file": "ota.bin",
+          "offset": 65536,
+          "size": 172448
+        }
+      ],
+      "rollback_enabled": true,
+      "ota_slots": 2
+    },
+    {
+      "project": "examples/esp-idf/rs485_echo",
+      "status": "passed",
+      "errors": [],
+      "image_bytes": 153824,
+      "image_sha256": "b155a16f02788ceeee414f8ffe679d46ea2472121ce83fc68eb65fe1870152b2",
+      "smallest_app_free_bytes": 894752,
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 24576,
+          "flags": 0
+        },
+        {
+          "name": "phy_init",
+          "type": 1,
+          "subtype": 1,
+          "offset": 61440,
+          "size": 4096,
+          "flags": 0
+        },
+        {
+          "name": "factory",
+          "type": 0,
+          "subtype": 0,
+          "offset": 65536,
+          "size": 1048576,
+          "flags": 0
+        }
+      ],
+      "flash_ranges": [
+        {
+          "file": "bootloader/bootloader.bin",
+          "offset": 4096,
+          "size": 26176
+        },
+        {
+          "file": "partition_table/partition-table.bin",
+          "offset": 32768,
+          "size": 3072
+        },
+        {
+          "file": "rs485_echo.bin",
+          "offset": 65536,
+          "size": 153824
+        }
+      ],
+      "rollback_enabled": false,
+      "ota_slots": 0
+    },
+    {
+      "project": "examples/esp-idf/tasks_queue",
+      "status": "passed",
+      "errors": [],
+      "image_bytes": 126208,
+      "image_sha256": "515cccbf2f55c4bc46ea9a950bfe2dc7fda8f4f09d64a2b14c7e9756c2f8fee2",
+      "smallest_app_free_bytes": 922368,
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 24576,
+          "flags": 0
+        },
+        {
+          "name": "phy_init",
+          "type": 1,
+          "subtype": 1,
+          "offset": 61440,
+          "size": 4096,
+          "flags": 0
+        },
+        {
+          "name": "factory",
+          "type": 0,
+          "subtype": 0,
+          "offset": 65536,
+          "size": 1048576,
+          "flags": 0
+        }
+      ],
+      "flash_ranges": [
+        {
+          "file": "bootloader/bootloader.bin",
+          "offset": 4096,
+          "size": 26176
+        },
+        {
+          "file": "partition_table/partition-table.bin",
+          "offset": 32768,
+          "size": 3072
+        },
+        {
+          "file": "tasks_queue.bin",
+          "offset": 65536,
+          "size": 126208
+        }
+      ],
+      "rollback_enabled": false,
+      "ota_slots": 0
+    },
+    {
+      "project": "examples/esp-idf/twai_loopback",
+      "status": "passed",
+      "errors": [],
+      "image_bytes": 155600,
+      "image_sha256": "cf979f54ff16f2b70fc62b397dfaa823edeaba122f897be070c913302593a9ef",
+      "smallest_app_free_bytes": 892976,
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 24576,
+          "flags": 0
+        },
+        {
+          "name": "phy_init",
+          "type": 1,
+          "subtype": 1,
+          "offset": 61440,
+          "size": 4096,
+          "flags": 0
+        },
+        {
+          "name": "factory",
+          "type": 0,
+          "subtype": 0,
+          "offset": 65536,
+          "size": 1048576,
+          "flags": 0
+        }
+      ],
+      "flash_ranges": [
+        {
+          "file": "bootloader/bootloader.bin",
+          "offset": 4096,
+          "size": 26176
+        },
+        {
+          "file": "partition_table/partition-table.bin",
+          "offset": 32768,
+          "size": 3072
+        },
+        {
+          "file": "twai_loopback.bin",
+          "offset": 65536,
+          "size": 155600
+        }
+      ],
+      "rollback_enabled": false,
+      "ota_slots": 0
+    }
+  ]
+}

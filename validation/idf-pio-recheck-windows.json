@@ -1,0 +1,12 @@
+[
+  {
+    "project": "examples/esp-idf/gpio",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "PlatformIO 8.0.0 managed ESP-IDF 6.1; isolated copy",
+    "hardware_tested": false,
+    "started_utc": "2026-10-29T14:30:50.452106+00:00",
+    "status": "failed",
+    "exit_code": 1,
+    "log": "idf-pio-windows-gpio.log"
+  }
+]

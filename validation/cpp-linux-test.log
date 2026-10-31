@@ -1,0 +1,19 @@
+Start testing: Oct 31 20:44 CST
+----------------------------------------------------------
+1/1 Testing: model_contract
+1/1 Test: model_contract
+Command: "/home/pc/wty/ESP32/test/cpp-model/model_tests"
+Directory: /home/pc/wty/ESP32/test/cpp-model
+"model_contract" start time: Oct 31 20:44 CST
+Output:
+----------------------------------------------------------
+PASS: parser bounds/rejection, unchanged configuration, statistics, wide sum, reset
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"model_contract" end time: Oct 31 20:44 CST
+"model_contract" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 31 20:44 CST

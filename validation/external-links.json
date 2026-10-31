@@ -1,0 +1,623 @@
+[
+  {
+    "url": "https://code.visualstudio.com/download",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://code.visualstudio.com/download",
+    "previous_attempt": {
+      "url": "https://code.visualstudio.com/download",
+      "status": "inconclusive",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
+    }
+  },
+  {
+    "url": "https://docs.arduino.cc/language-reference/",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.arduino.cc/language-reference/"
+  },
+  {
+    "url": "https://docs.arduino.cc/language-reference/en/functions/time/millis/",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.arduino.cc/language-reference/en/functions/time/millis/"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/api/adc.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/api/adc.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/api/ble.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/api/ble.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/api/espnow.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/api/espnow.html",
+    "previous_attempt": {
+      "url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/api/espnow.html",
+      "status": "inconclusive",
+      "error": "<urlopen error _ssl.c:983: The handshake operation timed out>"
+    }
+  },
+  {
+    "url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/api/gpio.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/api/gpio.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/api/i2c.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/api/i2c.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/api/ledc.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/api/ledc.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/api/preferences.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/api/preferences.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/api/rmt.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/api/rmt.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/api/serial.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/api/serial.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/api/spi.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/api/spi.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/api/timer.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/api/timer.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/api/wifi.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/api/wifi.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/migration_guides/2.x_to_3.0.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/migration_guides/2.x_to_3.0.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/troubleshooting.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/troubleshooting.html",
+    "previous_attempt": {
+      "url": "https://docs.espressif.com/projects/arduino-esp32/en/latest/troubleshooting.html",
+      "status": "inconclusive",
+      "error": "<urlopen error _ssl.c:983: The handshake operation timed out>"
+    }
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32/",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32/"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32/index.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32/index.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-guides/build-system.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-guides/build-system.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-guides/lwip.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-guides/lwip.html",
+    "previous_attempt": {
+      "url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-guides/lwip.html",
+      "status": "inconclusive",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
+    }
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/peripherals/adc_calibration.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/peripherals/adc_calibration.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/peripherals/gpio.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/peripherals/gpio.html",
+    "previous_attempt": {
+      "url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/peripherals/gpio.html",
+      "status": "inconclusive",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
+    }
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/esp_timer.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/esp_timer.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/mem_alloc.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/mem_alloc.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/index.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/windows-start-project.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/get-started/windows-start-project.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-guides/build-system.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-guides/build-system.html",
+    "previous_attempt": {
+      "url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-guides/build-system.html",
+      "status": "inconclusive",
+      "error": "<urlopen error _ssl.c:983: The handshake operation timed out>"
+    }
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-guides/fatal-errors.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-guides/fatal-errors.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-guides/jtag-debugging/",
+    "status": "inconclusive",
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>",
+    "previous_attempt": {
+      "url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-guides/jtag-debugging/",
+      "status": "inconclusive",
+      "error": "<urlopen error _ssl.c:983: The handshake operation timed out>"
+    }
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-guides/tools/idf-py.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-guides/tools/idf-py.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-guides/unit-tests.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-guides/unit-tests.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-reference/kconfig-reference.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-reference/kconfig-reference.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-reference/network/esp_now.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-reference/network/esp_now.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-reference/peripherals/gpio.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-reference/peripherals/gpio.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-reference/peripherals/i2c.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-reference/peripherals/i2c.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-reference/peripherals/i2s.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-reference/peripherals/i2s.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-reference/peripherals/twai.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-reference/peripherals/twai.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-reference/storage/nvs_flash.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-reference/storage/nvs_flash.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-reference/system/esp_event.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-reference/system/esp_event.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-reference/system/esp_timer.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-reference/system/esp_timer.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-reference/system/freertos_idf.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-reference/system/freertos_idf.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-reference/system/heap_debug.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-reference/system/heap_debug.html",
+    "previous_attempt": {
+      "url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-reference/system/heap_debug.html",
+      "status": "inconclusive",
+      "error": "<urlopen error _ssl.c:983: The handshake operation timed out>"
+    }
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-reference/system/ota.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-reference/system/ota.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-reference/system/sleep_modes.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/api-reference/system/sleep_modes.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/security/security.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/esp-idf/en/v6.1/esp32/security/security.html"
+  },
+  {
+    "url": "https://docs.espressif.com/projects/esp-matter/en/latest/",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.espressif.com/projects/esp-matter/en/latest/esp32/"
+  },
+  {
+    "url": "https://docs.micropython.org/en/latest/esp32/quickref.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.micropython.org/en/latest/esp32/quickref.html",
+    "previous_attempt": {
+      "url": "https://docs.micropython.org/en/latest/esp32/quickref.html",
+      "status": "inconclusive",
+      "error": "<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>"
+    }
+  },
+  {
+    "url": "https://docs.micropython.org/en/latest/reference/mpremote.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.micropython.org/en/latest/reference/mpremote.html"
+  },
+  {
+    "url": "https://docs.platformio.org/en/latest/core/installation/udev-rules.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.platformio.org/en/latest/core/installation/udev-rules.html"
+  },
+  {
+    "url": "https://docs.platformio.org/en/latest/projectconf/index.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.platformio.org/en/latest/projectconf/index.html"
+  },
+  {
+    "url": "https://docs.python.org/3/library/csv.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.python.org/3/library/csv.html"
+  },
+  {
+    "url": "https://docs.python.org/3/library/unittest.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://docs.python.org/3/library/unittest.html"
+  },
+  {
+    "url": "https://eclipse.dev/paho/files/paho.mqtt.python/html/",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://eclipse.dev/paho/files/paho.mqtt.python/html/"
+  },
+  {
+    "url": "https://en.cppreference.com/w/cpp/io/c/fprintf.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://en.cppreference.com/cpp/io/c/fprintf"
+  },
+  {
+    "url": "https://en.cppreference.com/w/cpp/language/array.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://en.cppreference.com/cpp/language/array"
+  },
+  {
+    "url": "https://en.cppreference.com/w/cpp/language/classes.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://en.cppreference.com/cpp/language/classes"
+  },
+  {
+    "url": "https://en.cppreference.com/w/cpp/language/definition.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://en.cppreference.com/cpp/language/definition"
+  },
+  {
+    "url": "https://en.cppreference.com/w/cpp/language/lifetime.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://en.cppreference.com/cpp/language/lifetime"
+  },
+  {
+    "url": "https://en.cppreference.com/w/cpp/language/types.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://en.cppreference.com/cpp/language/types",
+    "previous_attempt": {
+      "url": "https://en.cppreference.com/w/cpp/language/types.html",
+      "status": "inconclusive",
+      "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)>"
+    }
+  },
+  {
+    "url": "https://git-scm.com/downloads/win",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://git-scm.com/downloads/win"
+  },
+  {
+    "url": "https://github.com/Links2004/arduinoWebSockets",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://github.com/Links2004/arduinoWebSockets"
+  },
+  {
+    "url": "https://github.com/Links2004/arduinoWebSockets/tree/2.6.1",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://github.com/Links2004/arduinoWebSockets/tree/2.6.1"
+  },
+  {
+    "url": "https://github.com/espressif/arduino-esp32/tree/3.3.12",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://github.com/espressif/arduino-esp32/tree/3.3.12"
+  },
+  {
+    "url": "https://github.com/espressif/arduino-esp32/tree/3.3.12/libraries/BluetoothSerial",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://github.com/espressif/arduino-esp32/tree/3.3.12/libraries/BluetoothSerial"
+  },
+  {
+    "url": "https://github.com/espressif/arduino-esp32/tree/3.3.12/libraries/ESP32/examples/Time",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://github.com/espressif/arduino-esp32/tree/3.3.12/libraries/ESP32/examples/Time"
+  },
+  {
+    "url": "https://github.com/espressif/esp-idf/tree/v6.1/examples",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://github.com/espressif/esp-idf/tree/v6.1/examples"
+  },
+  {
+    "url": "https://github.com/espressif/esp32-camera",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://github.com/espressif/esp32-camera"
+  },
+  {
+    "url": "https://github.com/knolleary/pubsubclient",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://github.com/knolleary/pubsubclient"
+  },
+  {
+    "url": "https://github.com/olikraus/u8g2",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://github.com/olikraus/u8g2"
+  },
+  {
+    "url": "https://github.com/olikraus/u8g2/wiki/u8g2setupcpp",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://github.com/olikraus/u8g2/wiki/u8g2setupcpp"
+  },
+  {
+    "url": "https://github.com/platformio/platform-espressif32/releases/tag/v8.0.0",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://github.com/platformio/platform-espressif32/releases/tag/v8.0.0"
+  },
+  {
+    "url": "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines"
+  },
+  {
+    "url": "https://matplotlib.org/stable/",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://matplotlib.org/stable/"
+  },
+  {
+    "url": "https://matplotlib.org/stable/users/index.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://matplotlib.org/stable/users/index.html"
+  },
+  {
+    "url": "https://micropython.org/download/ESP32_GENERIC/",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://micropython.org/download/ESP32_GENERIC/"
+  },
+  {
+    "url": "https://mosquitto.org/documentation/authentication-methods/",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://mosquitto.org/documentation/authentication-methods/"
+  },
+  {
+    "url": "https://mosquitto.org/man/mosquitto-conf-5.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://mosquitto.org/man/mosquitto-conf-5.html"
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/"
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://ocw.mit.edu/courses/6-002-circuits-and-electronics-spring-2007/"
+  },
+  {
+    "url": "https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/"
+  },
+  {
+    "url": "https://github.com/knolleary/pubsubclient/blob/v2.8/src/PubSubClient.h",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://github.com/knolleary/pubsubclient/blob/v2.8/src/PubSubClient.h",
+    "previous_attempt": {
+      "url": "https://pubsubclient.knolleary.net/api",
+      "status": "inconclusive",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'pubsubclient.knolleary.net'. (_ssl.c:1000)>"
+    }
+  },
+  {
+    "url": "https://pyserial.readthedocs.io/en/latest/",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://pyserial.readthedocs.io/en/latest/"
+  },
+  {
+    "url": "https://pyserial.readthedocs.io/en/latest/pyserial_api.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://pyserial.readthedocs.io/en/latest/pyserial_api.html"
+  },
+  {
+    "url": "https://sensirion.com/media/documents/213E6A3B/63A5A569/Datasheet_SHT3x_DIS.pdf",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://sensirion.com/media/documents/213E6A3B/63A5A569/Datasheet_SHT3x_DIS.pdf"
+  },
+  {
+    "url": "https://sensirion.com/products/catalog/SHT30-DIS-B",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://sensirion.com/products/catalog/SHT30-DIS-B"
+  },
+  {
+    "url": "https://www.espressif.com/en/products/socs",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://www.espressif.com/en/products/socs"
+  },
+  {
+    "url": "https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://documentation.espressif.com/esp32_datasheet_en.pdf"
+  },
+  {
+    "url": "https://www.modbus.org/specs.php",
+    "status": "inconclusive",
+    "http": 403,
+    "previous_attempt": {
+      "url": "https://www.modbus.org/specs.php",
+      "status": "inconclusive",
+      "http": 403
+    }
+  },
+  {
+    "url": "https://cache.nxp.com/docs/en/user-guide/UM10204.pdf",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://cache.nxp.com/docs/en/user-guide/UM10204.pdf",
+    "previous_attempt": {
+      "url": "https://www.nxp.com/docs/en/user-guide/UM10204.pdf",
+      "status": "missing",
+      "http": 404
+    }
+  },
+  {
+    "url": "https://www.wch.cn/downloads/CH341SER_ZIP.html",
+    "status": "reachable",
+    "http": 200,
+    "final_url": "https://www.wch.cn/downloads/CH341SER_ZIP.html"
+  }
+]

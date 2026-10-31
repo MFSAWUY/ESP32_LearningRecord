@@ -1,0 +1,329 @@
+[
+  {
+    "project": "examples/esp-idf/deep_sleep",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "official idf.py; isolated source copy",
+    "started_utc": "2026-10-29T14:58:57.353124+00:00",
+    "command": [
+      "D:\\ehb\\penv\\.espidf-6.1.0\\Scripts\\python.exe",
+      "D:\\ehb\\packages\\framework-espidf\\tools\\idf.py",
+      "-C",
+      "D:\\ehb\\native-suite\\sources\\deep_sleep",
+      "-B",
+      "D:\\ehb\\native-suite\\builds\\deep_sleep",
+      "-D",
+      "IDF_TARGET=esp32",
+      "build"
+    ],
+    "source_sha256": {
+      "CMakeLists.txt": "825cef9a0a91f95e4e19033766afa39455b7eb004b2848b0a38cbd10f07f0d28",
+      "sdkconfig.defaults": "d6161439119ed3d4ba9ef162fc89b2f788ebf3b4fcf2c8148aae38b2f116a20c",
+      "main/CMakeLists.txt": "a26907f24b8546ed61d7aee14a466eb003b8ec81f3d0131b964b3aa95701a553",
+      "main/main.c": "adc847c65cb235651092554cb42dcfcf0061ebdaa77fd221e4f8bbd7eb5587db"
+    },
+    "hardware_tested": false,
+    "log": "idf-native-windows-deep_sleep.log",
+    "status": "passed",
+    "exit_code": 0,
+    "image_bytes": 140880,
+    "image_sha256": "e7f0dfc0e1238e764f1fcd2ed7b79267a9284410085597b5fe9d66bfd5cd5ddf"
+  },
+  {
+    "project": "examples/esp-idf/audio_capture",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "official idf.py; isolated source copy",
+    "started_utc": "2026-10-29T14:58:57.355310+00:00",
+    "command": [
+      "D:\\ehb\\penv\\.espidf-6.1.0\\Scripts\\python.exe",
+      "D:\\ehb\\packages\\framework-espidf\\tools\\idf.py",
+      "-C",
+      "D:\\ehb\\native-suite\\sources\\audio_capture",
+      "-B",
+      "D:\\ehb\\native-suite\\builds\\audio_capture",
+      "-D",
+      "IDF_TARGET=esp32",
+      "build"
+    ],
+    "source_sha256": {
+      "CMakeLists.txt": "1427668b26e46f390feffc3b11b5d3a8b828a3de87a1280dac587286e7941ea0",
+      "sdkconfig.defaults": "d6161439119ed3d4ba9ef162fc89b2f788ebf3b4fcf2c8148aae38b2f116a20c",
+      "main/CMakeLists.txt": "f39fe6339389f65d15b3c2634b933cdf2b22e42b402bfcebb33677d4e5efe944",
+      "main/main.c": "2d0ae27b09c22de6e59d2b649131f23b294a442637d97c5791b1fa0ecabd96a9"
+    },
+    "hardware_tested": false,
+    "log": "idf-native-windows-audio_capture.log",
+    "status": "passed",
+    "exit_code": 0,
+    "image_bytes": 153984,
+    "image_sha256": "40e040dc0cf745f61775a0857b3faf72dd7c7875c681bde0d939fe99ddb2e1f0"
+  },
+  {
+    "project": "examples/esp-idf/diagnostics",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "official idf.py; isolated source copy",
+    "started_utc": "2026-10-29T15:01:31.995792+00:00",
+    "command": [
+      "D:\\ehb\\penv\\.espidf-6.1.0\\Scripts\\python.exe",
+      "D:\\ehb\\packages\\framework-espidf\\tools\\idf.py",
+      "-C",
+      "D:\\ehb\\native-suite\\sources\\diagnostics",
+      "-B",
+      "D:\\ehb\\native-suite\\builds\\diagnostics",
+      "-D",
+      "IDF_TARGET=esp32",
+      "build"
+    ],
+    "source_sha256": {
+      "CMakeLists.txt": "08770d003becdc3062990d38d2e38c07356f49a412f2cadde465be277ec837d7",
+      "sdkconfig.defaults": "d6161439119ed3d4ba9ef162fc89b2f788ebf3b4fcf2c8148aae38b2f116a20c",
+      "main/CMakeLists.txt": "b8afe11c479f1600da8d2be1bf27d20c1c9f2a1213c5097f8b5fdd6bb2600735",
+      "main/main.c": "f487eea2d995ac6a1b6ddd7603175cfcc1417d81b9925903f44d21677380b1ce"
+    },
+    "hardware_tested": false,
+    "log": "idf-native-windows-diagnostics.log",
+    "status": "passed",
+    "exit_code": 0,
+    "image_bytes": 126336,
+    "image_sha256": "23152cfdecc80cbe660a73ff362fef8af01008b5bb0022c7d10c53182891c5ae"
+  },
+  {
+    "project": "examples/esp-idf/gpio",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "official idf.py; isolated source copy",
+    "started_utc": "2026-10-29T15:01:32.230665+00:00",
+    "command": [
+      "D:\\ehb\\penv\\.espidf-6.1.0\\Scripts\\python.exe",
+      "D:\\ehb\\packages\\framework-espidf\\tools\\idf.py",
+      "-C",
+      "D:\\ehb\\native-suite\\sources\\gpio",
+      "-B",
+      "D:\\ehb\\native-suite\\builds\\gpio",
+      "-D",
+      "IDF_TARGET=esp32",
+      "build"
+    ],
+    "source_sha256": {
+      "CMakeLists.txt": "75d2d5bad4f0917d5c345eb8f739fcea7c74300b06aace8cefc356e190ef4a12",
+      "sdkconfig.defaults": "d6161439119ed3d4ba9ef162fc89b2f788ebf3b4fcf2c8148aae38b2f116a20c",
+      "main/CMakeLists.txt": "433b978b0a4e3d665ebee7098b2155929610902fccdbdaae3babd783b95cfc61",
+      "main/main.c": "ba5a5335f02207c8815029adcd1136d10d23c16d0da77b5cf7a2f30be412cfd7"
+    },
+    "hardware_tested": false,
+    "log": "idf-native-windows-gpio.log",
+    "status": "passed",
+    "exit_code": 0,
+    "image_bytes": 132336,
+    "image_sha256": "5f767e708d118c582dae0368510c5020aba4e4b5d692b8ca51acb4c48a16bf39"
+  },
+  {
+    "project": "examples/esp-idf/i2c_sensor",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "official idf.py; isolated source copy",
+    "started_utc": "2026-10-29T15:04:06.355377+00:00",
+    "command": [
+      "D:\\ehb\\penv\\.espidf-6.1.0\\Scripts\\python.exe",
+      "D:\\ehb\\packages\\framework-espidf\\tools\\idf.py",
+      "-C",
+      "D:\\ehb\\native-suite\\sources\\i2c_sensor",
+      "-B",
+      "D:\\ehb\\native-suite\\builds\\i2c_sensor",
+      "-D",
+      "IDF_TARGET=esp32",
+      "build"
+    ],
+    "source_sha256": {
+      "CMakeLists.txt": "70a3b65426c4b54d94a5d0ce63d7e7a9e220a5b14e638a7a5d62d29317ca6ed2",
+      "sdkconfig.defaults": "d6161439119ed3d4ba9ef162fc89b2f788ebf3b4fcf2c8148aae38b2f116a20c",
+      "main/CMakeLists.txt": "01778b058a85fec738ae41fe1f22ed25725883a0ae4df16a9413af9c132a8055",
+      "main/main.c": "99521991a9b2b207084c3cec5003b601e90b1a681cc0f682db4cd9bb11dc2b89"
+    },
+    "hardware_tested": false,
+    "log": "idf-native-windows-i2c_sensor.log",
+    "status": "passed",
+    "exit_code": 0,
+    "image_bytes": 149920,
+    "image_sha256": "8e0820df34e0e7044e16f7980f7b6a1b583cbd9453d07e9c4e15a8959e088765"
+  },
+  {
+    "project": "examples/esp-idf/lcd_st7789",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "official idf.py; isolated source copy",
+    "started_utc": "2026-10-29T15:04:06.767828+00:00",
+    "command": [
+      "D:\\ehb\\penv\\.espidf-6.1.0\\Scripts\\python.exe",
+      "D:\\ehb\\packages\\framework-espidf\\tools\\idf.py",
+      "-C",
+      "D:\\ehb\\native-suite\\sources\\lcd_st7789",
+      "-B",
+      "D:\\ehb\\native-suite\\builds\\lcd_st7789",
+      "-D",
+      "IDF_TARGET=esp32",
+      "build"
+    ],
+    "source_sha256": {
+      "CMakeLists.txt": "726b3037a0aaf63529d6e3d0f848fa0182b77405fe71e88f17eb8d73bc5d8b38",
+      "sdkconfig.defaults": "d6161439119ed3d4ba9ef162fc89b2f788ebf3b4fcf2c8148aae38b2f116a20c",
+      "main/CMakeLists.txt": "31049546c5b603d2e98ffc199a82c5ea293630db25f2a19d52e005631aa9f28b",
+      "main/main.c": "ccb8b3b790d1e15c272a103213d9b151d28a48b777068b19054d24ec8d62f498"
+    },
+    "hardware_tested": false,
+    "log": "idf-native-windows-lcd_st7789.log",
+    "status": "passed",
+    "exit_code": 0,
+    "image_bytes": 171760,
+    "image_sha256": "8fce91c7c83b0dad4e080633b9ddcf360f9d5f009e306c03da63c4dc48a73242"
+  },
+  {
+    "project": "examples/esp-idf/nvs_storage",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "official idf.py; isolated source copy",
+    "started_utc": "2026-10-29T15:06:42.469381+00:00",
+    "command": [
+      "D:\\ehb\\penv\\.espidf-6.1.0\\Scripts\\python.exe",
+      "D:\\ehb\\packages\\framework-espidf\\tools\\idf.py",
+      "-C",
+      "D:\\ehb\\native-suite\\sources\\nvs_storage",
+      "-B",
+      "D:\\ehb\\native-suite\\builds\\nvs_storage",
+      "-D",
+      "IDF_TARGET=esp32",
+      "build"
+    ],
+    "source_sha256": {
+      "CMakeLists.txt": "b5a474a02873bee6593b84204afd0aeee58237ea0c37fc5981c65efbf1076dd9",
+      "README.md": "ffd8cc20de75825aa53053ed413c86f0a9d101757be0aec8894ac8200604122a",
+      "sdkconfig.defaults": "d6161439119ed3d4ba9ef162fc89b2f788ebf3b4fcf2c8148aae38b2f116a20c",
+      "main/CMakeLists.txt": "9f5ca3fbb167657d0f3a438d329d7fd636e1084fabb1322d72aae8e34632e290",
+      "main/main.c": "751d1328f092aafc32ae504985a3cbdd6429de6889f3a311ad10e3ae10311a0a"
+    },
+    "hardware_tested": false,
+    "log": "idf-native-windows-nvs_storage.log",
+    "status": "passed",
+    "exit_code": 0,
+    "image_bytes": 146576,
+    "image_sha256": "9306c9b2b64567c3dc750417fdaea744916388de9e99ad8ec40bbbce1dcb89e2"
+  },
+  {
+    "project": "examples/esp-idf/ota",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "official idf.py; isolated source copy",
+    "started_utc": "2026-10-29T15:06:45.868571+00:00",
+    "command": [
+      "D:\\ehb\\penv\\.espidf-6.1.0\\Scripts\\python.exe",
+      "D:\\ehb\\packages\\framework-espidf\\tools\\idf.py",
+      "-C",
+      "D:\\ehb\\native-suite\\sources\\ota",
+      "-B",
+      "D:\\ehb\\native-suite\\builds\\ota",
+      "-D",
+      "IDF_TARGET=esp32",
+      "build"
+    ],
+    "source_sha256": {
+      "CMakeLists.txt": "226839e40717d1f2198f5b13a53cf1208852b9cf8578fcacc8b34a4042ec7fbc",
+      "partitions.csv": "5523ed9e6e912b018d1f40d7aaabf22fd9ad43e2c6ae65ef48fb53054e7bb08e",
+      "README.md": "ae8839f2a97254e04746cc152d5793dce3aff817a1950f10f045aa502be535c0",
+      "sdkconfig.defaults": "65561e8b6fef078cf4e79251d123d520e7b3dacca1ad24b0017a6d6eb96027bf",
+      "main/CMakeLists.txt": "e89d2471ab13a4dfb5ed58461e0345b53bcae83fdb619f2f28b3ce646fa83b49",
+      "main/Kconfig.projbuild": "e6350c5cd8a31f293e04dfb1f1242a78dc007a9936403c86660e20d0df901df2",
+      "main/main.c": "23f0213d3200745a9ef92bd2dc905bcbcb4555758f6e1680fa57a9655702c428",
+      "main/server_root.example.h": "4d82eb043c994eaed3ffa2ff77115d34f496f653df4f1f49f800a09800f97ab7"
+    },
+    "hardware_tested": false,
+    "log": "idf-native-windows-ota.log",
+    "status": "passed",
+    "exit_code": 0,
+    "image_bytes": 172448,
+    "image_sha256": "68e7d8b29473779871139e0c9dd08d984de7f693a1d58fc4d658d42ee8cbe069"
+  },
+  {
+    "project": "examples/esp-idf/rs485_echo",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "official idf.py; isolated source copy",
+    "started_utc": "2026-10-29T15:09:36.244940+00:00",
+    "command": [
+      "D:\\ehb\\penv\\.espidf-6.1.0\\Scripts\\python.exe",
+      "D:\\ehb\\packages\\framework-espidf\\tools\\idf.py",
+      "-C",
+      "D:\\ehb\\native-suite\\sources\\rs485_echo",
+      "-B",
+      "D:\\ehb\\native-suite\\builds\\rs485_echo",
+      "-D",
+      "IDF_TARGET=esp32",
+      "build"
+    ],
+    "source_sha256": {
+      "CMakeLists.txt": "099b868a24c72de90515145c77427b6ebb4049b42ab6a2fb8cf38b0f4879707b",
+      "README.md": "32e5f4259cb996d2509c1c96f958fbe8d2b7ba0a79442e7a8e5b2322598609a9",
+      "sdkconfig.defaults": "d6161439119ed3d4ba9ef162fc89b2f788ebf3b4fcf2c8148aae38b2f116a20c",
+      "main/CMakeLists.txt": "5d2315957a193c2fa83ff5e50cd9ea2b74f95ef4424128bb15b80b151a296ea6",
+      "main/main.c": "2117f9f708a28b42df37a84d446f58109f166cff7d8b35e4ba72c49c1a4ebc4e"
+    },
+    "hardware_tested": false,
+    "log": "idf-native-windows-rs485_echo.log",
+    "status": "passed",
+    "exit_code": 0,
+    "image_bytes": 153824,
+    "image_sha256": "fa61ec2567b06c1364c24174ff13204e521521aa79862e8f279d78119209c81e"
+  },
+  {
+    "project": "examples/esp-idf/tasks_queue",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "official idf.py; isolated source copy",
+    "started_utc": "2026-10-29T15:11:28.735080+00:00",
+    "command": [
+      "D:\\ehb\\penv\\.espidf-6.1.0\\Scripts\\python.exe",
+      "D:\\ehb\\packages\\framework-espidf\\tools\\idf.py",
+      "-C",
+      "D:\\ehb\\native-suite\\sources\\tasks_queue",
+      "-B",
+      "D:\\ehb\\native-suite\\builds\\tasks_queue",
+      "-D",
+      "IDF_TARGET=esp32",
+      "build"
+    ],
+    "source_sha256": {
+      "CMakeLists.txt": "e455e1935c6e640b96dec081b36ab2791551d884f21737b5e12451bb0731f488",
+      "README.md": "e39e9cc8f4f6b155f6aa3e15c1c026b94a25aec498facee98fb2014f94d01982",
+      "sdkconfig.defaults": "d6161439119ed3d4ba9ef162fc89b2f788ebf3b4fcf2c8148aae38b2f116a20c",
+      "main/CMakeLists.txt": "445fdb644f4bfa6c769bac28a7a3c912f079f915d117757e77361886455f3d06",
+      "main/main.c": "894dcfa81b5a87d8df2660373f4a1db595f0e2e1acff03cb76294324c1fa7664"
+    },
+    "hardware_tested": false,
+    "log": "idf-native-windows-tasks_queue.log",
+    "status": "passed",
+    "exit_code": 0,
+    "image_bytes": 126208,
+    "image_sha256": "c10f6c770084eb940642d705b7578a69b88b8672576cba40242635cbf1520d93"
+  },
+  {
+    "project": "examples/esp-idf/twai_loopback",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "official idf.py; isolated source copy",
+    "started_utc": "2026-10-29T15:12:01.576051+00:00",
+    "command": [
+      "D:\\ehb\\penv\\.espidf-6.1.0\\Scripts\\python.exe",
+      "D:\\ehb\\packages\\framework-espidf\\tools\\idf.py",
+      "-C",
+      "D:\\ehb\\native-suite\\sources\\twai_loopback",
+      "-B",
+      "D:\\ehb\\native-suite\\builds\\twai_loopback",
+      "-D",
+      "IDF_TARGET=esp32",
+      "build"
+    ],
+    "source_sha256": {
+      "CMakeLists.txt": "66cdda8bdd1b309898b804e3d799ea7d9da0c9a93eda685d4ab1992dce4282e5",
+      "README.md": "bf62f31d5f9eb87a7d7c7a6f0bb9d187a3143feb119b622c82e04783262e8db9",
+      "sdkconfig.defaults": "d6161439119ed3d4ba9ef162fc89b2f788ebf3b4fcf2c8148aae38b2f116a20c",
+      "main/CMakeLists.txt": "124747635699e495364a382307ba5a4f1f94622c2cf9daeeb9febd59170db939",
+      "main/main.c": "ddba1f84b475528a88bfd853ddb3f455e3ec31800838dbcff27b89647602b2d9"
+    },
+    "hardware_tested": false,
+    "log": "idf-native-windows-twai_loopback.log",
+    "status": "passed",
+    "exit_code": 0,
+    "image_bytes": 155600,
+    "image_sha256": "e2900ed87d8f5635f64281ce851e626fbe38d219f8e447077cc448b032c42336"
+  }
+]

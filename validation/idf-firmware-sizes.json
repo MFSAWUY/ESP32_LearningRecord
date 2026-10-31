@@ -1,0 +1,458 @@
+[
+  {
+    "project": "audio_capture",
+    "configuration": "default",
+    "status": "passed",
+    "image_bytes": 153984,
+    "image_sha256": "40e040dc0cf745f61775a0857b3faf72dd7c7875c681bde0d939fe99ddb2e1f0",
+    "smallest_app_free_bytes": 894592,
+    "partitions": [
+      {
+        "name": "nvs",
+        "type": 1,
+        "subtype": 2,
+        "offset": 36864,
+        "size": 24576,
+        "flags": 0
+      },
+      {
+        "name": "phy_init",
+        "type": 1,
+        "subtype": 1,
+        "offset": 61440,
+        "size": 4096,
+        "flags": 0
+      },
+      {
+        "name": "factory",
+        "type": 0,
+        "subtype": 0,
+        "offset": 65536,
+        "size": 1048576,
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "project": "deep_sleep",
+    "configuration": "default",
+    "status": "passed",
+    "image_bytes": 140880,
+    "image_sha256": "e7f0dfc0e1238e764f1fcd2ed7b79267a9284410085597b5fe9d66bfd5cd5ddf",
+    "smallest_app_free_bytes": 907696,
+    "partitions": [
+      {
+        "name": "nvs",
+        "type": 1,
+        "subtype": 2,
+        "offset": 36864,
+        "size": 24576,
+        "flags": 0
+      },
+      {
+        "name": "phy_init",
+        "type": 1,
+        "subtype": 1,
+        "offset": 61440,
+        "size": 4096,
+        "flags": 0
+      },
+      {
+        "name": "factory",
+        "type": 0,
+        "subtype": 0,
+        "offset": 65536,
+        "size": 1048576,
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "project": "diagnostics",
+    "configuration": "default",
+    "status": "passed",
+    "image_bytes": 126336,
+    "image_sha256": "23152cfdecc80cbe660a73ff362fef8af01008b5bb0022c7d10c53182891c5ae",
+    "smallest_app_free_bytes": 922240,
+    "partitions": [
+      {
+        "name": "nvs",
+        "type": 1,
+        "subtype": 2,
+        "offset": 36864,
+        "size": 24576,
+        "flags": 0
+      },
+      {
+        "name": "phy_init",
+        "type": 1,
+        "subtype": 1,
+        "offset": 61440,
+        "size": 4096,
+        "flags": 0
+      },
+      {
+        "name": "factory",
+        "type": 0,
+        "subtype": 0,
+        "offset": 65536,
+        "size": 1048576,
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "project": "gpio",
+    "configuration": "default",
+    "status": "passed",
+    "image_bytes": 132336,
+    "image_sha256": "5f767e708d118c582dae0368510c5020aba4e4b5d692b8ca51acb4c48a16bf39",
+    "smallest_app_free_bytes": 916240,
+    "partitions": [
+      {
+        "name": "nvs",
+        "type": 1,
+        "subtype": 2,
+        "offset": 36864,
+        "size": 24576,
+        "flags": 0
+      },
+      {
+        "name": "phy_init",
+        "type": 1,
+        "subtype": 1,
+        "offset": 61440,
+        "size": 4096,
+        "flags": 0
+      },
+      {
+        "name": "factory",
+        "type": 0,
+        "subtype": 0,
+        "offset": 65536,
+        "size": 1048576,
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "project": "i2c_sensor",
+    "configuration": "default",
+    "status": "passed",
+    "image_bytes": 149920,
+    "image_sha256": "8e0820df34e0e7044e16f7980f7b6a1b583cbd9453d07e9c4e15a8959e088765",
+    "smallest_app_free_bytes": 898656,
+    "partitions": [
+      {
+        "name": "nvs",
+        "type": 1,
+        "subtype": 2,
+        "offset": 36864,
+        "size": 24576,
+        "flags": 0
+      },
+      {
+        "name": "phy_init",
+        "type": 1,
+        "subtype": 1,
+        "offset": 61440,
+        "size": 4096,
+        "flags": 0
+      },
+      {
+        "name": "factory",
+        "type": 0,
+        "subtype": 0,
+        "offset": 65536,
+        "size": 1048576,
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "project": "lcd_st7789",
+    "configuration": "default",
+    "status": "passed",
+    "image_bytes": 171760,
+    "image_sha256": "8fce91c7c83b0dad4e080633b9ddcf360f9d5f009e306c03da63c4dc48a73242",
+    "smallest_app_free_bytes": 876816,
+    "partitions": [
+      {
+        "name": "nvs",
+        "type": 1,
+        "subtype": 2,
+        "offset": 36864,
+        "size": 24576,
+        "flags": 0
+      },
+      {
+        "name": "phy_init",
+        "type": 1,
+        "subtype": 1,
+        "offset": 61440,
+        "size": 4096,
+        "flags": 0
+      },
+      {
+        "name": "factory",
+        "type": 0,
+        "subtype": 0,
+        "offset": 65536,
+        "size": 1048576,
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "project": "nvs_storage",
+    "configuration": "default",
+    "status": "passed",
+    "image_bytes": 146576,
+    "image_sha256": "9306c9b2b64567c3dc750417fdaea744916388de9e99ad8ec40bbbce1dcb89e2",
+    "smallest_app_free_bytes": 902000,
+    "partitions": [
+      {
+        "name": "nvs",
+        "type": 1,
+        "subtype": 2,
+        "offset": 36864,
+        "size": 24576,
+        "flags": 0
+      },
+      {
+        "name": "phy_init",
+        "type": 1,
+        "subtype": 1,
+        "offset": 61440,
+        "size": 4096,
+        "flags": 0
+      },
+      {
+        "name": "factory",
+        "type": 0,
+        "subtype": 0,
+        "offset": 65536,
+        "size": 1048576,
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "project": "ota",
+    "configuration": "default",
+    "status": "passed",
+    "image_bytes": 172448,
+    "image_sha256": "68e7d8b29473779871139e0c9dd08d984de7f693a1d58fc4d658d42ee8cbe069",
+    "smallest_app_free_bytes": 1793632,
+    "partitions": [
+      {
+        "name": "nvs",
+        "type": 1,
+        "subtype": 2,
+        "offset": 36864,
+        "size": 16384,
+        "flags": 0
+      },
+      {
+        "name": "otadata",
+        "type": 1,
+        "subtype": 0,
+        "offset": 53248,
+        "size": 8192,
+        "flags": 0
+      },
+      {
+        "name": "phy_init",
+        "type": 1,
+        "subtype": 1,
+        "offset": 61440,
+        "size": 4096,
+        "flags": 0
+      },
+      {
+        "name": "ota_0",
+        "type": 0,
+        "subtype": 16,
+        "offset": 65536,
+        "size": 1966080,
+        "flags": 0
+      },
+      {
+        "name": "ota_1",
+        "type": 0,
+        "subtype": 17,
+        "offset": 2031616,
+        "size": 1966080,
+        "flags": 0
+      },
+      {
+        "name": "storage",
+        "type": 1,
+        "subtype": 130,
+        "offset": 3997696,
+        "size": 196608,
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "project": "rs485_echo",
+    "configuration": "default",
+    "status": "passed",
+    "image_bytes": 153824,
+    "image_sha256": "fa61ec2567b06c1364c24174ff13204e521521aa79862e8f279d78119209c81e",
+    "smallest_app_free_bytes": 894752,
+    "partitions": [
+      {
+        "name": "nvs",
+        "type": 1,
+        "subtype": 2,
+        "offset": 36864,
+        "size": 24576,
+        "flags": 0
+      },
+      {
+        "name": "phy_init",
+        "type": 1,
+        "subtype": 1,
+        "offset": 61440,
+        "size": 4096,
+        "flags": 0
+      },
+      {
+        "name": "factory",
+        "type": 0,
+        "subtype": 0,
+        "offset": 65536,
+        "size": 1048576,
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "project": "tasks_queue",
+    "configuration": "default",
+    "status": "passed",
+    "image_bytes": 126208,
+    "image_sha256": "c10f6c770084eb940642d705b7578a69b88b8672576cba40242635cbf1520d93",
+    "smallest_app_free_bytes": 922368,
+    "partitions": [
+      {
+        "name": "nvs",
+        "type": 1,
+        "subtype": 2,
+        "offset": 36864,
+        "size": 24576,
+        "flags": 0
+      },
+      {
+        "name": "phy_init",
+        "type": 1,
+        "subtype": 1,
+        "offset": 61440,
+        "size": 4096,
+        "flags": 0
+      },
+      {
+        "name": "factory",
+        "type": 0,
+        "subtype": 0,
+        "offset": 65536,
+        "size": 1048576,
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "project": "twai_loopback",
+    "configuration": "default",
+    "status": "passed",
+    "image_bytes": 155600,
+    "image_sha256": "e2900ed87d8f5635f64281ce851e626fbe38d219f8e447077cc448b032c42336",
+    "smallest_app_free_bytes": 892976,
+    "partitions": [
+      {
+        "name": "nvs",
+        "type": 1,
+        "subtype": 2,
+        "offset": 36864,
+        "size": 24576,
+        "flags": 0
+      },
+      {
+        "name": "phy_init",
+        "type": 1,
+        "subtype": 1,
+        "offset": 61440,
+        "size": 4096,
+        "flags": 0
+      },
+      {
+        "name": "factory",
+        "type": 0,
+        "subtype": 0,
+        "offset": 65536,
+        "size": 1048576,
+        "flags": 0
+      }
+    ]
+  },
+  {
+    "project": "ota",
+    "configuration": "network-enabled",
+    "status": "passed",
+    "image_bytes": 990512,
+    "image_sha256": "d21c65b98f7e1786af97a9296de83b10425824831602d6afc85804d1f4064e37",
+    "smallest_app_free_bytes": 975568,
+    "partitions": [
+      {
+        "name": "nvs",
+        "type": 1,
+        "subtype": 2,
+        "offset": 36864,
+        "size": 16384,
+        "flags": 0
+      },
+      {
+        "name": "otadata",
+        "type": 1,
+        "subtype": 0,
+        "offset": 53248,
+        "size": 8192,
+        "flags": 0
+      },
+      {
+        "name": "phy_init",
+        "type": 1,
+        "subtype": 1,
+        "offset": 61440,
+        "size": 4096,
+        "flags": 0
+      },
+      {
+        "name": "ota_0",
+        "type": 0,
+        "subtype": 16,
+        "offset": 65536,
+        "size": 1966080,
+        "flags": 0
+      },
+      {
+        "name": "ota_1",
+        "type": 0,
+        "subtype": 17,
+        "offset": 2031616,
+        "size": 1966080,
+        "flags": 0
+      },
+      {
+        "name": "storage",
+        "type": 1,
+        "subtype": 130,
+        "offset": 3997696,
+        "size": 196608,
+        "flags": 0
+      }
+    ]
+  }
+]

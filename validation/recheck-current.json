@@ -1,0 +1,26 @@
+[
+  {
+    "project": "examples/arduino/mqtt",
+    "host": "Windows-11-10.0.26300-SP0",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\venv\\Scripts\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\examples\\arduino\\mqtt"
+    ],
+    "source_sha256": {
+      "platformio.ini": "cf9cd5181f266107cd0cd1ffbe85ab54d701e5f5369f5865e3ccf2ac0132c061",
+      "include/app_network.h": "50a86f27b1ef1cf2fa7601e56c626dcbfe243ed069e4ba96f30b8f2624d9f2c1",
+      "include/config.example.h": "c871115d178e9240a73e748f513eee54b73acf87275e903f70e9be1f7a060f23",
+      "include/config.h": "45b762a65405d2c10643b0209bb0ac11a9f9b6e81bb6966b13043408aab6de56",
+      "src/main.cpp": "df36505d5876d4cd2a7a561542e0c9987544350eb5c5b458aa8e462de0193d13"
+    },
+    "started_utc": "2026-10-30T10:07:42.572911+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-mqtt.log"
+  }
+]

@@ -1,0 +1,566 @@
+[
+  {
+    "project": "examples/arduino/actuator",
+    "host": "Windows-11-10.0.26300-SP0",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\venv\\Scripts\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\examples\\arduino\\actuator"
+    ],
+    "started_utc": "2026-10-29T09:15:31.786741+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-actuator.log"
+  },
+  {
+    "project": "examples/arduino/ble",
+    "host": "Windows-11-10.0.26300-SP0",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\venv\\Scripts\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\examples\\arduino\\ble"
+    ],
+    "started_utc": "2026-10-29T09:16:13.287531+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-ble.log"
+  },
+  {
+    "project": "examples/arduino/bluetooth_serial",
+    "host": "Windows-11-10.0.26300-SP0",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\venv\\Scripts\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\examples\\arduino\\bluetooth_serial"
+    ],
+    "started_utc": "2026-10-29T09:17:10.149195+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-bluetooth_serial.log"
+  },
+  {
+    "project": "examples/arduino/pid",
+    "host": "Windows-11-10.0.26300-SP0",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\venv\\Scripts\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\examples\\arduino\\pid"
+    ],
+    "started_utc": "2026-10-29T09:21:24.768435+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-pid.log"
+  },
+  {
+    "project": "examples/arduino/pulse_touch",
+    "host": "Windows-11-10.0.26300-SP0",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\venv\\Scripts\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\examples\\arduino\\pulse_touch"
+    ],
+    "started_utc": "2026-10-29T09:21:47.603720+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-pulse_touch.log"
+  },
+  {
+    "project": "examples/arduino/pwm_dac",
+    "host": "Windows-11-10.0.26300-SP0",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\venv\\Scripts\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\examples\\arduino\\pwm_dac"
+    ],
+    "started_utc": "2026-10-29T09:22:11.859519+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-pwm_dac.log"
+  },
+  {
+    "project": "examples/arduino/sht30",
+    "host": "Windows-11-10.0.26300-SP0",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\venv\\Scripts\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\examples\\arduino\\sht30"
+    ],
+    "started_utc": "2026-10-29T09:23:06.679688+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-sht30.log"
+  },
+  {
+    "project": "examples/projects/battery_node",
+    "host": "Windows-11-10.0.26300-SP0",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\venv\\Scripts\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\examples\\projects\\battery_node"
+    ],
+    "started_utc": "2026-10-29T09:25:58.326705+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-battery_node.log"
+  },
+  {
+    "project": "examples/projects/environment_station",
+    "host": "Windows-11-10.0.26300-SP0",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\venv\\Scripts\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\examples\\projects\\environment_station"
+    ],
+    "started_utc": "2026-10-29T09:26:31.439560+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-environment_station.log"
+  },
+  {
+    "project": "examples/projects/espnow_gateway",
+    "host": "Windows-11-10.0.26300-SP0",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\venv\\Scripts\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\examples\\projects\\espnow_gateway"
+    ],
+    "started_utc": "2026-10-29T09:27:27.495613+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-espnow_gateway.log"
+  },
+  {
+    "project": "examples/projects/low_voltage_controller",
+    "host": "Windows-11-10.0.26300-SP0",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\venv\\Scripts\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\examples\\projects\\low_voltage_controller"
+    ],
+    "started_utc": "2026-10-29T09:28:38.339140+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-low_voltage_controller.log"
+  },
+  {
+    "project": "examples/projects/oled_clock",
+    "host": "Windows-11-10.0.26300-SP0",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\venv\\Scripts\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\examples\\projects\\oled_clock"
+    ],
+    "started_utc": "2026-10-29T09:29:28.860668+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-oled_clock.log"
+  },
+  {
+    "project": "examples/arduino/adc",
+    "host": "Windows-11-10.0.26300-SP0",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\venv\\Scripts\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\examples\\arduino\\adc"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "src/main.cpp": "676a1ac2e4d3028b82c937a698761a5eb40a6349630b149c1567dd4b08bbe099"
+    },
+    "started_utc": "2026-10-30T09:59:38.670998+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-adc.log"
+  },
+  {
+    "project": "examples/arduino/gpio_button",
+    "host": "Windows-11-10.0.26300-SP0",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\venv\\Scripts\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\examples\\arduino\\gpio_button"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "src/main.cpp": "4fe385767736b1e731feef57cf0b6dbe631f496730e97e728749b772a032a784"
+    },
+    "started_utc": "2026-10-30T10:00:16.393921+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-gpio_button.log"
+  },
+  {
+    "project": "examples/arduino/i2c_scan",
+    "host": "Windows-11-10.0.26300-SP0",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\venv\\Scripts\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\examples\\arduino\\i2c_scan"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "src/main.cpp": "25e97786b212d667f5fcd3fcc6bbd016eedf652a3616db4d4daf36b62e04046f"
+    },
+    "started_utc": "2026-10-30T10:00:25.066800+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-i2c_scan.log"
+  },
+  {
+    "project": "examples/arduino/sd_logger",
+    "host": "Windows-11-10.0.26300-SP0",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\venv\\Scripts\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\examples\\arduino\\sd_logger"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "src/main.cpp": "6021f845a6024a4af954a1ccbcd6ff67d5ea8ab4b39820468aebe8cb497a4641"
+    },
+    "started_utc": "2026-10-30T10:00:34.077032+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-sd_logger.log"
+  },
+  {
+    "project": "examples/arduino/serial_info",
+    "host": "Windows-11-10.0.26300-SP0",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\venv\\Scripts\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\examples\\arduino\\serial_info"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "src/main.cpp": "b71788fe702a737e137ec94ed43e8f4d2130d5d253fbe7656185ceab5297cc23"
+    },
+    "started_utc": "2026-10-30T10:00:44.977108+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-serial_info.log"
+  },
+  {
+    "project": "examples/arduino/timing_interrupt",
+    "host": "Windows-11-10.0.26300-SP0",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\venv\\Scripts\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\examples\\arduino\\timing_interrupt"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "src/main.cpp": "a8ee295426d30687e7a778350b039651d2fff05b0d74b9dddaa2566fd3575b19"
+    },
+    "started_utc": "2026-10-30T10:00:53.719241+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-timing_interrupt.log"
+  },
+  {
+    "project": "examples/arduino/filter",
+    "host": "Windows-11-10.0.26300-SP0",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\venv\\Scripts\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\examples\\arduino\\filter"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "src/main.cpp": "67c17b7e700badba69bf73d1bfbbfb197fd4dbd5c1d016250a6a656002e8f5ef"
+    },
+    "started_utc": "2026-10-30T10:01:02.666533+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-filter.log"
+  },
+  {
+    "project": "examples/arduino/uart",
+    "host": "Windows-11-10.0.26300-SP0",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\venv\\Scripts\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\examples\\arduino\\uart"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "src/main.cpp": "96c5dec133e9432054fe22248dc4b01a119d4b2779b9e745031f12cc74d3ec78"
+    },
+    "started_utc": "2026-10-30T10:01:23.837287+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-uart.log"
+  },
+  {
+    "project": "examples/arduino/language_basics",
+    "host": "Windows-11-10.0.26300-SP0",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\venv\\Scripts\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\examples\\arduino\\language_basics"
+    ],
+    "source_sha256": {
+      "CMakeLists.txt": "b6ad5cc689476c0338c3cf17dbc34b58d1e7ddd2b49d819d47e760fbdae65505",
+      "platformio.ini": "b393b8cac3ecdd28dc3c9d10a3bab2a8c89f2b9f6afc6ab668519124ce2d5b36",
+      "include/model.h": "7614dff0f42013f4b012afdbdd5989779293b88d648dd082bd25222fefafcb30",
+      "src/main.cpp": "b662abda9aab00f594b3f76df650ee708135b052aee925e3979dae4c4cb98116",
+      "src/model.cpp": "7edf9055d3cb196f9e90dbe0b5f88e91fed01f7ac0642259cb3fb6e2cfdc5b78",
+      "tests/test_model.cpp": "631df1603179445bfaa80259e8e6685ae37458eee97344bffacaa5f3acd11c18"
+    },
+    "started_utc": "2026-10-30T10:01:33.005764+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-language_basics.log"
+  },
+  {
+    "project": "examples/arduino/http",
+    "host": "Windows-11-10.0.26300-SP0",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\venv\\Scripts\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\examples\\arduino\\http"
+    ],
+    "source_sha256": {
+      "platformio.ini": "014feeeea2fe46abeedd9d63ee5b67b4a284cd0b1e02f03416b9734d66863526",
+      "include/app_network.h": "50a86f27b1ef1cf2fa7601e56c626dcbfe243ed069e4ba96f30b8f2624d9f2c1",
+      "include/config.example.h": "c871115d178e9240a73e748f513eee54b73acf87275e903f70e9be1f7a060f23",
+      "include/config.h": "45b762a65405d2c10643b0209bb0ac11a9f9b6e81bb6966b13043408aab6de56",
+      "include/tls_config.example.h": "cbad7eab49d905ff1bf6f905d7f4a628e074d3fc59f719b3f9d48832cbabb726",
+      "src/main.cpp": "01d10c0a0fbc09de2ccc1ca76fd8ff03a1e9e10e4cf974a0eb93a21a36015b5d"
+    },
+    "started_utc": "2026-10-30T10:06:27.838515+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-http.log"
+  },
+  {
+    "project": "examples/arduino/oled",
+    "host": "Windows-11-10.0.26300-SP0",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\venv\\Scripts\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\examples\\arduino\\oled"
+    ],
+    "source_sha256": {
+      "platformio.ini": "75a2ed806ad01103ec821634c2e3696649cb4870355ca65c407e30f186058033",
+      "include/config.example.h": "900535639bf6f09047b149293dea1c5440df2f84e8a5316c0e5f6eb9c8b5b3e8",
+      "include/config.h": "45b762a65405d2c10643b0209bb0ac11a9f9b6e81bb6966b13043408aab6de56",
+      "src/main.cpp": "2cec91777a179193fe49d45ac46ef3b1241bd2ec63c9e551707f0780458ea7dc"
+    },
+    "started_utc": "2026-10-30T10:06:44.267273+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-oled.log"
+  },
+  {
+    "project": "examples/arduino/tcp_udp",
+    "host": "Windows-11-10.0.26300-SP0",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\venv\\Scripts\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\examples\\arduino\\tcp_udp"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "include/app_network.h": "50a86f27b1ef1cf2fa7601e56c626dcbfe243ed069e4ba96f30b8f2624d9f2c1",
+      "include/config.example.h": "c871115d178e9240a73e748f513eee54b73acf87275e903f70e9be1f7a060f23",
+      "include/config.h": "45b762a65405d2c10643b0209bb0ac11a9f9b6e81bb6966b13043408aab6de56",
+      "src/main.cpp": "0d05010e0265bb1315f5e33fbeaaff88daeecde3976564468b89e1c114c8c690"
+    },
+    "started_utc": "2026-10-30T10:06:58.550999+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-tcp_udp.log"
+  },
+  {
+    "project": "examples/arduino/time_provision",
+    "host": "Windows-11-10.0.26300-SP0",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\venv\\Scripts\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\examples\\arduino\\time_provision"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "include/app_network.h": "50a86f27b1ef1cf2fa7601e56c626dcbfe243ed069e4ba96f30b8f2624d9f2c1",
+      "include/config.example.h": "c871115d178e9240a73e748f513eee54b73acf87275e903f70e9be1f7a060f23",
+      "include/config.h": "45b762a65405d2c10643b0209bb0ac11a9f9b6e81bb6966b13043408aab6de56",
+      "src/main.cpp": "bb3686a20f12b7af63502b39634642cd5236f295ab59d43b3046c25c0b10d0a1"
+    },
+    "started_utc": "2026-10-30T10:07:10.674422+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-time_provision.log"
+  },
+  {
+    "project": "examples/arduino/wifi",
+    "host": "Windows-11-10.0.26300-SP0",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\venv\\Scripts\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\examples\\arduino\\wifi"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "include/app_network.h": "50a86f27b1ef1cf2fa7601e56c626dcbfe243ed069e4ba96f30b8f2624d9f2c1",
+      "include/config.example.h": "c871115d178e9240a73e748f513eee54b73acf87275e903f70e9be1f7a060f23",
+      "include/config.h": "45b762a65405d2c10643b0209bb0ac11a9f9b6e81bb6966b13043408aab6de56",
+      "src/main.cpp": "3d5f68026e86b4f9512f9c173890d8434701391eabb48eeb45b8163133cb5d00"
+    },
+    "started_utc": "2026-10-30T10:07:23.874207+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-wifi.log"
+  },
+  {
+    "project": "examples/arduino/espnow",
+    "host": "Windows-11-10.0.26300-SP0",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\venv\\Scripts\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\examples\\arduino\\espnow"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "include/config.example.h": "1fa7e1e7e1243d5b2e543fcb7bb6d304ac2ac2aa5251e105669ec23643cf5423",
+      "include/config.h": "45b762a65405d2c10643b0209bb0ac11a9f9b6e81bb6966b13043408aab6de56",
+      "src/main.cpp": "c06527a1cdf2fd33f06fdd7ffc4821d6f01c3b49e20a2c9cf8413d372bee2327"
+    },
+    "started_utc": "2026-10-30T10:07:35.440759+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-espnow.log"
+  },
+  {
+    "project": "examples/arduino/mqtt",
+    "host": "Windows-11-10.0.26300-SP0",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\venv\\Scripts\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\examples\\arduino\\mqtt"
+    ],
+    "source_sha256": {
+      "platformio.ini": "cf9cd5181f266107cd0cd1ffbe85ab54d701e5f5369f5865e3ccf2ac0132c061",
+      "include/app_network.h": "50a86f27b1ef1cf2fa7601e56c626dcbfe243ed069e4ba96f30b8f2624d9f2c1",
+      "include/config.example.h": "c871115d178e9240a73e748f513eee54b73acf87275e903f70e9be1f7a060f23",
+      "include/config.h": "45b762a65405d2c10643b0209bb0ac11a9f9b6e81bb6966b13043408aab6de56",
+      "src/main.cpp": "df36505d5876d4cd2a7a561542e0c9987544350eb5c5b458aa8e462de0193d13"
+    },
+    "started_utc": "2026-10-30T10:07:42.572911+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-mqtt.log"
+  }
+]

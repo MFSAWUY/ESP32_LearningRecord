@@ -1,0 +1,5 @@
+# Public placeholders for compilation/size validation only. Never flashed.
+# The default empty-SSID build optimizes away network code.
+CONFIG_EXAMPLE_WIFI_SSID="handbook-build-test"
+CONFIG_EXAMPLE_WIFI_PASSWORD="example-password"
+CONFIG_EXAMPLE_OTA_URL="https://example.invalid/firmware.bin"

@@ -1,0 +1,78 @@
+{
+  "espressif32": {
+    "name": "espressif32",
+    "version": "8.0.0"
+  },
+  "framework-arduinoespressif32": {
+    "name": "framework-arduinoespressif32",
+    "version": "4.30312.261024"
+  },
+  "framework-arduinoespressif32-esp32-libs": {
+    "name": "framework-arduinoespressif32-esp32-libs",
+    "version": "3.3.12"
+  },
+  "framework-espidf": {
+    "name": "framework-espidf",
+    "version": "4.60100.0"
+  },
+  "tool-cmake": {
+    "name": "tool-cmake",
+    "version": "3.30.2"
+  },
+  "tool-esp-rom-elfs": {
+    "name": "tool-esp-rom-elfs",
+    "version": "0.0.1+20241011"
+  },
+  "tool-esptool": {
+    "name": "tool-esptool",
+    "version": "2.50400.0"
+  },
+  "tool-idf": {
+    "name": "tool-idf",
+    "version": "1.0.1"
+  },
+  "tool-mconf": {
+    "name": "tool-mconf",
+    "version": "1.4060000.20190628"
+  },
+  "tool-ninja": {
+    "name": "tool-ninja",
+    "version": "1.9.0"
+  },
+  "tool-riscv32-esp-elf-gdb": {
+    "name": "tool-riscv32-esp-elf-gdb",
+    "version": "12.1.0+20221002"
+  },
+  "tool-riscv32-esp-elf-gdb@11.2.0+20220823": {
+    "name": "tool-riscv32-esp-elf-gdb",
+    "version": "11.2.0+20220823"
+  },
+  "tool-scons": {
+    "name": "tool-scons",
+    "version": "4.40801.0"
+  },
+  "tool-xtensa-esp-elf-gdb": {
+    "name": "tool-xtensa-esp-elf-gdb",
+    "version": "12.1.0+20221002"
+  },
+  "tool-xtensa-esp-elf-gdb@11.2.0+20230208": {
+    "name": "tool-xtensa-esp-elf-gdb",
+    "version": "11.2.0+20230208"
+  },
+  "toolchain-esp32ulp": {
+    "name": "toolchain-esp32ulp",
+    "version": "1.23800.240113"
+  },
+  "toolchain-riscv32-esp": {
+    "name": "toolchain-riscv32-esp",
+    "version": "14.2.0+20260121"
+  },
+  "toolchain-xtensa-esp-elf": {
+    "name": "toolchain-xtensa-esp-elf",
+    "version": "15.2.0+20251204"
+  },
+  "toolchain-xtensa-esp-elf@14.2.0+20260121": {
+    "name": "toolchain-xtensa-esp-elf",
+    "version": "14.2.0+20260121"
+  }
+}

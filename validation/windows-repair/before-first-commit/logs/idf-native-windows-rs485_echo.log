@@ -1,0 +1,85 @@
+-- Found Git: C:/Program Files/Git/cmd/git.exe (found version "2.56.0.windows.4")
+CMake Error at D:/VSCode_data/C++/ESP32/handbook/.tools/idf-current/default/builds/rs485_echo/CMakeFiles/git-data/grabRef.cmake:48 (file):
+  file failed to open for reading (No such file or directory):
+
+    D:/VSCode_data/C++/ESP32/handbook/.tools/idf-current/default/builds/rs485_echo/CMakeFiles/git-data/head-ref
+Call Stack (most recent call first):
+  D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/tools/cmake/third_party/GetGitRevisionDescription.cmake:83 (include)
+  D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/tools/cmake/third_party/GetGitRevisionDescription.cmake:93 (get_git_head_revision)
+  D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/tools/cmake/build.cmake:146 (git_describe)
+  D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/tools/cmake/build.cmake:334 (__build_get_idf_git_revision)
+  D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/tools/cmake/idf.cmake:62 (__build_init)
+  D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/tools/cmake/project.cmake:124 (include)
+  CMakeLists.txt:2 (include)
+
+
+-- Minimal build - ON
+-- The C compiler identification is GNU 15.2.0
+-- The CXX compiler identification is GNU 15.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/toolchain-xtensa-esp-elf/bin/xtensa-esp32-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/toolchain-xtensa-esp-elf/bin/xtensa-esp32-elf-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/toolchain-xtensa-esp-elf/bin/xtensa-esp32-elf-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at D:/VSCode_data/C++/ESP32/handbook/.tools/idf-current/default/builds/rs485_echo/CMakeFiles/git-data/grabRef.cmake:48 (file):
+  file failed to open for reading (No such file or directory):
+
+    D:/VSCode_data/C++/ESP32/handbook/.tools/idf-current/default/builds/rs485_echo/CMakeFiles/git-data/head-ref
+Call Stack (most recent call first):
+  D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/tools/cmake/third_party/GetGitRevisionDescription.cmake:83 (include)
+  D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/tools/cmake/third_party/GetGitRevisionDescription.cmake:93 (get_git_head_revision)
+  D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/tools/cmake/project.cmake:849 (git_describe)
+  CMakeLists.txt:5 (project)
+
+
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- KCONFIG_REPORT_VERBOSITY not set, using default
+-- Project sdkconfig file D:/VSCode_data/C++/ESP32/handbook/.tools/idf-current/default/sources/rs485_echo/sdkconfig
+Loading defaults file D:/VSCode_data/C++/ESP32/handbook/.tools/idf-current/default/sources/rs485_echo/sdkconfig.defaults...
+NOTE: Kconfig parser version: 1
+NOTE: Kconfig defaults policy: use sdkconfig
+NOTE: Status: Finished successfully
+-- Compiler supported targets: xtensa-esp-elf
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- App "rs485_echo" version: 1
+-- Found Python3: D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/penv/.espidf-6.1.0/Scripts/python.exe (found version "3.12.8") found components: Interpreter
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- Setting up mbedtls configuration
+-- Linkage type is PUBLIC
+-- Adding linker script D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_system/ld/esp32/memory.ld.in
+--   -> Preprocessing .in script: D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_system/ld/esp32/memory.ld.in
+-- Adding linker script D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_system/ld/esp32/sections.ld.in
+--   -> Preprocessing .in script: D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_system/ld/esp32/sections.ld.in
+--   -> Applying ldgen processing: D:/VSCode_data/C++/ESP32/handbook/.tools/idf-current/default/builds/rs485_echo/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_rom/esp32/ld/esp32.rom.libc-funcs.ld
+-- Adding linker script D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Adding linker script D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_hal_regi2c/esp32/rom.regi2c.ld
+-- Components: __pio_env app_update bootloader bootloader_support cxx efuse esp_app_format esp_blockdev esp_bootloader_format esp_common esp_driver_dma esp_driver_gpio esp_driver_uart esp_hal_ana_conv esp_hal_clock esp_hal_dma esp_hal_gpio esp_hal_gpspi esp_hal_i2s esp_hal_mspi esp_hal_pmu esp_hal_regi2c esp_hal_rtc_timer esp_hal_security esp_hal_systimer esp_hal_timg esp_hal_touch_sens esp_hal_uart esp_hal_usb esp_hal_wdt esp_hw_support esp_libc esp_mm esp_partition esp_pm esp_psram esp_ringbuf esp_rom esp_security esp_stdio esp_system esp_timer esp_usb_cdc_rom_console esptool_py freertos hal heap log main mbedtls partition_table pthread soc spi_flash xtensa
+-- Component paths: D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/__pio_env D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/app_update D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/bootloader D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/bootloader_support D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/cxx D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/efuse D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_app_format D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_blockdev D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_bootloader_format D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_common D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_driver_dma D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_driver_gpio D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_driver_uart D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_hal_ana_conv D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_hal_clock D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_hal_dma D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_hal_gpio D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_hal_gpspi D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_hal_i2s D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_hal_mspi D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_hal_pmu D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_hal_regi2c D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_hal_rtc_timer D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_hal_security D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_hal_systimer D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_hal_timg D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_hal_touch_sens D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_hal_uart D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_hal_usb D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_hal_wdt D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_hw_support D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_libc D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_mm D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_partition D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_pm D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_psram D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_ringbuf D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_rom D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_security D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_stdio D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_system D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_timer D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esp_usb_cdc_rom_console D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/esptool_py D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/freertos D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/hal D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/heap D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/log D:/VSCode_data/C++/ESP32/handbook/.tools/idf-current/default/sources/rs485_echo/main D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/mbedtls D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/partition_table D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/pthread D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/soc D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/spi_flash D:/VSCode_data/C++/ESP32/handbook/.tools/platformio/packages/framework-espidf/components/xtensa
+-- Configuring incomplete, errors occurred!
+cmake failed with exit code 1, output of the command is in the D:\VSCode_data\C++\ESP32\handbook\.tools\idf-current\default\builds\rs485_echo\log\idf_py_stderr_output_20352 and D:\VSCode_data\C++\ESP32\handbook\.tools\idf-current\default\builds\rs485_echo\log\idf_py_stdout_output_20352
+Executing action: all (aliases: build)
+Running cmake in directory D:\VSCode_data\C++\ESP32\handbook\.tools\idf-current\default\builds\rs485_echo
+Executing "cmake -G Ninja -B D:\VSCode_data\C++\ESP32\handbook\.tools\idf-current\default\builds\rs485_echo -DPYTHON_DEPS_CHECKED=1 -DPYTHON=D:\VSCode_data\C++\ESP32\handbook\.tools\platformio\penv\.espidf-6.1.0\Scripts\python.exe -DESP_PLATFORM=1 -DIDF_TARGET=esp32 -DCCACHE_ENABLE=False D:\VSCode_data\C++\ESP32\handbook\.tools\idf-current\default\sources\rs485_echo"...

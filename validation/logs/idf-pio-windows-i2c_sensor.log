@@ -1,0 +1,59 @@
+Processing esp32dev (platform: espressif32@8.0.0; board: esp32dev; framework: espidf)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32dev.html
+PLATFORM: Espressif 32 (8.0.0) > Espressif ESP32 Dev Module
+HARDWARE: ESP32 240MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-espidf @ 4.60100.0 (6.1.0) 
+ - tool-cmake @ 3.30.2 
+ - tool-esp-rom-elfs @ 0.0.1+20241011 
+ - tool-esptool @ 2.50400.0 (5.4.0) 
+ - tool-idf @ 1.0.1 
+ - tool-mconf @ 1.4060000.20190628 (406.0.0) 
+ - tool-ninja @ 1.9.0 
+ - tool-riscv32-esp-elf-gdb @ 11.2.0+20220823 
+ - tool-xtensa-esp-elf-gdb @ 11.2.0+20230208 
+ - toolchain-esp32ulp @ 1.23800.240113 (2.38.0) 
+ - toolchain-xtensa-esp-elf @ 15.2.0+20251204
+Reading CMake configuration...
+
+ValueError: path is on mount 'P:', start on mount 'D:':
+  File "D:\VSCode_data\C++\ESP32\handbook\.tools\venv\Lib\site-packages\platformio\builder\main.py", line 173:
+    env.SConscript("$BUILD_SCRIPT")
+  File "D:\VSCode_data\C++\ESP32\handbook\.tools\platformio\packages\tool-scons\scons-local-4.8.1\SCons\Script\SConscript.py", line 620:
+    return _SConscript(self.fs, *files, **subst_kw)
+  File "D:\VSCode_data\C++\ESP32\handbook\.tools\platformio\packages\tool-scons\scons-local-4.8.1\SCons\Script\SConscript.py", line 280:
+    exec(compile(scriptdata, scriptname, 'exec'), call_stack[-1].globals)
+  File "P:\platforms\espressif32\builder\main.py", line 371:
+    target_elf = env.BuildProgram()
+  File "D:\VSCode_data\C++\ESP32\handbook\.tools\platformio\packages\tool-scons\scons-local-4.8.1\SCons\Util\envs.py", line 252:
+    return self.method(*nargs, **kwargs)
+  File "D:\VSCode_data\C++\ESP32\handbook\.tools\venv\Lib\site-packages\platformio\builder\tools\piobuild.py", line 62:
+    env.ProcessProgramDeps()
+  File "D:\VSCode_data\C++\ESP32\handbook\.tools\platformio\packages\tool-scons\scons-local-4.8.1\SCons\Util\envs.py", line 252:
+    return self.method(*nargs, **kwargs)
+  File "D:\VSCode_data\C++\ESP32\handbook\.tools\venv\Lib\site-packages\platformio\builder\tools\piobuild.py", line 142:
+    env.BuildFrameworks(env.get("PIOFRAMEWORK"))
+  File "D:\VSCode_data\C++\ESP32\handbook\.tools\platformio\packages\tool-scons\scons-local-4.8.1\SCons\Util\envs.py", line 252:
+    return self.method(*nargs, **kwargs)
+  File "D:\VSCode_data\C++\ESP32\handbook\.tools\venv\Lib\site-packages\platformio\builder\tools\piobuild.py", line 352:
+    SConscript(env.GetFrameworkScript(name), exports="env")
+  File "D:\VSCode_data\C++\ESP32\handbook\.tools\platformio\packages\tool-scons\scons-local-4.8.1\SCons\Script\SConscript.py", line 684:
+    return method(*args, **kw)
+  File "D:\VSCode_data\C++\ESP32\handbook\.tools\platformio\packages\tool-scons\scons-local-4.8.1\SCons\Script\SConscript.py", line 620:
+    return _SConscript(self.fs, *files, **subst_kw)
+  File "D:\VSCode_data\C++\ESP32\handbook\.tools\platformio\packages\tool-scons\scons-local-4.8.1\SCons\Script\SConscript.py", line 280:
+    exec(compile(scriptdata, scriptname, 'exec'), call_stack[-1].globals)
+  File "P:\platforms\espressif32\builder\frameworks\espidf.py", line 2260:
+    build_components(env, framework_components_map, PROJECT_DIR)
+  File "P:\platforms\espressif32\builder\frameworks\espidf.py", line 1299:
+    components_map[k]["lib"] = build_library(
+  File "P:\platforms\espressif32\builder\frameworks\espidf.py", line 325:
+    lib_objects = compile_source_files(
+  File "P:\platforms\espressif32\builder\frameworks\espidf.py", line 1004:
+    obj_path, os.path.relpath(src_path, components_dir)
+  File "<frozen ntpath>", line 796:
+    
+========================= [FAILED] Took 22.28 seconds =========================

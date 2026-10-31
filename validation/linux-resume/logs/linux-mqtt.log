@@ -1,0 +1,134 @@
+Processing esp32dev (platform: espressif32@8.0.0; board: esp32dev; framework: arduino)
+--------------------------------------------------------------------------------
+Library Manager: Installing knolleary/PubSubClient @ 2.8
+Downloading...
+Library Manager: Error: Please read https://bit.ly/package-manager-ioerror
+Library Manager: Warning! Package Mirror: HTTPSConnectionPool(host='dl.registry.platformio.org', port=443): Read timed out. (read timeout=10)
+Library Manager: Looking for another mirror...
+Downloading 0% 10% 20%
+Unpacking 0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%
+Library Manager: PubSubClient@2.8.0 has been installed!
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32dev.html
+PLATFORM: Espressif 32 (8.0.0) > Espressif ESP32 Dev Module
+HARDWARE: ESP32 240MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 4.30312.261024 (3.3.12) 
+ - framework-arduinoespressif32-esp32-libs @ 3.3.12 
+ - tool-esptool @ 2.50400.0 (5.4.0) 
+ - tool-riscv32-esp-elf-gdb @ 12.1.0+20221002 
+ - tool-xtensa-esp-elf-gdb @ 12.1.0+20221002 
+ - toolchain-riscv32-esp @ 14.2.0+20260121 
+ - toolchain-xtensa-esp-elf @ 14.2.0+20260121
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 45 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- PubSubClient @ 2.8.0
+|-- WiFi @ 3.3.12
+Building in release mode
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/src/main.cpp.o
+Building /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/bootloader.bin
+Generating partitions /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/partitions.bin
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/libe4a/PubSubClient/PubSubClient.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/lib42f/Network/NetworkClient.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/lib42f/Network/NetworkEvents.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/lib42f/Network/NetworkInterface.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/lib42f/Network/NetworkManager.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/lib42f/Network/NetworkServer.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/lib42f/Network/NetworkUdp.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/liba6d/WiFi/AP.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/liba6d/WiFi/STA.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/liba6d/WiFi/WiFi.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/liba6d/WiFi/WiFiAP.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/liba6d/WiFi/WiFiGeneric.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/liba6d/WiFi/WiFiMulti.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/liba6d/WiFi/WiFiSTA.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/liba6d/WiFi/WiFiScan.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/ColorFormat.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/Esp.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/FirmwareMSC.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/FunctionalInterrupt.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/HEXBuilder.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/HWCDC.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/HardwareSerial.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/HashBuilder.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/IPAddress.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/MD5Builder.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/MacAddress.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/Print.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/Stream.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/StreamString.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/StringUtils.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/Tone.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/USB.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/USBCDC.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/USBHost.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/USBMSC.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/WMath.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/WString.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/base64.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/cbuf.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/chip-debug-report.cpp.o
+esptool v5.4.0
+Creating ESP32 image...
+Merged 2 ELF sections.
+Successfully created ESP32 image.
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/esp32-hal-adc.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/esp32-hal-bt.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/esp32-hal-cpu.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/esp32-hal-dac.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/esp32-hal-gpio.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/esp32-hal-hosted.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/esp32-hal-i2c-ng.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/esp32-hal-i2c-slave.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/esp32-hal-i2c.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/esp32-hal-ldo.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/esp32-hal-ledc.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/esp32-hal-log-wrapper.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/esp32-hal-matrix.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/esp32-hal-misc.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/esp32-hal-periman.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/esp32-hal-psram.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/esp32-hal-rgb-led.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/esp32-hal-rmt.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/esp32-hal-sigmadelta.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/esp32-hal-spi.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/esp32-hal-time.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/esp32-hal-timer.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/esp32-hal-tinyusb.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/esp32-hal-touch-ng.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/esp32-hal-touch.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/esp32-hal-uart.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/firmware_msc_fat.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/freertos_stats.cpp.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/idf_openthread_mpool_wrapper.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/libb64/cdecode.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/libb64/cencode.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/main.cpp.o
+Archiving /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/libe4a/libPubSubClient.a
+Indexing /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/libe4a/libPubSubClient.a
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/stdlib_noniso.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/wiring_pulse.c.o
+Compiling /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/FrameworkArduino/wiring_shift.c.o
+Archiving /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/libFrameworkArduino.a
+Archiving /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/lib42f/libNetwork.a
+Indexing /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/lib42f/libNetwork.a
+Indexing /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/libFrameworkArduino.a
+Archiving /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/liba6d/libWiFi.a
+Indexing /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/liba6d/libWiFi.a
+Linking /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/firmware.elf
+Retrieving maximum program size /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/firmware.elf
+Checking size /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [=         ]  14.4% (used 47152 bytes from 327680 bytes)
+Flash: [=======   ]  73.1% (used 958052 bytes from 1310720 bytes)
+Building /home/pc/wty/ESP32/test/builds/arduino/mqtt/build/esp32dev/firmware.bin
+esptool v5.4.0
+Creating ESP32 image...
+Merged 3 ELF sections.
+Successfully created ESP32 image.
+========================= [SUCCESS] Took 41.49 seconds =========================
+

@@ -1,0 +1,112 @@
+[
+  {
+    "project": "examples/esp-idf/audio_capture",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "PlatformIO 8.0.0 managed ESP-IDF 6.1; isolated copy",
+    "hardware_tested": false,
+    "started_utc": "2026-10-29T14:13:27.028426+00:00",
+    "status": "failed",
+    "exit_code": 1,
+    "log": "idf-pio-windows-audio_capture.log"
+  },
+  {
+    "project": "examples/esp-idf/deep_sleep",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "PlatformIO 8.0.0 managed ESP-IDF 6.1; isolated copy",
+    "hardware_tested": false,
+    "started_utc": "2026-10-29T14:26:15.799014+00:00",
+    "status": "failed",
+    "exit_code": 1,
+    "log": "idf-pio-windows-deep_sleep.log"
+  },
+  {
+    "project": "examples/esp-idf/diagnostics",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "PlatformIO 8.0.0 managed ESP-IDF 6.1; isolated copy",
+    "hardware_tested": false,
+    "started_utc": "2026-10-29T14:26:38.893456+00:00",
+    "status": "failed",
+    "exit_code": 1,
+    "log": "idf-pio-windows-diagnostics.log"
+  },
+  {
+    "project": "examples/esp-idf/gpio",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "PlatformIO 8.0.0 managed ESP-IDF 6.1; isolated copy",
+    "hardware_tested": false,
+    "started_utc": "2026-10-29T14:27:02.398043+00:00",
+    "status": "failed",
+    "exit_code": 1,
+    "log": "idf-pio-windows-gpio.log"
+  },
+  {
+    "project": "examples/esp-idf/i2c_sensor",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "PlatformIO 8.0.0 managed ESP-IDF 6.1; isolated copy",
+    "hardware_tested": false,
+    "started_utc": "2026-10-29T14:27:26.350422+00:00",
+    "status": "failed",
+    "exit_code": 1,
+    "log": "idf-pio-windows-i2c_sensor.log"
+  },
+  {
+    "project": "examples/esp-idf/lcd_st7789",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "PlatformIO 8.0.0 managed ESP-IDF 6.1; isolated copy",
+    "hardware_tested": false,
+    "started_utc": "2026-10-29T14:27:49.360196+00:00",
+    "status": "failed",
+    "exit_code": 1,
+    "log": "idf-pio-windows-lcd_st7789.log"
+  },
+  {
+    "project": "examples/esp-idf/nvs_storage",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "PlatformIO 8.0.0 managed ESP-IDF 6.1; isolated copy",
+    "hardware_tested": false,
+    "started_utc": "2026-10-29T14:28:14.659566+00:00",
+    "status": "failed",
+    "exit_code": 1,
+    "log": "idf-pio-windows-nvs_storage.log"
+  },
+  {
+    "project": "examples/esp-idf/ota",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "PlatformIO 8.0.0 managed ESP-IDF 6.1; isolated copy",
+    "hardware_tested": false,
+    "started_utc": "2026-10-29T14:28:39.689204+00:00",
+    "status": "failed",
+    "exit_code": 1,
+    "log": "idf-pio-windows-ota.log"
+  },
+  {
+    "project": "examples/esp-idf/rs485_echo",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "PlatformIO 8.0.0 managed ESP-IDF 6.1; isolated copy",
+    "hardware_tested": false,
+    "started_utc": "2026-10-29T14:29:16.277394+00:00",
+    "status": "failed",
+    "exit_code": 1,
+    "log": "idf-pio-windows-rs485_echo.log"
+  },
+  {
+    "project": "examples/esp-idf/tasks_queue",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "PlatformIO 8.0.0 managed ESP-IDF 6.1; isolated copy",
+    "hardware_tested": false,
+    "started_utc": "2026-10-29T14:29:45.342736+00:00",
+    "status": "failed",
+    "exit_code": 1,
+    "log": "idf-pio-windows-tasks_queue.log"
+  },
+  {
+    "project": "examples/esp-idf/twai_loopback",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "PlatformIO 8.0.0 managed ESP-IDF 6.1; isolated copy",
+    "hardware_tested": false,
+    "started_utc": "2026-10-29T14:30:08.749813+00:00",
+    "status": "failed",
+    "exit_code": 1,
+    "log": "idf-pio-windows-twai_loopback.log"
+  }
+]

@@ -1,0 +1,9 @@
+fatal: not a git repository: 'D:\VSCode_data\C++\ESP32\handbook\.tools\platformio\packages\framework-espidf\.git'
+WARNING: Git version unavailable, reading from source
+ESP-IDF v6.1.0
+xtensa-esp-elf-gcc.exe (crosstool-NG esp-15.2.0_20251204) 15.2.0
+Copyright (C) 2025 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+No broken requirements found.

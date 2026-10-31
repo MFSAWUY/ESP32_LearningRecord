@@ -1,0 +1,38 @@
+[
+  {
+    "project": "examples/esp-idf/ota",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "official idf.py; isolated source copy",
+    "started_utc": "2026-10-29T15:14:43.123593+00:00",
+    "command": [
+      "D:\\ehb\\penv\\.espidf-6.1.0\\Scripts\\python.exe",
+      "D:\\ehb\\packages\\framework-espidf\\tools\\idf.py",
+      "-C",
+      "D:\\ehb\\ota-configured\\sources\\ota",
+      "-B",
+      "D:\\ehb\\ota-configured\\builds\\ota",
+      "-D",
+      "IDF_TARGET=esp32",
+      "-D",
+      "SDKCONFIG_DEFAULTS=sdkconfig.defaults;validation.defaults",
+      "build"
+    ],
+    "source_sha256": {
+      "CMakeLists.txt": "226839e40717d1f2198f5b13a53cf1208852b9cf8578fcacc8b34a4042ec7fbc",
+      "partitions.csv": "5523ed9e6e912b018d1f40d7aaabf22fd9ad43e2c6ae65ef48fb53054e7bb08e",
+      "README.md": "ae8839f2a97254e04746cc152d5793dce3aff817a1950f10f045aa502be535c0",
+      "sdkconfig.defaults": "65561e8b6fef078cf4e79251d123d520e7b3dacca1ad24b0017a6d6eb96027bf",
+      "main/CMakeLists.txt": "e89d2471ab13a4dfb5ed58461e0345b53bcae83fdb619f2f28b3ce646fa83b49",
+      "main/Kconfig.projbuild": "e6350c5cd8a31f293e04dfb1f1242a78dc007a9936403c86660e20d0df901df2",
+      "main/main.c": "23f0213d3200745a9ef92bd2dc905bcbcb4555758f6e1680fa57a9655702c428",
+      "main/server_root.example.h": "4d82eb043c994eaed3ffa2ff77115d34f496f653df4f1f49f800a09800f97ab7"
+    },
+    "hardware_tested": false,
+    "log": "idf-native-windows-ota.log",
+    "defaults_overlay_sha256": "5bced948fe7ecdf3bec4ea987befa605635c5af19e160f21b4fb24b7e574b2ae",
+    "status": "passed",
+    "exit_code": 0,
+    "image_bytes": 990512,
+    "image_sha256": "d21c65b98f7e1786af97a9296de83b10425824831602d6afc85804d1f4064e37"
+  }
+]

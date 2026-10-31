@@ -1,0 +1,89 @@
+{
+  "checked_utc": "2026-10-31T12:54:34.345203+00:00",
+  "flash_bytes": 4194304,
+  "hardware_tested": false,
+  "images": [
+    {
+      "project": "examples/esp-idf/ota",
+      "status": "passed",
+      "errors": [],
+      "image_bytes": 990512,
+      "image_sha256": "ef348725e40689e21ab0f11cd35c477e4eb410793e71c70f4b9a3677f7a24e56",
+      "smallest_app_free_bytes": 975568,
+      "partitions": [
+        {
+          "name": "nvs",
+          "type": 1,
+          "subtype": 2,
+          "offset": 36864,
+          "size": 16384,
+          "flags": 0
+        },
+        {
+          "name": "otadata",
+          "type": 1,
+          "subtype": 0,
+          "offset": 53248,
+          "size": 8192,
+          "flags": 0
+        },
+        {
+          "name": "phy_init",
+          "type": 1,
+          "subtype": 1,
+          "offset": 61440,
+          "size": 4096,
+          "flags": 0
+        },
+        {
+          "name": "ota_0",
+          "type": 0,
+          "subtype": 16,
+          "offset": 65536,
+          "size": 1966080,
+          "flags": 0
+        },
+        {
+          "name": "ota_1",
+          "type": 0,
+          "subtype": 17,
+          "offset": 2031616,
+          "size": 1966080,
+          "flags": 0
+        },
+        {
+          "name": "storage",
+          "type": 1,
+          "subtype": 130,
+          "offset": 3997696,
+          "size": 196608,
+          "flags": 0
+        }
+      ],
+      "flash_ranges": [
+        {
+          "file": "bootloader/bootloader.bin",
+          "offset": 4096,
+          "size": 26240
+        },
+        {
+          "file": "partition_table/partition-table.bin",
+          "offset": 32768,
+          "size": 3072
+        },
+        {
+          "file": "ota_data_initial.bin",
+          "offset": 53248,
+          "size": 8192
+        },
+        {
+          "file": "ota.bin",
+          "offset": 65536,
+          "size": 990512
+        }
+      ],
+      "rollback_enabled": true,
+      "ota_slots": 2
+    }
+  ]
+}

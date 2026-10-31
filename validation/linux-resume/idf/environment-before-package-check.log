@@ -1,0 +1,2 @@
+scripts/linux_idf.sh: 行 17: /home/pc/wty/ESP32/test/idf-platformio/packages/framework-espidf/version.txt: 没有那个文件或目录
+This launcher requires IDF 6.1.0.

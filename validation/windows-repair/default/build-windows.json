@@ -1,0 +1,334 @@
+[
+  {
+    "project": "examples/esp-idf/gpio",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "official idf.py; isolated source copy",
+    "started_utc": "2026-10-31T07:39:26.839412+00:00",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\platformio\\penv\\.espidf-6.1.0\\Scripts\\python.exe",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\platformio\\packages\\framework-espidf\\tools\\idf.py",
+      "-C",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\idf-current\\default\\sources\\gpio",
+      "-B",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\idf-current\\default\\builds\\gpio",
+      "-D",
+      "IDF_TARGET=esp32",
+      "build"
+    ],
+    "source_sha256": {
+      "CMakeLists.txt": "75d2d5bad4f0917d5c345eb8f739fcea7c74300b06aace8cefc356e190ef4a12",
+      "README.md": "93e1e2a6909d26d5a2f0945bb8319e56318117c7e9fa394b1ef0eebbe801f67d",
+      "sdkconfig.defaults": "d6161439119ed3d4ba9ef162fc89b2f788ebf3b4fcf2c8148aae38b2f116a20c",
+      "main/CMakeLists.txt": "433b978b0a4e3d665ebee7098b2155929610902fccdbdaae3babd783b95cfc61",
+      "main/main.c": "ba5a5335f02207c8815029adcd1136d10d23c16d0da77b5cf7a2f30be412cfd7"
+    },
+    "hardware_tested": false,
+    "log": "idf-native-windows-gpio.log",
+    "status": "passed",
+    "exit_code": 0,
+    "image_bytes": 132336,
+    "image_sha256": "13b9b0ebf04293c1c838d825864b2da22c3a418275a6d7e627b8de62675bcfed"
+  },
+  {
+    "project": "examples/esp-idf/deep_sleep",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "official idf.py; isolated source copy",
+    "started_utc": "2026-10-31T12:37:21.753624+00:00",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\platformio\\penv\\.espidf-6.1.0\\Scripts\\python.exe",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\platformio\\packages\\framework-espidf\\tools\\idf.py",
+      "-C",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\idf-current\\default\\sources\\deep_sleep",
+      "-B",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\idf-current\\default\\builds\\deep_sleep",
+      "-D",
+      "IDF_TARGET=esp32",
+      "build"
+    ],
+    "source_sha256": {
+      "CMakeLists.txt": "825cef9a0a91f95e4e19033766afa39455b7eb004b2848b0a38cbd10f07f0d28",
+      "README.md": "76a42a83d959643f0b95e137d6a4e5d8f479358c64b63a7969482bae8f7df5f8",
+      "sdkconfig.defaults": "d6161439119ed3d4ba9ef162fc89b2f788ebf3b4fcf2c8148aae38b2f116a20c",
+      "main/CMakeLists.txt": "a26907f24b8546ed61d7aee14a466eb003b8ec81f3d0131b964b3aa95701a553",
+      "main/main.c": "adc847c65cb235651092554cb42dcfcf0061ebdaa77fd221e4f8bbd7eb5587db"
+    },
+    "hardware_tested": false,
+    "log": "idf-native-windows-deep_sleep.log",
+    "status": "passed",
+    "exit_code": 0,
+    "image_bytes": 140880,
+    "image_sha256": "6bf034d2ee832d852f60d2c0c347691a416e63349e09811da727b48b735a11e9"
+  },
+  {
+    "project": "examples/esp-idf/audio_capture",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "official idf.py; isolated source copy",
+    "started_utc": "2026-10-31T12:37:21.750624+00:00",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\platformio\\penv\\.espidf-6.1.0\\Scripts\\python.exe",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\platformio\\packages\\framework-espidf\\tools\\idf.py",
+      "-C",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\idf-current\\default\\sources\\audio_capture",
+      "-B",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\idf-current\\default\\builds\\audio_capture",
+      "-D",
+      "IDF_TARGET=esp32",
+      "build"
+    ],
+    "source_sha256": {
+      "CMakeLists.txt": "1427668b26e46f390feffc3b11b5d3a8b828a3de87a1280dac587286e7941ea0",
+      "sdkconfig.defaults": "d6161439119ed3d4ba9ef162fc89b2f788ebf3b4fcf2c8148aae38b2f116a20c",
+      "main/CMakeLists.txt": "f39fe6339389f65d15b3c2634b933cdf2b22e42b402bfcebb33677d4e5efe944",
+      "main/main.c": "2d0ae27b09c22de6e59d2b649131f23b294a442637d97c5791b1fa0ecabd96a9"
+    },
+    "hardware_tested": false,
+    "log": "idf-native-windows-audio_capture.log",
+    "status": "passed",
+    "exit_code": 0,
+    "image_bytes": 153984,
+    "image_sha256": "891213aa569dfc8434dc5a462bcf5aa26261d8477a3bf6c0d7aec01841e5aa5e"
+  },
+  {
+    "project": "examples/esp-idf/diagnostics",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "official idf.py; isolated source copy",
+    "started_utc": "2026-10-31T12:39:27.206089+00:00",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\platformio\\penv\\.espidf-6.1.0\\Scripts\\python.exe",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\platformio\\packages\\framework-espidf\\tools\\idf.py",
+      "-C",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\idf-current\\default\\sources\\diagnostics",
+      "-B",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\idf-current\\default\\builds\\diagnostics",
+      "-D",
+      "IDF_TARGET=esp32",
+      "build"
+    ],
+    "source_sha256": {
+      "CMakeLists.txt": "08770d003becdc3062990d38d2e38c07356f49a412f2cadde465be277ec837d7",
+      "README.md": "9e14764bc2c547fae66687041d08b8b3a700614efb13c8237e63379449e67cc8",
+      "sdkconfig.defaults": "d6161439119ed3d4ba9ef162fc89b2f788ebf3b4fcf2c8148aae38b2f116a20c",
+      "main/CMakeLists.txt": "b8afe11c479f1600da8d2be1bf27d20c1c9f2a1213c5097f8b5fdd6bb2600735",
+      "main/main.c": "f487eea2d995ac6a1b6ddd7603175cfcc1417d81b9925903f44d21677380b1ce"
+    },
+    "hardware_tested": false,
+    "log": "idf-native-windows-diagnostics.log",
+    "status": "passed",
+    "exit_code": 0,
+    "image_bytes": 126336,
+    "image_sha256": "f537090dcee42238289b71b994665d05f7ab4d9d1517946210a652e4aee04106"
+  },
+  {
+    "project": "examples/esp-idf/i2c_sensor",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "official idf.py; isolated source copy",
+    "started_utc": "2026-10-31T12:39:27.216440+00:00",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\platformio\\penv\\.espidf-6.1.0\\Scripts\\python.exe",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\platformio\\packages\\framework-espidf\\tools\\idf.py",
+      "-C",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\idf-current\\default\\sources\\i2c_sensor",
+      "-B",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\idf-current\\default\\builds\\i2c_sensor",
+      "-D",
+      "IDF_TARGET=esp32",
+      "build"
+    ],
+    "source_sha256": {
+      "CMakeLists.txt": "70a3b65426c4b54d94a5d0ce63d7e7a9e220a5b14e638a7a5d62d29317ca6ed2",
+      "README.md": "ba6a34abd5156f59c75539091a628a9ebd5ac963bae04d5450b88a7d55523c37",
+      "sdkconfig.defaults": "d6161439119ed3d4ba9ef162fc89b2f788ebf3b4fcf2c8148aae38b2f116a20c",
+      "main/CMakeLists.txt": "01778b058a85fec738ae41fe1f22ed25725883a0ae4df16a9413af9c132a8055",
+      "main/main.c": "99521991a9b2b207084c3cec5003b601e90b1a681cc0f682db4cd9bb11dc2b89"
+    },
+    "hardware_tested": false,
+    "log": "idf-native-windows-i2c_sensor.log",
+    "status": "passed",
+    "exit_code": 0,
+    "image_bytes": 149920,
+    "image_sha256": "de866412dbd5aecea5971d98229a0962df4d6aa73ae5c850aa135155b18da1c4"
+  },
+  {
+    "project": "examples/esp-idf/lcd_st7789",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "official idf.py; isolated source copy",
+    "started_utc": "2026-10-31T12:41:21.021891+00:00",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\platformio\\penv\\.espidf-6.1.0\\Scripts\\python.exe",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\platformio\\packages\\framework-espidf\\tools\\idf.py",
+      "-C",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\idf-current\\default\\sources\\lcd_st7789",
+      "-B",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\idf-current\\default\\builds\\lcd_st7789",
+      "-D",
+      "IDF_TARGET=esp32",
+      "build"
+    ],
+    "source_sha256": {
+      "CMakeLists.txt": "726b3037a0aaf63529d6e3d0f848fa0182b77405fe71e88f17eb8d73bc5d8b38",
+      "README.md": "13410e305c9132d2c1355f5b60dd2307c659ba4eb635124f32608a1aa9bdb12c",
+      "sdkconfig.defaults": "d6161439119ed3d4ba9ef162fc89b2f788ebf3b4fcf2c8148aae38b2f116a20c",
+      "main/CMakeLists.txt": "31049546c5b603d2e98ffc199a82c5ea293630db25f2a19d52e005631aa9f28b",
+      "main/main.c": "ccb8b3b790d1e15c272a103213d9b151d28a48b777068b19054d24ec8d62f498"
+    },
+    "hardware_tested": false,
+    "log": "idf-native-windows-lcd_st7789.log",
+    "status": "passed",
+    "exit_code": 0,
+    "image_bytes": 171760,
+    "image_sha256": "edba7d58ed3fe9a78ed40dec0cac9d0c624601a97ba25b9c4c733909b067e460"
+  },
+  {
+    "project": "examples/esp-idf/nvs_storage",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "official idf.py; isolated source copy",
+    "started_utc": "2026-10-31T12:41:21.948345+00:00",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\platformio\\penv\\.espidf-6.1.0\\Scripts\\python.exe",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\platformio\\packages\\framework-espidf\\tools\\idf.py",
+      "-C",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\idf-current\\default\\sources\\nvs_storage",
+      "-B",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\idf-current\\default\\builds\\nvs_storage",
+      "-D",
+      "IDF_TARGET=esp32",
+      "build"
+    ],
+    "source_sha256": {
+      "CMakeLists.txt": "b5a474a02873bee6593b84204afd0aeee58237ea0c37fc5981c65efbf1076dd9",
+      "README.md": "ffd8cc20de75825aa53053ed413c86f0a9d101757be0aec8894ac8200604122a",
+      "sdkconfig.defaults": "d6161439119ed3d4ba9ef162fc89b2f788ebf3b4fcf2c8148aae38b2f116a20c",
+      "main/CMakeLists.txt": "9f5ca3fbb167657d0f3a438d329d7fd636e1084fabb1322d72aae8e34632e290",
+      "main/main.c": "751d1328f092aafc32ae504985a3cbdd6429de6889f3a311ad10e3ae10311a0a"
+    },
+    "hardware_tested": false,
+    "log": "idf-native-windows-nvs_storage.log",
+    "status": "passed",
+    "exit_code": 0,
+    "image_bytes": 146576,
+    "image_sha256": "f26b62e0920f59bd96b415d835c8a5b1dc42185cf990c54952b3e2c36da9c258"
+  },
+  {
+    "project": "examples/esp-idf/rs485_echo",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "official idf.py; isolated source copy",
+    "started_utc": "2026-10-31T12:43:33.331862+00:00",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\platformio\\penv\\.espidf-6.1.0\\Scripts\\python.exe",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\platformio\\packages\\framework-espidf\\tools\\idf.py",
+      "-C",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\idf-current\\default\\sources\\rs485_echo",
+      "-B",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\idf-current\\default\\builds\\rs485_echo",
+      "-D",
+      "IDF_TARGET=esp32",
+      "build"
+    ],
+    "source_sha256": {
+      "CMakeLists.txt": "099b868a24c72de90515145c77427b6ebb4049b42ab6a2fb8cf38b0f4879707b",
+      "README.md": "32e5f4259cb996d2509c1c96f958fbe8d2b7ba0a79442e7a8e5b2322598609a9",
+      "sdkconfig.defaults": "d6161439119ed3d4ba9ef162fc89b2f788ebf3b4fcf2c8148aae38b2f116a20c",
+      "main/CMakeLists.txt": "5d2315957a193c2fa83ff5e50cd9ea2b74f95ef4424128bb15b80b151a296ea6",
+      "main/main.c": "2117f9f708a28b42df37a84d446f58109f166cff7d8b35e4ba72c49c1a4ebc4e"
+    },
+    "hardware_tested": false,
+    "log": "idf-native-windows-rs485_echo.log",
+    "status": "passed",
+    "exit_code": 0,
+    "image_bytes": 153824,
+    "image_sha256": "b155a16f02788ceeee414f8ffe679d46ea2472121ce83fc68eb65fe1870152b2"
+  },
+  {
+    "project": "examples/esp-idf/ota",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "official idf.py; isolated source copy",
+    "started_utc": "2026-10-31T12:43:29.249550+00:00",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\platformio\\penv\\.espidf-6.1.0\\Scripts\\python.exe",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\platformio\\packages\\framework-espidf\\tools\\idf.py",
+      "-C",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\idf-current\\default\\sources\\ota",
+      "-B",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\idf-current\\default\\builds\\ota",
+      "-D",
+      "IDF_TARGET=esp32",
+      "build"
+    ],
+    "source_sha256": {
+      "CMakeLists.txt": "226839e40717d1f2198f5b13a53cf1208852b9cf8578fcacc8b34a4042ec7fbc",
+      "partitions.csv": "5523ed9e6e912b018d1f40d7aaabf22fd9ad43e2c6ae65ef48fb53054e7bb08e",
+      "README.md": "ae8839f2a97254e04746cc152d5793dce3aff817a1950f10f045aa502be535c0",
+      "sdkconfig.defaults": "65561e8b6fef078cf4e79251d123d520e7b3dacca1ad24b0017a6d6eb96027bf",
+      "main/CMakeLists.txt": "e89d2471ab13a4dfb5ed58461e0345b53bcae83fdb619f2f28b3ce646fa83b49",
+      "main/Kconfig.projbuild": "e6350c5cd8a31f293e04dfb1f1242a78dc007a9936403c86660e20d0df901df2",
+      "main/main.c": "23f0213d3200745a9ef92bd2dc905bcbcb4555758f6e1680fa57a9655702c428",
+      "main/server_root.example.h": "4d82eb043c994eaed3ffa2ff77115d34f496f653df4f1f49f800a09800f97ab7"
+    },
+    "hardware_tested": false,
+    "log": "idf-native-windows-ota.log",
+    "status": "passed",
+    "exit_code": 0,
+    "image_bytes": 172448,
+    "image_sha256": "28b7405e3acd684c1abdc20cd8084f2a0f6910785e670a1bdf7c18a39709e4da"
+  },
+  {
+    "project": "examples/esp-idf/tasks_queue",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "official idf.py; isolated source copy",
+    "started_utc": "2026-10-31T12:45:35.947137+00:00",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\platformio\\penv\\.espidf-6.1.0\\Scripts\\python.exe",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\platformio\\packages\\framework-espidf\\tools\\idf.py",
+      "-C",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\idf-current\\default\\sources\\tasks_queue",
+      "-B",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\idf-current\\default\\builds\\tasks_queue",
+      "-D",
+      "IDF_TARGET=esp32",
+      "build"
+    ],
+    "source_sha256": {
+      "CMakeLists.txt": "e455e1935c6e640b96dec081b36ab2791551d884f21737b5e12451bb0731f488",
+      "README.md": "e39e9cc8f4f6b155f6aa3e15c1c026b94a25aec498facee98fb2014f94d01982",
+      "sdkconfig.defaults": "d6161439119ed3d4ba9ef162fc89b2f788ebf3b4fcf2c8148aae38b2f116a20c",
+      "main/CMakeLists.txt": "445fdb644f4bfa6c769bac28a7a3c912f079f915d117757e77361886455f3d06",
+      "main/main.c": "894dcfa81b5a87d8df2660373f4a1db595f0e2e1acff03cb76294324c1fa7664"
+    },
+    "hardware_tested": false,
+    "log": "idf-native-windows-tasks_queue.log",
+    "status": "passed",
+    "exit_code": 0,
+    "image_bytes": 126208,
+    "image_sha256": "515cccbf2f55c4bc46ea9a950bfe2dc7fda8f4f09d64a2b14c7e9756c2f8fee2"
+  },
+  {
+    "project": "examples/esp-idf/twai_loopback",
+    "host": "Windows-11-10.0.26300-SP0",
+    "method": "official idf.py; isolated source copy",
+    "started_utc": "2026-10-31T12:46:51.862338+00:00",
+    "command": [
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\platformio\\penv\\.espidf-6.1.0\\Scripts\\python.exe",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\platformio\\packages\\framework-espidf\\tools\\idf.py",
+      "-C",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\idf-current\\default\\sources\\twai_loopback",
+      "-B",
+      "D:\\VSCode_data\\C++\\ESP32\\handbook\\.tools\\idf-current\\default\\builds\\twai_loopback",
+      "-D",
+      "IDF_TARGET=esp32",
+      "build"
+    ],
+    "source_sha256": {
+      "CMakeLists.txt": "66cdda8bdd1b309898b804e3d799ea7d9da0c9a93eda685d4ab1992dce4282e5",
+      "README.md": "bf62f31d5f9eb87a7d7c7a6f0bb9d187a3143feb119b622c82e04783262e8db9",
+      "sdkconfig.defaults": "d6161439119ed3d4ba9ef162fc89b2f788ebf3b4fcf2c8148aae38b2f116a20c",
+      "main/CMakeLists.txt": "124747635699e495364a382307ba5a4f1f94622c2cf9daeeb9febd59170db939",
+      "main/main.c": "ddba1f84b475528a88bfd853ddb3f455e3ec31800838dbcff27b89647602b2d9"
+    },
+    "hardware_tested": false,
+    "log": "idf-native-windows-twai_loopback.log",
+    "status": "passed",
+    "exit_code": 0,
+    "image_bytes": 155600,
+    "image_sha256": "cf979f54ff16f2b70fc62b397dfaa823edeaba122f897be070c913302593a9ef"
+  }
+]
