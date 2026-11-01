@@ -56,36 +56,36 @@ jobs:
         shell: bash
         run: |
           . /opt/esp/idf/export.sh
-          python scripts/build_idf_native.py --work-root /tmp/handbook-idf --output ".ci-validation/idf.json"
+          python scripts/build_idf_native.py --work-root /tmp/handbook-idf --output "ci-validation/idf.json"
       - name: Verify IDF binary sizes and 4 MiB partitions
         if: ${{ !cancelled() }}
         shell: bash
         run: |
           . /opt/esp/idf/export.sh
-          python scripts/check_idf_sizes.py --build-root /tmp/handbook-idf/builds --output ".ci-validation/idf-sizes.json"
+          python scripts/check_idf_sizes.py --build-root /tmp/handbook-idf/builds --output "ci-validation/idf-sizes.json"
       - name: Build OTA with public nonempty network settings (never flashed)
         if: ${{ !cancelled() }}
         shell: bash
         run: |
           . /opt/esp/idf/export.sh
-          python scripts/build_idf_native.py --match ota --work-root /tmp/handbook-idf-ota --defaults-overlay validation/ota-build-only.defaults --output ".ci-validation/ota/idf.json"
+          python scripts/build_idf_native.py --match ota --work-root /tmp/handbook-idf-ota --defaults-overlay validation/ota-build-only.defaults --output "ci-validation/ota/idf.json"
       - name: Verify configured OTA fits both slots
         if: ${{ !cancelled() }}
         shell: bash
         run: |
           . /opt/esp/idf/export.sh
-          python scripts/check_idf_sizes.py --match ota --build-root /tmp/handbook-idf-ota/builds --output ".ci-validation/ota/sizes.json"
+          python scripts/check_idf_sizes.py --match ota --build-root /tmp/handbook-idf-ota/builds --output "ci-validation/ota/sizes.json"
       - name: Compile OTA self-test failure branch (no hardware rollback test)
         if: ${{ !cancelled() }}
         shell: bash
         run: |
           . /opt/esp/idf/export.sh
-          python scripts/build_idf_native.py --match ota --work-root /tmp/handbook-idf-ota-fail --defaults-overlay validation/windows-repair/ota-selftest-fail.defaults --output ".ci-validation/ota-fail/idf.json"
-          python scripts/check_idf_sizes.py --match ota --build-root /tmp/handbook-idf-ota-fail/builds --output ".ci-validation/ota-fail/sizes.json"
+          python scripts/build_idf_native.py --match ota --work-root /tmp/handbook-idf-ota-fail --defaults-overlay validation/windows-repair/ota-selftest-fail.defaults --output "ci-validation/ota-fail/idf.json"
+          python scripts/check_idf_sizes.py --match ota --build-root /tmp/handbook-idf-ota-fail/builds --output "ci-validation/ota-fail/sizes.json"
       - uses: actions/upload-artifact@v7
         if: ${{ !cancelled() }}
         with:
           name: validation-idf-${{ github.run_id }}-${{ github.run_attempt }}
-          path: .ci-validation/
+          path: ci-validation/
           if-no-files-found: error
           retention-days: 14
