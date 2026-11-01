@@ -1,0 +1,617 @@
+2026-10-31T18:30:24.6158971Z Current runner version: '2.338.2'
+2026-10-31T18:30:24.6180238Z ##[group]Runner Image Provisioner
+2026-10-31T18:30:24.6180924Z Hosted Compute Agent
+2026-10-31T18:30:24.6181362Z Version: 20261021.618
+2026-10-31T18:30:24.6181842Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+2026-10-31T18:30:24.6182388Z Build Date: 2026-10-21T00:45:21Z
+2026-10-31T18:30:24.6182909Z Worker ID: {02eb4761-e374-402b-b484-7b76d49c35de}
+2026-10-31T18:30:24.6183402Z Region: westus3
+2026-10-31T18:30:24.6183858Z Cloud: Azure
+2026-10-31T18:30:24.6184288Z ##[endgroup]
+2026-10-31T18:30:24.6185335Z ##[group]Operating System
+2026-10-31T18:30:24.6185811Z Microsoft Windows Server 2025
+2026-10-31T18:30:24.6186241Z 10.0.26100
+2026-10-31T18:30:24.6186656Z Datacenter
+2026-10-31T18:30:24.6187038Z ##[endgroup]
+2026-10-31T18:30:24.6187431Z ##[group]Runner Image
+2026-10-31T18:30:24.6188213Z Image: windows-2025-vs2026
+2026-10-31T18:30:24.6188716Z Version: 20261021.278.1
+2026-10-31T18:30:24.6189929Z Included Software: https://github.com/actions/runner-images/blob/win25-vs2026/20261021.278/images/windows/Windows2025-VS2026-Readme.md
+2026-10-31T18:30:24.6191153Z Image Release: https://github.com/actions/runner-images/releases/tag/win25-vs2026%2F20261021.278
+2026-10-31T18:30:24.6191882Z ##[endgroup]
+2026-10-31T18:30:24.6192721Z ##[group]GITHUB_TOKEN Permissions
+2026-10-31T18:30:24.6194336Z Contents: read
+2026-10-31T18:30:24.6194857Z Metadata: read
+2026-10-31T18:30:24.6195293Z ##[endgroup]
+2026-10-31T18:30:24.6196903Z Secret source: Actions
+2026-10-31T18:30:24.6197600Z Cache mode: write
+2026-10-31T18:30:24.6198124Z Prepare workflow directory
+2026-10-31T18:30:24.6541797Z Prepare all required actions
+2026-10-31T18:30:24.6583442Z Getting action download info
+2026-10-31T18:30:24.9442724Z Download action repository 'actions/checkout@v7' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+2026-10-31T18:30:25.0472823Z Download action repository 'actions/setup-python@v7' (SHA:6d4fd22b20465ccc0f7354476588e8df7c9ca0e0)
+2026-10-31T18:30:25.6912014Z Download action repository 'actions/upload-artifact@v7' (SHA:cf430e030ddbb5b0abf93d22962f4752f3646cd9)
+2026-10-31T18:30:25.9929501Z Complete job name: desktop (windows-latest)
+2026-10-31T18:30:26.1675575Z ##[group]Run actions/checkout@v7
+2026-10-31T18:30:26.1676774Z with:
+2026-10-31T18:30:26.1677367Z   persist-credentials: false
+2026-10-31T18:30:26.1678149Z   repository: MFSAWUY/ESP32_LearningRecord
+2026-10-31T18:30:26.1683900Z   token: ***
+2026-10-31T18:30:26.1684507Z   ssh-strict: true
+2026-10-31T18:30:26.1685186Z   ssh-user: git
+2026-10-31T18:30:26.1685961Z   clean: true
+2026-10-31T18:30:26.1686570Z   sparse-checkout-cone-mode: true
+2026-10-31T18:30:26.1687293Z   fetch-depth: 1
+2026-10-31T18:30:26.1687886Z   fetch-tags: false
+2026-10-31T18:30:26.1688555Z   show-progress: true
+2026-10-31T18:30:26.1689317Z   lfs: false
+2026-10-31T18:30:26.1689897Z   submodules: false
+2026-10-31T18:30:26.1690509Z   set-safe-directory: true
+2026-10-31T18:30:26.1691270Z   allow-unsafe-pr-checkout: false
+2026-10-31T18:30:26.1692294Z env:
+2026-10-31T18:30:26.1692837Z   PYTHONUTF8: 1
+2026-10-31T18:30:26.1693415Z ##[endgroup]
+2026-10-31T18:30:26.2955888Z Syncing repository: MFSAWUY/ESP32_LearningRecord
+2026-10-31T18:30:26.2958359Z ##[group]Getting Git version info
+2026-10-31T18:30:26.2959363Z Working directory is 'D:\a\ESP32_LearningRecord\ESP32_LearningRecord'
+2026-10-31T18:30:26.3653000Z [command]"C:\Program Files\Git\bin\git.exe" version
+2026-10-31T18:30:26.8141799Z git version 2.56.0.windows.2
+2026-10-31T18:30:26.8183760Z ##[endgroup]
+2026-10-31T18:30:26.8198432Z Temporarily overriding HOME='D:\a\_temp\deaa07b1-afb6-4923-a533-aa7a21889e68' before making global git config changes
+2026-10-31T18:30:26.8200318Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-31T18:30:26.8209005Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory D:\a\ESP32_LearningRecord\ESP32_LearningRecord
+2026-10-31T18:30:26.8831830Z Deleting the contents of 'D:\a\ESP32_LearningRecord\ESP32_LearningRecord'
+2026-10-31T18:30:26.8836333Z ##[group]Determining repository object format
+2026-10-31T18:30:26.8837850Z ##[endgroup]
+2026-10-31T18:30:26.8838543Z ##[group]Initializing the repository
+2026-10-31T18:30:26.8845073Z [command]"C:\Program Files\Git\bin\git.exe" init D:\a\ESP32_LearningRecord\ESP32_LearningRecord
+2026-10-31T18:30:27.0172765Z Initialized empty Git repository in D:/a/ESP32_LearningRecord/ESP32_LearningRecord/.git/
+2026-10-31T18:30:27.0211093Z [command]"C:\Program Files\Git\bin\git.exe" remote add origin https://github.com/MFSAWUY/ESP32_LearningRecord
+2026-10-31T18:30:27.0831342Z ##[endgroup]
+2026-10-31T18:30:27.0831784Z ##[group]Disabling automatic garbage collection
+2026-10-31T18:30:27.0838714Z [command]"C:\Program Files\Git\bin\git.exe" config --local gc.auto 0
+2026-10-31T18:30:27.1128306Z ##[endgroup]
+2026-10-31T18:30:27.1128921Z ##[group]Setting up auth
+2026-10-31T18:30:27.1129361Z Removing SSH command configuration
+2026-10-31T18:30:27.1140561Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+2026-10-31T18:30:27.1459584Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+2026-10-31T18:30:29.1508645Z Removing HTTP extra header
+2026-10-31T18:30:29.1517507Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-31T18:30:29.1806533Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+2026-10-31T18:30:29.6105115Z Removing includeIf entries pointing to credentials config files
+2026-10-31T18:30:29.6113189Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-31T18:30:29.6417571Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+2026-10-31T18:30:30.0999231Z [command]"C:\Program Files\Git\bin\git.exe" config --file D:\a\_temp\git-credentials-19b6ff03-fb70-45fe-b65a-360d98d8888f.config http.https://github.com/.extraheader "AUTHORIZATION: basic ***"
+2026-10-31T18:30:30.1299008Z [command]"C:\Program Files\Git\bin\git.exe" config --local includeIf.gitdir:D:/a/ESP32_LearningRecord/ESP32_LearningRecord/.git.path D:\a\_temp\git-credentials-19b6ff03-fb70-45fe-b65a-360d98d8888f.config
+2026-10-31T18:30:30.1591383Z [command]"C:\Program Files\Git\bin\git.exe" config --local includeIf.gitdir:D:/a/ESP32_LearningRecord/ESP32_LearningRecord/.git/worktrees/*.path D:\a\_temp\git-credentials-19b6ff03-fb70-45fe-b65a-360d98d8888f.config
+2026-10-31T18:30:30.1932956Z [command]"C:\Program Files\Git\bin\git.exe" config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-19b6ff03-fb70-45fe-b65a-360d98d8888f.config
+2026-10-31T18:30:30.2242348Z [command]"C:\Program Files\Git\bin\git.exe" config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-19b6ff03-fb70-45fe-b65a-360d98d8888f.config
+2026-10-31T18:30:30.2526165Z ##[endgroup]
+2026-10-31T18:30:30.2526500Z ##[group]Fetching the repository
+2026-10-31T18:30:30.2535017Z [command]"C:\Program Files\Git\bin\git.exe" -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +9ec3e4ec020a5cda734ab31c7b593eb6104df275:refs/remotes/origin/main
+2026-10-31T18:30:31.7272784Z From https://github.com/MFSAWUY/ESP32_LearningRecord
+2026-10-31T18:30:31.7275728Z  * [new ref]         9ec3e4ec020a5cda734ab31c7b593eb6104df275 -> origin/main
+2026-10-31T18:30:31.7318182Z [command]"C:\Program Files\Git\bin\git.exe" branch --list --remote origin/main
+2026-10-31T18:30:31.7703856Z   origin/main
+2026-10-31T18:30:31.7736984Z [command]"C:\Program Files\Git\bin\git.exe" rev-parse refs/remotes/origin/main
+2026-10-31T18:30:31.8047762Z 9ec3e4ec020a5cda734ab31c7b593eb6104df275
+2026-10-31T18:30:31.8072854Z ##[endgroup]
+2026-10-31T18:30:31.8073206Z ##[group]Determining the checkout info
+2026-10-31T18:30:31.8074195Z ##[endgroup]
+2026-10-31T18:30:31.8081263Z [command]"C:\Program Files\Git\bin\git.exe" sparse-checkout disable
+2026-10-31T18:30:31.8625970Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset-all extensions.worktreeConfig
+2026-10-31T18:30:31.8923995Z ##[group]Checking out the ref
+2026-10-31T18:30:31.8932791Z [command]"C:\Program Files\Git\bin\git.exe" checkout --progress --force -B main refs/remotes/origin/main
+2026-10-31T18:30:32.0595948Z Switched to a new branch 'main'
+2026-10-31T18:30:32.0613824Z branch 'main' set up to track 'origin/main'.
+2026-10-31T18:30:32.0651028Z ##[endgroup]
+2026-10-31T18:30:32.1052344Z [command]"C:\Program Files\Git\bin\git.exe" log -1 --format=%H
+2026-10-31T18:30:32.1318061Z 9ec3e4ec020a5cda734ab31c7b593eb6104df275
+2026-10-31T18:30:32.1351293Z ##[group]Removing auth
+2026-10-31T18:30:32.1351758Z Removing SSH command configuration
+2026-10-31T18:30:32.1358439Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+2026-10-31T18:30:32.1662032Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+2026-10-31T18:30:32.6165963Z Removing HTTP extra header
+2026-10-31T18:30:32.6174278Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-31T18:30:32.6463528Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+2026-10-31T18:30:33.0862077Z Removing includeIf entries pointing to credentials config files
+2026-10-31T18:30:33.0870312Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-31T18:30:33.1125490Z includeif.gitdir:D:/a/ESP32_LearningRecord/ESP32_LearningRecord/.git.path
+2026-10-31T18:30:33.1126517Z includeif.gitdir:D:/a/ESP32_LearningRecord/ESP32_LearningRecord/.git/worktrees/*.path
+2026-10-31T18:30:33.1127698Z includeif.gitdir:/github/workspace/.git.path
+2026-10-31T18:30:33.1128108Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+2026-10-31T18:30:33.1158593Z [command]"C:\Program Files\Git\bin\git.exe" config --local --get-all includeif.gitdir:D:/a/ESP32_LearningRecord/ESP32_LearningRecord/.git.path
+2026-10-31T18:30:33.1420277Z D:\a\_temp\git-credentials-19b6ff03-fb70-45fe-b65a-360d98d8888f.config
+2026-10-31T18:30:33.1455444Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset includeif.gitdir:D:/a/ESP32_LearningRecord/ESP32_LearningRecord/.git.path D\:\\a\\_temp\\git\-credentials\-19b6ff03\-fb70\-45fe\-b65a\-360d98d8888f\.config
+2026-10-31T18:30:33.1753735Z [command]"C:\Program Files\Git\bin\git.exe" config --local --get-all includeif.gitdir:D:/a/ESP32_LearningRecord/ESP32_LearningRecord/.git/worktrees/*.path
+2026-10-31T18:30:33.2010065Z D:\a\_temp\git-credentials-19b6ff03-fb70-45fe-b65a-360d98d8888f.config
+2026-10-31T18:30:33.2043699Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset includeif.gitdir:D:/a/ESP32_LearningRecord/ESP32_LearningRecord/.git/worktrees/*.path D\:\\a\\_temp\\git\-credentials\-19b6ff03\-fb70\-45fe\-b65a\-360d98d8888f\.config
+2026-10-31T18:30:33.2339611Z [command]"C:\Program Files\Git\bin\git.exe" config --local --get-all includeif.gitdir:/github/workspace/.git.path
+2026-10-31T18:30:33.2615100Z /github/runner_temp/git-credentials-19b6ff03-fb70-45fe-b65a-360d98d8888f.config
+2026-10-31T18:30:33.2653922Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-19b6ff03\-fb70\-45fe\-b65a\-360d98d8888f\.config
+2026-10-31T18:30:33.2960324Z [command]"C:\Program Files\Git\bin\git.exe" config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+2026-10-31T18:30:33.3219453Z /github/runner_temp/git-credentials-19b6ff03-fb70-45fe-b65a-360d98d8888f.config
+2026-10-31T18:30:33.3251348Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-19b6ff03\-fb70\-45fe\-b65a\-360d98d8888f\.config
+2026-10-31T18:30:33.3627722Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+2026-10-31T18:30:33.7875907Z Removing credentials config 'D:\a\_temp\git-credentials-19b6ff03-fb70-45fe-b65a-360d98d8888f.config'
+2026-10-31T18:30:33.7886781Z ##[endgroup]
+2026-10-31T18:30:33.8288549Z ##[group]Run actions/setup-python@v7
+2026-10-31T18:30:33.8288822Z with:
+2026-10-31T18:30:33.8288985Z   python-version: 3.12
+2026-10-31T18:30:33.8289155Z   check-latest: false
+2026-10-31T18:30:33.8290977Z   token: ***
+2026-10-31T18:30:33.8291220Z   mirror: https://raw.githubusercontent.com/actions/python-versions/main
+2026-10-31T18:30:33.8291525Z   update-environment: true
+2026-10-31T18:30:33.8291714Z   allow-prereleases: false
+2026-10-31T18:30:33.8291883Z   freethreaded: false
+2026-10-31T18:30:33.8292038Z env:
+2026-10-31T18:30:33.8292167Z   PYTHONUTF8: 1
+2026-10-31T18:30:33.8292312Z ##[endgroup]
+2026-10-31T18:30:33.9460450Z ##[group]Installed versions
+2026-10-31T18:30:33.9586933Z Successfully set up CPython (3.12.10)
+2026-10-31T18:30:33.9587994Z ##[endgroup]
+2026-10-31T18:30:34.0000111Z ##[group]Run python -m pip install -r examples/python/requirements.txt platformio==6.1.18
+2026-10-31T18:30:34.0000727Z [36;1mpython -m pip install -r examples/python/requirements.txt platformio==6.1.18[0m
+2026-10-31T18:30:34.1013978Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+2026-10-31T18:30:34.1014268Z env:
+2026-10-31T18:30:34.1014416Z   PYTHONUTF8: 1
+2026-10-31T18:30:34.1014636Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:30:34.1015007Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.12.10\x64/lib/pkgconfig
+2026-10-31T18:30:34.1015355Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:30:34.1015658Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:30:34.1015959Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:30:34.1016199Z ##[endgroup]
+2026-10-31T18:30:39.7759852Z Collecting platformio==6.1.18
+2026-10-31T18:30:39.9693737Z   Downloading platformio-6.1.18-py3-none-any.whl.metadata (7.1 kB)
+2026-10-31T18:30:40.0145495Z Collecting pyserial==3.5 (from -r examples/python/requirements.txt (line 1))
+2026-10-31T18:30:40.0268541Z   Downloading pyserial-3.5-py2.py3-none-any.whl.metadata (1.6 kB)
+2026-10-31T18:30:40.0736401Z Collecting paho-mqtt==2.1.0 (from -r examples/python/requirements.txt (line 2))
+2026-10-31T18:30:40.0857820Z   Downloading paho_mqtt-2.1.0-py3-none-any.whl.metadata (23 kB)
+2026-10-31T18:30:40.3034044Z Collecting matplotlib==3.9.2 (from -r examples/python/requirements.txt (line 3))
+2026-10-31T18:30:40.3156246Z   Downloading matplotlib-3.9.2-cp312-cp312-win_amd64.whl.metadata (11 kB)
+2026-10-31T18:30:40.3704103Z Collecting bottle==0.13.* (from platformio==6.1.18)
+2026-10-31T18:30:40.3847959Z   Downloading bottle-0.13.4-py2.py3-none-any.whl.metadata (1.6 kB)
+2026-10-31T18:30:40.4330584Z Collecting click<8.1.8,>=8.0.4 (from platformio==6.1.18)
+2026-10-31T18:30:40.4443665Z   Downloading click-8.1.7-py3-none-any.whl.metadata (3.0 kB)
+2026-10-31T18:30:40.4712016Z Requirement already satisfied: colorama in C:\hostedtoolcache\windows\Python\3.12.10\x64\Lib\site-packages (from platformio==6.1.18) (0.4.6)
+2026-10-31T18:30:40.5176073Z Collecting marshmallow==3.* (from platformio==6.1.18)
+2026-10-31T18:30:40.5290295Z   Downloading marshmallow-3.26.2-py3-none-any.whl.metadata (7.3 kB)
+2026-10-31T18:30:40.6118357Z Collecting pyelftools<1,>=0.27 (from platformio==6.1.18)
+2026-10-31T18:30:40.6226299Z   Downloading pyelftools-0.33-py3-none-any.whl.metadata (1.0 kB)
+2026-10-31T18:30:40.6753207Z Collecting requests==2.* (from platformio==6.1.18)
+2026-10-31T18:30:40.6862095Z   Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+2026-10-31T18:30:40.7397549Z Collecting semantic_version==2.10.* (from platformio==6.1.18)
+2026-10-31T18:30:40.7519982Z   Downloading semantic_version-2.10.0-py2.py3-none-any.whl.metadata (9.7 kB)
+2026-10-31T18:30:40.8404559Z Collecting tabulate==0.* (from platformio==6.1.18)
+2026-10-31T18:30:40.8507823Z   Downloading tabulate-0.10.0-py3-none-any.whl.metadata (40 kB)
+2026-10-31T18:30:40.9093008Z Collecting ajsonrpc==1.2.* (from platformio==6.1.18)
+2026-10-31T18:30:40.9197136Z   Downloading ajsonrpc-1.2.0-py3-none-any.whl.metadata (6.9 kB)
+2026-10-31T18:30:40.9832679Z Collecting starlette<0.47,>=0.19 (from platformio==6.1.18)
+2026-10-31T18:30:40.9942905Z   Downloading starlette-0.46.2-py3-none-any.whl.metadata (6.2 kB)
+2026-10-31T18:30:41.0444306Z Collecting uvicorn<0.35,>=0.16 (from platformio==6.1.18)
+2026-10-31T18:30:41.0595703Z   Downloading uvicorn-0.34.3-py3-none-any.whl.metadata (6.5 kB)
+2026-10-31T18:30:41.1145994Z Collecting wsproto==1.* (from platformio==6.1.18)
+2026-10-31T18:30:41.1253416Z   Downloading wsproto-1.3.2-py3-none-any.whl.metadata (5.2 kB)
+2026-10-31T18:30:41.2092232Z Collecting contourpy>=1.0.1 (from matplotlib==3.9.2->-r examples/python/requirements.txt (line 3))
+2026-10-31T18:30:41.2199845Z   Downloading contourpy-1.4.0-cp312-cp312-win_amd64.whl.metadata (3.8 kB)
+2026-10-31T18:30:41.2724667Z Collecting cycler>=0.10 (from matplotlib==3.9.2->-r examples/python/requirements.txt (line 3))
+2026-10-31T18:30:41.2830854Z   Downloading cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+2026-10-31T18:30:41.4731506Z Collecting fonttools>=4.22.0 (from matplotlib==3.9.2->-r examples/python/requirements.txt (line 3))
+2026-10-31T18:30:41.4848331Z   Downloading fonttools-4.68.0-cp312-cp312-win_amd64.whl.metadata (142 kB)
+2026-10-31T18:30:41.6243504Z Collecting kiwisolver>=1.3.1 (from matplotlib==3.9.2->-r examples/python/requirements.txt (line 3))
+2026-10-31T18:30:41.6425582Z   Downloading kiwisolver-1.5.1-cp312-cp312-win_amd64.whl.metadata (5.2 kB)
+2026-10-31T18:30:41.8473627Z Collecting numpy>=1.23 (from matplotlib==3.9.2->-r examples/python/requirements.txt (line 3))
+2026-10-31T18:30:41.8585569Z   Downloading numpy-2.5.4-cp312-cp312-win_amd64.whl.metadata (6.6 kB)
+2026-10-31T18:30:41.8801568Z Requirement already satisfied: packaging>=20.0 in C:\hostedtoolcache\windows\Python\3.12.10\x64\Lib\site-packages (from matplotlib==3.9.2->-r examples/python/requirements.txt (line 3)) (26.3)
+2026-10-31T18:30:42.0722524Z Collecting pillow>=8 (from matplotlib==3.9.2->-r examples/python/requirements.txt (line 3))
+2026-10-31T18:30:42.0839010Z   Downloading pillow-13.0.0-cp312-cp312-win_amd64.whl.metadata (9.3 kB)
+2026-10-31T18:30:42.1721571Z Collecting pyparsing>=2.3.1 (from matplotlib==3.9.2->-r examples/python/requirements.txt (line 3))
+2026-10-31T18:30:42.1866984Z   Downloading pyparsing-3.3.3-py3-none-any.whl.metadata (5.9 kB)
+2026-10-31T18:30:42.2385423Z Collecting python-dateutil>=2.7 (from matplotlib==3.9.2->-r examples/python/requirements.txt (line 3))
+2026-10-31T18:30:42.2547465Z   Downloading python_dateutil-3.0.0-py2.py3-none-any.whl.metadata (8.2 kB)
+2026-10-31T18:30:42.3863224Z Collecting charset_normalizer<4,>=2 (from requests==2.*->platformio==6.1.18)
+2026-10-31T18:30:42.3974714Z   Downloading charset_normalizer-3.5.2-cp312-cp312-win_amd64.whl.metadata (47 kB)
+2026-10-31T18:30:42.4595395Z Collecting idna<4,>=2.5 (from requests==2.*->platformio==6.1.18)
+2026-10-31T18:30:42.4704080Z   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+2026-10-31T18:30:42.5231337Z Collecting urllib3<3,>=1.26 (from requests==2.*->platformio==6.1.18)
+2026-10-31T18:30:42.5337757Z   Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+2026-10-31T18:30:42.6019093Z Collecting certifi>=2023.5.7 (from requests==2.*->platformio==6.1.18)
+2026-10-31T18:30:42.6123686Z   Downloading certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+2026-10-31T18:30:42.6710603Z Collecting anyio<5,>=3.6.2 (from starlette<0.47,>=0.19->platformio==6.1.18)
+2026-10-31T18:30:42.6815994Z   Downloading anyio-4.15.1-py3-none-any.whl.metadata (4.7 kB)
+2026-10-31T18:30:42.7596304Z Collecting typing_extensions>=4.16.0 (from anyio<5,>=3.6.2->starlette<0.47,>=0.19->platformio==6.1.18)
+2026-10-31T18:30:42.7705386Z   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+2026-10-31T18:30:42.8130854Z Collecting h11>=0.8 (from uvicorn<0.35,>=0.16->platformio==6.1.18)
+2026-10-31T18:30:42.8236683Z   Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+2026-10-31T18:30:42.9065751Z Collecting six>=1.6 (from python-dateutil>=2.7->matplotlib==3.9.2->-r examples/python/requirements.txt (line 3))
+2026-10-31T18:30:42.9236793Z   Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+2026-10-31T18:30:42.9911449Z Collecting tzdata (from python-dateutil>=2.7->matplotlib==3.9.2->-r examples/python/requirements.txt (line 3))
+2026-10-31T18:30:43.0021005Z   Downloading tzdata-2026.6-py2.py3-none-any.whl.metadata (1.4 kB)
+2026-10-31T18:30:43.0445528Z Downloading platformio-6.1.18-py3-none-any.whl (420 kB)
+2026-10-31T18:30:43.0894409Z Downloading pyserial-3.5-py2.py3-none-any.whl (90 kB)
+2026-10-31T18:30:43.1688682Z Downloading paho_mqtt-2.1.0-py3-none-any.whl (67 kB)
+2026-10-31T18:30:43.1974205Z Downloading matplotlib-3.9.2-cp312-cp312-win_amd64.whl (7.8 MB)
+2026-10-31T18:30:43.2888918Z    ---------------------------------------- 7.8/7.8 MB 81.4 MB/s  0:00:00
+2026-10-31T18:30:43.2998089Z Downloading ajsonrpc-1.2.0-py3-none-any.whl (22 kB)
+2026-10-31T18:30:43.3340003Z Downloading bottle-0.13.4-py2.py3-none-any.whl (103 kB)
+2026-10-31T18:30:43.3770488Z Downloading click-8.1.7-py3-none-any.whl (97 kB)
+2026-10-31T18:30:43.4055627Z Downloading marshmallow-3.26.2-py3-none-any.whl (50 kB)
+2026-10-31T18:30:43.4401107Z Downloading pyelftools-0.33-py3-none-any.whl (201 kB)
+2026-10-31T18:30:43.4707476Z Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+2026-10-31T18:30:43.5136021Z Downloading charset_normalizer-3.5.2-cp312-cp312-win_amd64.whl (207 kB)
+2026-10-31T18:30:43.5422260Z Downloading idna-3.20-py3-none-any.whl (69 kB)
+2026-10-31T18:30:43.5720539Z Downloading semantic_version-2.10.0-py2.py3-none-any.whl (15 kB)
+2026-10-31T18:30:43.5983579Z Downloading starlette-0.46.2-py3-none-any.whl (72 kB)
+2026-10-31T18:30:43.6266864Z Downloading anyio-4.15.1-py3-none-any.whl (132 kB)
+2026-10-31T18:30:43.6623836Z Downloading tabulate-0.10.0-py3-none-any.whl (39 kB)
+2026-10-31T18:30:43.6976442Z Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+2026-10-31T18:30:43.7444961Z Downloading uvicorn-0.34.3-py3-none-any.whl (62 kB)
+2026-10-31T18:30:43.7786248Z Downloading wsproto-1.3.2-py3-none-any.whl (24 kB)
+2026-10-31T18:30:43.8129265Z Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+2026-10-31T18:30:43.8742263Z Downloading certifi-2026.10.23-py3-none-any.whl (135 kB)
+2026-10-31T18:30:43.9070042Z Downloading contourpy-1.4.0-cp312-cp312-win_amd64.whl (234 kB)
+2026-10-31T18:30:43.9560139Z Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+2026-10-31T18:30:43.9880286Z Downloading fonttools-4.68.0-cp312-cp312-win_amd64.whl (2.5 MB)
+2026-10-31T18:30:44.0519068Z    ---------------------------------------- 2.5/2.5 MB 36.6 MB/s  0:00:00
+2026-10-31T18:30:44.0630830Z Downloading kiwisolver-1.5.1-cp312-cp312-win_amd64.whl (70 kB)
+2026-10-31T18:30:44.0947760Z Downloading numpy-2.5.4-cp312-cp312-win_amd64.whl (12.6 MB)
+2026-10-31T18:30:44.1861253Z    ---------------------------------------- 12.6/12.6 MB 157.8 MB/s  0:00:00
+2026-10-31T18:30:44.1969761Z Downloading pillow-13.0.0-cp312-cp312-win_amd64.whl (7.3 MB)
+2026-10-31T18:30:44.2527294Z    ---------------------------------------- 7.3/7.3 MB 113.1 MB/s  0:00:00
+2026-10-31T18:30:44.2633442Z Downloading pyparsing-3.3.3-py3-none-any.whl (126 kB)
+2026-10-31T18:30:44.3242658Z Downloading python_dateutil-3.0.0-py2.py3-none-any.whl (94 kB)
+2026-10-31T18:30:44.3712477Z Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+2026-10-31T18:30:44.5633882Z Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+2026-10-31T18:30:44.5937736Z Downloading tzdata-2026.6-py2.py3-none-any.whl (348 kB)
+2026-10-31T18:30:45.2436290Z Installing collected packages: pyserial, bottle, urllib3, tzdata, typing_extensions, tabulate, six, semantic_version, pyparsing, pyelftools, pillow, paho-mqtt, numpy, marshmallow, kiwisolver, idna, h11, fonttools, cycler, click, charset_normalizer, certifi, ajsonrpc, wsproto, uvicorn, requests, python-dateutil, contourpy, anyio, starlette, matplotlib, platformio
+2026-10-31T18:30:56.5354816Z   Attempting uninstall: click
+2026-10-31T18:30:56.5373993Z     Found existing installation: click 8.5.0
+2026-10-31T18:30:56.5696937Z     Uninstalling click-8.5.0:
+2026-10-31T18:30:56.5722182Z       Successfully uninstalled click-8.5.0
+2026-10-31T18:31:02.1827195Z 
+2026-10-31T18:31:02.1855247Z Successfully installed ajsonrpc-1.2.0 anyio-4.15.1 bottle-0.13.4 certifi-2026.10.23 charset_normalizer-3.5.2 click-8.1.7 contourpy-1.4.0 cycler-0.12.1 fonttools-4.68.0 h11-0.16.0 idna-3.20 kiwisolver-1.5.1 marshmallow-3.26.2 matplotlib-3.9.2 numpy-2.5.4 paho-mqtt-2.1.0 pillow-13.0.0 platformio-6.1.18 pyelftools-0.33 pyparsing-3.3.3 pyserial-3.5 python-dateutil-3.0.0 requests-2.34.2 semantic_version-2.10.0 six-1.17.0 starlette-0.46.2 tabulate-0.10.0 typing_extensions-4.16.0 tzdata-2026.6 urllib3-2.8.0 uvicorn-0.34.3 wsproto-1.3.2
+2026-10-31T18:31:02.3817147Z ##[group]Run python scripts/hardware_preflight.py --output "D:\a\_temp/handbook-validation/preflight.json"
+2026-10-31T18:31:02.3817810Z [36;1mpython scripts/hardware_preflight.py --output "D:\a\_temp/handbook-validation/preflight.json"[0m
+2026-10-31T18:31:02.3874161Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+2026-10-31T18:31:02.3874424Z env:
+2026-10-31T18:31:02.3874566Z   PYTHONUTF8: 1
+2026-10-31T18:31:02.3874787Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:31:02.3875146Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.12.10\x64/lib/pkgconfig
+2026-10-31T18:31:02.3875487Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:31:02.3875895Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:31:02.3876256Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:31:02.3876497Z ##[endgroup]
+2026-10-31T18:31:02.7887555Z {
+2026-10-31T18:31:02.7887931Z   "schema_version": 1,
+2026-10-31T18:31:02.7888231Z   "created_utc": "2026-10-31T18:31:02.693557+00:00",
+2026-10-31T18:31:02.7888601Z   "host": "Windows-2025Server-10.0.26100-SP0",
+2026-10-31T18:31:02.7888957Z   "python": "3.12.10",
+2026-10-31T18:31:02.7889360Z   "python_executable": "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python.exe",
+2026-10-31T18:31:02.7889859Z   "hardware_tested": false,
+2026-10-31T18:31:02.7890116Z   "opened_serial_ports": false,
+2026-10-31T18:31:02.7890356Z   "firmware_flashed": false,
+2026-10-31T18:31:02.7890584Z   "serial_inventory": {
+2026-10-31T18:31:02.7890980Z     "status": "enumerated",
+2026-10-31T18:31:02.7891203Z     "ports": [
+2026-10-31T18:31:02.7891545Z       {
+2026-10-31T18:31:02.7891732Z         "device": "COM2",
+2026-10-31T18:31:02.7892166Z         "description": "Communications Port (COM2)",
+2026-10-31T18:31:02.7892504Z         "hwid": "ACPI\\PNP0501\\2",
+2026-10-31T18:31:02.7892753Z         "vid": null,
+2026-10-31T18:31:02.7892967Z         "pid": null,
+2026-10-31T18:31:02.7893236Z         "manufacturer": "(Standard port types)",
+2026-10-31T18:31:02.7893564Z         "serial_number": null,
+2026-10-31T18:31:02.7893826Z         "location": null
+2026-10-31T18:31:02.7894285Z       }
+2026-10-31T18:31:02.7894465Z     ],
+2026-10-31T18:31:02.7894655Z     "error": null
+2026-10-31T18:31:02.7894855Z   },
+2026-10-31T18:31:02.7895048Z   "selected_port": null,
+2026-10-31T18:31:02.7895302Z   "selected_port_present": null,
+2026-10-31T18:31:02.7895572Z   "usb_inventory": {
+2026-10-31T18:31:02.7895747Z     "status": "not_requested"
+2026-10-31T18:31:02.7895912Z   },
+2026-10-31T18:31:02.7896046Z   "tools_on_path": {
+2026-10-31T18:31:02.7896232Z     "git": "C:\\Program Files\\Git\\bin\\git.EXE",
+2026-10-31T18:31:02.7896543Z     "pio": "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Scripts\\pio.EXE",
+2026-10-31T18:31:02.7897009Z     "platformio": "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\Scripts\\platformio.EXE",
+2026-10-31T18:31:02.7897356Z     "idf.py": null,
+2026-10-31T18:31:02.7897540Z     "cmake": "C:\\Program Files\\CMake\\bin\\cmake.EXE",
+2026-10-31T18:31:02.7897814Z     "ninja": "C:\\ProgramData\\Chocolatey\\bin\\ninja.EXE",
+2026-10-31T18:31:02.7898046Z     "openocd": null,
+2026-10-31T18:31:02.7898209Z     "xtensa-esp-elf-gdb": null
+2026-10-31T18:31:02.7898384Z   },
+2026-10-31T18:31:02.7898522Z   "idf_environment_selected": false,
+2026-10-31T18:31:02.7898706Z   "limitations": [
+2026-10-31T18:31:02.7898939Z     "A USB UART bridge or serial port does not prove an ESP32 is connected.",
+2026-10-31T18:31:02.7899316Z     "Enumeration does not verify port permissions, baud rate, firmware or flash size.",
+2026-10-31T18:31:02.7899687Z     "SSH does not forward a Windows USB device to the remote Linux host.",
+2026-10-31T18:31:02.7900010Z     "CH340 is a USB UART bridge, not the classic ESP32 JTAG interface.",
+2026-10-31T18:31:02.7901931Z     "No OLED, sensor, OTA, power or JTAG experiment is performed by this script."
+2026-10-31T18:31:02.7902282Z   ],
+2026-10-31T18:31:02.7902425Z   "experiments": {
+2026-10-31T18:31:02.7902573Z     "serial": {
+2026-10-31T18:31:02.7902726Z       "status": "not_run",
+2026-10-31T18:31:02.7902883Z       "needs": [
+2026-10-31T18:31:02.7903040Z         "identified board",
+2026-10-31T18:31:02.7903201Z         "data USB cable",
+2026-10-31T18:31:02.7903358Z         "selected usable port"
+2026-10-31T18:31:02.7903519Z       ]
+2026-10-31T18:31:02.7903642Z     },
+2026-10-31T18:31:02.7903766Z     "oled": {
+2026-10-31T18:31:02.7903912Z       "status": "not_run",
+2026-10-31T18:31:02.7904062Z       "needs": [
+2026-10-31T18:31:02.7904200Z         "I2C wiring",
+2026-10-31T18:31:02.7904345Z         "address scan",
+2026-10-31T18:31:02.7904521Z         "controller/resolution confirmation",
+2026-10-31T18:31:02.7904729Z         "visual inspection"
+2026-10-31T18:31:02.7904885Z       ]
+2026-10-31T18:31:02.7905003Z     },
+2026-10-31T18:31:02.7905120Z     "sht30": {
+2026-10-31T18:31:02.7905344Z       "status": "not_run",
+2026-10-31T18:31:02.7905553Z       "needs": [
+2026-10-31T18:31:02.7905725Z         "physical 3.3 V compatible SHT30 module",
+2026-10-31T18:31:02.7905929Z         "CRC and recovery logs"
+2026-10-31T18:31:02.7906095Z       ]
+2026-10-31T18:31:02.7906212Z     },
+2026-10-31T18:31:02.7906338Z     "ota_rollback": {
+2026-10-31T18:31:02.7906490Z       "status": "not_run",
+2026-10-31T18:31:02.7906786Z       "needs": [
+2026-10-31T18:31:02.7906939Z         "confirmed baseline image",
+2026-10-31T18:31:02.7907119Z         "two OTA slots",
+2026-10-31T18:31:02.7907280Z         "trusted HTTPS server",
+2026-10-31T18:31:02.7907458Z         "good and failing updates"
+2026-10-31T18:31:02.7907626Z       ]
+2026-10-31T18:31:02.7907745Z     },
+2026-10-31T18:31:02.7907864Z     "power": {
+2026-10-31T18:31:02.7908000Z       "status": "not_run",
+2026-10-31T18:31:02.7908152Z       "needs": [
+2026-10-31T18:31:02.7908301Z         "current measurement instrument",
+2026-10-31T18:31:02.7908503Z         "documented measurement point",
+2026-10-31T18:31:02.7908703Z         "active/sleep waveform or samples"
+2026-10-31T18:31:02.7908883Z       ]
+2026-10-31T18:31:02.7909002Z     },
+2026-10-31T18:31:02.7909121Z     "jtag": {
+2026-10-31T18:31:02.7909374Z       "status": "not_run",
+2026-10-31T18:31:02.7909529Z       "needs": [
+2026-10-31T18:31:02.7909687Z         "external ESP32 compatible JTAG probe",
+2026-10-31T18:31:02.7909887Z         "correct drivers",
+2026-10-31T18:31:02.7910041Z         "matching ELF",
+2026-10-31T18:31:02.7910201Z         "breakpoint/backtrace evidence"
+2026-10-31T18:31:02.7910384Z       ]
+2026-10-31T18:31:02.7910505Z     }
+2026-10-31T18:31:02.7910627Z   },
+2026-10-31T18:31:02.7910758Z   "exit_code": 0,
+2026-10-31T18:31:02.7910973Z   "exit_meaning": "inventory completed; no physical experiment passed"
+2026-10-31T18:31:02.7911221Z }
+2026-10-31T18:31:02.9079430Z ##[group]Run python scripts/check_handbook.py
+2026-10-31T18:31:02.9079780Z [36;1mpython scripts/check_handbook.py[0m
+2026-10-31T18:31:02.9134008Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+2026-10-31T18:31:02.9134278Z env:
+2026-10-31T18:31:02.9134425Z   PYTHONUTF8: 1
+2026-10-31T18:31:02.9134644Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:31:02.9135339Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.12.10\x64/lib/pkgconfig
+2026-10-31T18:31:02.9135675Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:31:02.9135970Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:31:02.9136269Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:31:02.9136505Z ##[endgroup]
+2026-10-31T18:31:03.2172616Z {
+2026-10-31T18:31:03.2172885Z   "chapters": 72,
+2026-10-31T18:31:03.2173096Z   "markdown_characters": 234833,
+2026-10-31T18:31:03.2173431Z   "errors": [],
+2026-10-31T18:31:03.2173583Z   "warnings": []
+2026-10-31T18:31:03.2173716Z }
+2026-10-31T18:31:03.3108027Z ##[group]Run python -m unittest discover -s examples/python/tests -v
+2026-10-31T18:31:03.3108462Z [36;1mpython -m unittest discover -s examples/python/tests -v[0m
+2026-10-31T18:31:03.3163177Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+2026-10-31T18:31:03.3163515Z env:
+2026-10-31T18:31:03.3163657Z   PYTHONUTF8: 1
+2026-10-31T18:31:03.3163872Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:31:03.3164220Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.12.10\x64/lib/pkgconfig
+2026-10-31T18:31:03.3164547Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:31:03.3164841Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:31:03.3165141Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:31:03.3165395Z ##[endgroup]
+2026-10-31T18:31:03.7012231Z test_alias_indistinguishable_samples (test_tools.Mathematics.test_alias_indistinguishable_samples) ... ok
+2026-10-31T18:31:03.7013014Z test_filter_constant_converges_without_overshoot (test_tools.Mathematics.test_filter_constant_converges_without_overshoot) ... ok
+2026-10-31T18:31:03.7020139Z test_pid_saturation_recovers (test_tools.Mathematics.test_pid_saturation_recovers) ... ok
+2026-10-31T18:31:03.7020994Z test_power_boundaries_and_invalid_period (test_tools.Mathematics.test_power_boundaries_and_invalid_period) ... ok
+2026-10-31T18:31:03.7021630Z test_rc_initial_and_time_constant (test_tools.Mathematics.test_rc_initial_and_time_constant) ... ok
+2026-10-31T18:31:03.8194499Z test_http_success_then_failure (test_tools.Networking.test_http_success_then_failure) ... 127.0.0.1 - - [31/Oct/2026 18:31:03] "GET /api/status HTTP/1.1" 200 -
+2026-10-31T18:31:03.9247194Z 127.0.0.1 - - [31/Oct/2026 18:31:03] "GET /api/status HTTP/1.1" 503 -
+2026-10-31T18:31:04.4253050Z ok
+2026-10-31T18:31:04.4254099Z test_missing_sensor_and_extensibility (test_tools.Protocol.test_missing_sensor_and_extensibility) ... ok
+2026-10-31T18:31:04.4255924Z test_reject_bad_records (test_tools.Protocol.test_reject_bad_records) ... ok
+2026-10-31T18:31:04.9945767Z test_loopback_csv (test_tools.SerialIntegration.test_loopback_csv) ... ok
+2026-10-31T18:31:04.9946084Z 
+2026-10-31T18:31:04.9947023Z ----------------------------------------------------------------------
+2026-10-31T18:31:04.9947298Z Ran 9 tests in 1.294s
+2026-10-31T18:31:04.9947400Z 
+2026-10-31T18:31:04.9947462Z OK
+2026-10-31T18:31:05.1055347Z ##[group]Run cmake -S examples/arduino/language_basics -B "D:\a\_temp/handbook-cpp"
+2026-10-31T18:31:05.1056288Z [36;1mcmake -S examples/arduino/language_basics -B "D:\a\_temp/handbook-cpp"[0m
+2026-10-31T18:31:05.1112309Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+2026-10-31T18:31:05.1112572Z env:
+2026-10-31T18:31:05.1112714Z   PYTHONUTF8: 1
+2026-10-31T18:31:05.1112938Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:31:05.1113304Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.12.10\x64/lib/pkgconfig
+2026-10-31T18:31:05.1113650Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:31:05.1113949Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:31:05.1114260Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:31:05.1114497Z ##[endgroup]
+2026-10-31T18:31:19.9616305Z -- Building for: Visual Studio 18 2026
+2026-10-31T18:31:19.9616761Z -- The CXX compiler identification is MSVC 19.51.36260.0
+2026-10-31T18:31:20.1291905Z -- Detecting CXX compiler ABI info
+2026-10-31T18:31:21.1300192Z -- Detecting CXX compiler ABI info - done
+2026-10-31T18:31:21.1761098Z -- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/18/Enterprise/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/cl.exe - skipped
+2026-10-31T18:31:21.1775052Z -- Detecting CXX compile features
+2026-10-31T18:31:21.1786993Z -- Detecting CXX compile features - done
+2026-10-31T18:31:21.2319895Z -- Configuring done (14.8s)
+2026-10-31T18:31:21.2506044Z -- Generating done (0.0s)
+2026-10-31T18:31:21.2513252Z -- Build files have been written to: D:/a/_temp/handbook-cpp
+2026-10-31T18:31:21.3592129Z ##[group]Run cmake --build "D:\a\_temp/handbook-cpp" --config Release
+2026-10-31T18:31:21.3592599Z [36;1mcmake --build "D:\a\_temp/handbook-cpp" --config Release[0m
+2026-10-31T18:31:21.3646708Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+2026-10-31T18:31:21.3646982Z env:
+2026-10-31T18:31:21.3647128Z   PYTHONUTF8: 1
+2026-10-31T18:31:21.3647349Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:31:21.3647697Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.12.10\x64/lib/pkgconfig
+2026-10-31T18:31:21.3648035Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:31:21.3648332Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:31:21.3648621Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:31:21.3648852Z ##[endgroup]
+2026-10-31T18:31:21.6583922Z MSBuild version 18.11.1-1.26513.3+940033be3 for .NET Framework
+2026-10-31T18:31:21.6847715Z 
+2026-10-31T18:31:21.9175002Z   1>Checking Build System
+2026-10-31T18:31:22.0214695Z   Building Custom Rule D:/a/ESP32_LearningRecord/ESP32_LearningRecord/examples/arduino/language_basics/CMakeLists.txt
+2026-10-31T18:31:22.1211887Z   model.cpp
+2026-10-31T18:31:23.1886392Z   test_model.cpp
+2026-10-31T18:31:23.3645380Z   Generating Code...
+2026-10-31T18:31:23.9238948Z   model_tests.vcxproj -> D:\a\_temp\handbook-cpp\Release\model_tests.exe
+2026-10-31T18:31:23.9579323Z   Building Custom Rule D:/a/ESP32_LearningRecord/ESP32_LearningRecord/examples/arduino/language_basics/CMakeLists.txt
+2026-10-31T18:31:24.1242362Z ##[group]Run ctest --test-dir "D:\a\_temp/handbook-cpp" -C Release --output-on-failure
+2026-10-31T18:31:24.1242893Z [36;1mctest --test-dir "D:\a\_temp/handbook-cpp" -C Release --output-on-failure[0m
+2026-10-31T18:31:24.1298207Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+2026-10-31T18:31:24.1298480Z env:
+2026-10-31T18:31:24.1298625Z   PYTHONUTF8: 1
+2026-10-31T18:31:24.1298850Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:31:24.1299375Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.12.10\x64/lib/pkgconfig
+2026-10-31T18:31:24.1299718Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:31:24.1300027Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:31:24.1300322Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:31:24.1300567Z ##[endgroup]
+2026-10-31T18:31:25.0078097Z Test project D:/a/_temp/handbook-cpp
+2026-10-31T18:31:25.0710708Z     Start 1: model_contract
+2026-10-31T18:31:25.0867275Z 1/1 Test #1: model_contract ...................   Passed    0.01 sec
+2026-10-31T18:31:25.0932801Z 
+2026-10-31T18:31:25.0932948Z 100% tests passed out of 1
+2026-10-31T18:31:25.0933086Z 
+2026-10-31T18:31:25.0933164Z Total Test time (real) =   0.08 sec
+2026-10-31T18:31:25.2128218Z ##[group]Run python scripts/build_examples.py --kind arduino --build-root "D:\a\_temp/handbook-pio" --output "D:\a\_temp/handbook-validation/arduino.json"
+2026-10-31T18:31:25.2129126Z [36;1mpython scripts/build_examples.py --kind arduino --build-root "D:\a\_temp/handbook-pio" --output "D:\a\_temp/handbook-validation/arduino.json"[0m
+2026-10-31T18:31:25.2183960Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+2026-10-31T18:31:25.2184239Z env:
+2026-10-31T18:31:25.2184381Z   PYTHONUTF8: 1
+2026-10-31T18:31:25.2184617Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:31:25.2184982Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.12.10\x64/lib/pkgconfig
+2026-10-31T18:31:25.2185321Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:31:25.2185904Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:31:25.2186285Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:31:25.2186553Z   PLATFORMIO_CORE_DIR: D:\a\_temp/pio-core
+2026-10-31T18:31:25.2186754Z ##[endgroup]
+2026-10-31T18:31:25.5252314Z BUILD examples/arduino/actuator
+2026-10-31T18:33:25.3405825Z passed
+2026-10-31T18:33:25.3419273Z BUILD examples/arduino/adc
+2026-10-31T18:33:42.7866465Z passed
+2026-10-31T18:33:42.7877354Z BUILD examples/arduino/ble
+2026-10-31T18:34:22.9281609Z passed
+2026-10-31T18:34:22.9293448Z BUILD examples/arduino/bluetooth_serial
+2026-10-31T18:34:45.3197103Z passed
+2026-10-31T18:34:45.3212422Z BUILD examples/arduino/espnow
+2026-10-31T18:35:11.6923308Z passed
+2026-10-31T18:35:11.6934307Z BUILD examples/arduino/filter
+2026-10-31T18:35:27.8310027Z passed
+2026-10-31T18:35:27.8321633Z BUILD examples/arduino/gpio_button
+2026-10-31T18:35:43.3891654Z passed
+2026-10-31T18:35:43.3910092Z BUILD examples/arduino/http
+2026-10-31T18:36:27.8436651Z passed
+2026-10-31T18:36:27.8447483Z BUILD examples/arduino/i2c_scan
+2026-10-31T18:36:44.1603411Z passed
+2026-10-31T18:36:44.1622493Z BUILD examples/arduino/language_basics
+2026-10-31T18:37:00.0697135Z passed
+2026-10-31T18:37:00.0714426Z BUILD examples/arduino/mqtt
+2026-10-31T18:37:30.4426809Z passed
+2026-10-31T18:37:30.4444257Z BUILD examples/arduino/oled
+2026-10-31T18:38:11.2074049Z passed
+2026-10-31T18:38:11.2084644Z BUILD examples/arduino/pid
+2026-10-31T18:38:27.1747352Z passed
+2026-10-31T18:38:27.1758034Z BUILD examples/arduino/pulse_touch
+2026-10-31T18:38:48.4436855Z passed
+2026-10-31T18:38:48.4447375Z BUILD examples/arduino/pwm_dac
+2026-10-31T18:39:10.1275304Z passed
+2026-10-31T18:39:10.1289225Z BUILD examples/arduino/sd_logger
+2026-10-31T18:39:32.5524001Z passed
+2026-10-31T18:39:32.5534231Z BUILD examples/arduino/serial_info
+2026-10-31T18:39:47.9691698Z passed
+2026-10-31T18:39:47.9701950Z BUILD examples/arduino/sht30
+2026-10-31T18:40:03.9411995Z passed
+2026-10-31T18:40:03.9428089Z BUILD examples/arduino/tcp_udp
+2026-10-31T18:40:29.6290512Z passed
+2026-10-31T18:40:29.6306224Z BUILD examples/arduino/time_provision
+2026-10-31T18:41:03.3591318Z passed
+2026-10-31T18:41:03.3602406Z BUILD examples/arduino/timing_interrupt
+2026-10-31T18:41:18.7649130Z passed
+2026-10-31T18:41:18.7659429Z BUILD examples/arduino/uart
+2026-10-31T18:41:33.8268756Z passed
+2026-10-31T18:41:33.8283986Z BUILD examples/arduino/wifi
+2026-10-31T18:41:59.7802116Z passed
+2026-10-31T18:41:59.7816873Z BUILD examples/projects/battery_node
+2026-10-31T18:42:26.8958482Z passed
+2026-10-31T18:42:26.8976335Z BUILD examples/projects/environment_station
+2026-10-31T18:43:09.2590632Z passed
+2026-10-31T18:43:09.2607107Z BUILD examples/projects/espnow_gateway
+2026-10-31T18:44:00.8749045Z passed
+2026-10-31T18:44:00.8763819Z BUILD examples/projects/low_voltage_controller
+2026-10-31T18:44:34.5042472Z passed
+2026-10-31T18:44:34.5058730Z BUILD examples/projects/oled_clock
+2026-10-31T18:45:14.0395672Z passed
+2026-10-31T18:45:14.1459922Z ##[group]Run python scripts/check_firmware_sizes.py --build-root "D:\a\_temp/handbook-pio" --output "D:\a\_temp/handbook-validation/arduino-sizes.json"
+2026-10-31T18:45:14.1460936Z [36;1mpython scripts/check_firmware_sizes.py --build-root "D:\a\_temp/handbook-pio" --output "D:\a\_temp/handbook-validation/arduino-sizes.json"[0m
+2026-10-31T18:45:14.1522274Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+2026-10-31T18:45:14.1522626Z env:
+2026-10-31T18:45:14.1522829Z   PYTHONUTF8: 1
+2026-10-31T18:45:14.1523440Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:45:14.1523860Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.12.10\x64/lib/pkgconfig
+2026-10-31T18:45:14.1524288Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:45:14.1524663Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:45:14.1525129Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:45:14.1525430Z ##[endgroup]
+2026-10-31T18:45:14.4496075Z 29 images checked; 0 projects without binaries
+2026-10-31T18:45:14.5765330Z ##[group]Run actions/upload-artifact@v7
+2026-10-31T18:45:14.5765669Z with:
+2026-10-31T18:45:14.5765923Z   name: validation-windows-latest-41229731984-1
+2026-10-31T18:45:14.5766266Z   path: D:\a\_temp/handbook-validation/
+2026-10-31T18:45:14.5766542Z   if-no-files-found: warn
+2026-10-31T18:45:14.5766794Z   retention-days: 14
+2026-10-31T18:45:14.5767025Z   compression-level: 6
+2026-10-31T18:45:14.5767254Z   overwrite: false
+2026-10-31T18:45:14.5767499Z   include-hidden-files: false
+2026-10-31T18:45:14.5767732Z   archive: true
+2026-10-31T18:45:14.5767935Z env:
+2026-10-31T18:45:14.5768137Z   PYTHONUTF8: 1
+2026-10-31T18:45:14.5768433Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:45:14.5768855Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.12.10\x64/lib/pkgconfig
+2026-10-31T18:45:14.5769254Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:45:14.5769697Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:45:14.5770047Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-31T18:45:14.5770346Z ##[endgroup]
+2026-10-31T18:45:14.7265296Z With the provided path, there will be 31 files uploaded
+2026-10-31T18:45:14.7269602Z Artifact name is valid!
+2026-10-31T18:45:14.7270510Z Root directory input is valid!
+2026-10-31T18:45:15.0701153Z Uploading artifact: validation-windows-latest-41229731984-1.zip
+2026-10-31T18:45:15.0731325Z Beginning upload of artifact content to blob storage
+2026-10-31T18:45:15.4302034Z Uploaded bytes 59314
+2026-10-31T18:45:15.4838197Z Finished uploading artifact content to blob storage!
+2026-10-31T18:45:15.4839145Z SHA256 digest of uploaded artifact is 3c4f166f3c4712738ac5c22d1707165e5bb805aed28be49aebf20e523bf3cd87
+2026-10-31T18:45:15.4840022Z Finalizing artifact upload
+2026-10-31T18:45:16.1145675Z Artifact validation-windows-latest-41229731984-1 successfully finalized. Artifact ID 13053970728
+2026-10-31T18:45:16.1146528Z Artifact validation-windows-latest-41229731984-1 has been successfully uploaded! Final size is 59314 bytes. Artifact ID is 13053970728
+2026-10-31T18:45:16.1153940Z Artifact download URL: https://github.com/MFSAWUY/ESP32_LearningRecord/actions/runs/41229731984/artifacts/13053970728
+2026-10-31T18:45:16.1455073Z Post job cleanup.
+2026-10-31T18:45:16.2890888Z Post job cleanup.
+2026-10-31T18:45:16.4275790Z [command]"C:\Program Files\Git\bin\git.exe" version
+2026-10-31T18:45:16.4585131Z git version 2.56.0.windows.2
+2026-10-31T18:45:16.4646394Z Temporarily overriding HOME='D:\a\_temp\b5485a66-f9d5-467c-9714-ed539e01ed55' before making global git config changes
+2026-10-31T18:45:16.4647426Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-31T18:45:16.4656786Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory D:\a\ESP32_LearningRecord\ESP32_LearningRecord
+2026-10-31T18:45:16.4985256Z Removing SSH command configuration
+2026-10-31T18:45:16.4995130Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+2026-10-31T18:45:16.5297953Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+2026-10-31T18:45:16.9980468Z Removing HTTP extra header
+2026-10-31T18:45:16.9989457Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-31T18:45:17.0294772Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+2026-10-31T18:45:17.5204093Z Removing includeIf entries pointing to credentials config files
+2026-10-31T18:45:17.5213421Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-31T18:45:17.5527431Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+2026-10-31T18:45:18.0451879Z Cleaning up orphan processes
+2026-10-31T18:45:18.0645039Z Terminate orphan process: pid (6480) (vctip)

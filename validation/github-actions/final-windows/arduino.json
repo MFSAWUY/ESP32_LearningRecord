@@ -1,0 +1,632 @@
+[
+  {
+    "project": "examples/arduino/actuator",
+    "host": "Windows-2025Server-10.0.26100-SP0",
+    "command": [
+      "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\a\\ESP32_LearningRecord\\ESP32_LearningRecord\\examples\\arduino\\actuator"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "src/main.cpp": "ab4d08d384c3c21124b99f572afc9f6f98e9cfe9d1cff13855500157b70d1c5e"
+    },
+    "started_utc": "2026-11-01T12:23:47.219415+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-actuator.log"
+  },
+  {
+    "project": "examples/arduino/adc",
+    "host": "Windows-2025Server-10.0.26100-SP0",
+    "command": [
+      "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\a\\ESP32_LearningRecord\\ESP32_LearningRecord\\examples\\arduino\\adc"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "src/main.cpp": "676a1ac2e4d3028b82c937a698761a5eb40a6349630b149c1567dd4b08bbe099"
+    },
+    "started_utc": "2026-11-01T12:25:55.704537+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-adc.log"
+  },
+  {
+    "project": "examples/arduino/ble",
+    "host": "Windows-2025Server-10.0.26100-SP0",
+    "command": [
+      "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\a\\ESP32_LearningRecord\\ESP32_LearningRecord\\examples\\arduino\\ble"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "src/main.cpp": "ae76f9d0ba2589438f67e9b0b1a89f1cb28c99ddd3328540715ea4462c075f4d"
+    },
+    "started_utc": "2026-11-01T12:26:16.728877+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-ble.log"
+  },
+  {
+    "project": "examples/arduino/bluetooth_serial",
+    "host": "Windows-2025Server-10.0.26100-SP0",
+    "command": [
+      "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\a\\ESP32_LearningRecord\\ESP32_LearningRecord\\examples\\arduino\\bluetooth_serial"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "src/main.cpp": "9ad5482581fbcfc541249178e9ec2f995e306ed00b780499cbcb68678781aecf"
+    },
+    "started_utc": "2026-11-01T12:27:11.737663+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-bluetooth_serial.log"
+  },
+  {
+    "project": "examples/arduino/espnow",
+    "host": "Windows-2025Server-10.0.26100-SP0",
+    "command": [
+      "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\a\\ESP32_LearningRecord\\ESP32_LearningRecord\\examples\\arduino\\espnow"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "include/config.example.h": "1fa7e1e7e1243d5b2e543fcb7bb6d304ac2ac2aa5251e105669ec23643cf5423",
+      "include/config.h": "45b762a65405d2c10643b0209bb0ac11a9f9b6e81bb6966b13043408aab6de56",
+      "src/main.cpp": "c06527a1cdf2fd33f06fdd7ffc4821d6f01c3b49e20a2c9cf8413d372bee2327"
+    },
+    "started_utc": "2026-11-01T12:27:42.314016+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-espnow.log"
+  },
+  {
+    "project": "examples/arduino/filter",
+    "host": "Windows-2025Server-10.0.26100-SP0",
+    "command": [
+      "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\a\\ESP32_LearningRecord\\ESP32_LearningRecord\\examples\\arduino\\filter"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "src/main.cpp": "67c17b7e700badba69bf73d1bfbbfb197fd4dbd5c1d016250a6a656002e8f5ef"
+    },
+    "started_utc": "2026-11-01T12:28:22.065830+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-filter.log"
+  },
+  {
+    "project": "examples/arduino/gpio_button",
+    "host": "Windows-2025Server-10.0.26100-SP0",
+    "command": [
+      "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\a\\ESP32_LearningRecord\\ESP32_LearningRecord\\examples\\arduino\\gpio_button"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "src/main.cpp": "4fe385767736b1e731feef57cf0b6dbe631f496730e97e728749b772a032a784"
+    },
+    "started_utc": "2026-11-01T12:28:42.887790+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-gpio_button.log"
+  },
+  {
+    "project": "examples/arduino/http",
+    "host": "Windows-2025Server-10.0.26100-SP0",
+    "command": [
+      "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\a\\ESP32_LearningRecord\\ESP32_LearningRecord\\examples\\arduino\\http"
+    ],
+    "source_sha256": {
+      "platformio.ini": "014feeeea2fe46abeedd9d63ee5b67b4a284cd0b1e02f03416b9734d66863526",
+      "include/app_network.h": "50a86f27b1ef1cf2fa7601e56c626dcbfe243ed069e4ba96f30b8f2624d9f2c1",
+      "include/config.example.h": "c871115d178e9240a73e748f513eee54b73acf87275e903f70e9be1f7a060f23",
+      "include/config.h": "45b762a65405d2c10643b0209bb0ac11a9f9b6e81bb6966b13043408aab6de56",
+      "include/tls_config.example.h": "cbad7eab49d905ff1bf6f905d7f4a628e074d3fc59f719b3f9d48832cbabb726",
+      "src/main.cpp": "01d10c0a0fbc09de2ccc1ca76fd8ff03a1e9e10e4cf974a0eb93a21a36015b5d"
+    },
+    "started_utc": "2026-11-01T12:29:03.802387+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-http.log"
+  },
+  {
+    "project": "examples/arduino/i2c_scan",
+    "host": "Windows-2025Server-10.0.26100-SP0",
+    "command": [
+      "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\a\\ESP32_LearningRecord\\ESP32_LearningRecord\\examples\\arduino\\i2c_scan"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "src/main.cpp": "25e97786b212d667f5fcd3fcc6bbd016eedf652a3616db4d4daf36b62e04046f"
+    },
+    "started_utc": "2026-11-01T12:30:03.459890+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-i2c_scan.log"
+  },
+  {
+    "project": "examples/arduino/language_basics",
+    "host": "Windows-2025Server-10.0.26100-SP0",
+    "command": [
+      "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\a\\ESP32_LearningRecord\\ESP32_LearningRecord\\examples\\arduino\\language_basics"
+    ],
+    "source_sha256": {
+      "CMakeLists.txt": "b6ad5cc689476c0338c3cf17dbc34b58d1e7ddd2b49d819d47e760fbdae65505",
+      "platformio.ini": "b393b8cac3ecdd28dc3c9d10a3bab2a8c89f2b9f6afc6ab668519124ce2d5b36",
+      "include/model.h": "7614dff0f42013f4b012afdbdd5989779293b88d648dd082bd25222fefafcb30",
+      "src/main.cpp": "b662abda9aab00f594b3f76df650ee708135b052aee925e3979dae4c4cb98116",
+      "src/model.cpp": "7edf9055d3cb196f9e90dbe0b5f88e91fed01f7ac0642259cb3fb6e2cfdc5b78",
+      "tests/test_model.cpp": "631df1603179445bfaa80259e8e6685ae37458eee97344bffacaa5f3acd11c18"
+    },
+    "started_utc": "2026-11-01T12:30:25.142306+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-language_basics.log"
+  },
+  {
+    "project": "examples/arduino/mqtt",
+    "host": "Windows-2025Server-10.0.26100-SP0",
+    "command": [
+      "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\a\\ESP32_LearningRecord\\ESP32_LearningRecord\\examples\\arduino\\mqtt"
+    ],
+    "source_sha256": {
+      "platformio.ini": "cf9cd5181f266107cd0cd1ffbe85ab54d701e5f5369f5865e3ccf2ac0132c061",
+      "include/app_network.h": "50a86f27b1ef1cf2fa7601e56c626dcbfe243ed069e4ba96f30b8f2624d9f2c1",
+      "include/config.example.h": "c871115d178e9240a73e748f513eee54b73acf87275e903f70e9be1f7a060f23",
+      "include/config.h": "45b762a65405d2c10643b0209bb0ac11a9f9b6e81bb6966b13043408aab6de56",
+      "src/main.cpp": "df36505d5876d4cd2a7a561542e0c9987544350eb5c5b458aa8e462de0193d13"
+    },
+    "started_utc": "2026-11-01T12:30:46.122173+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-mqtt.log"
+  },
+  {
+    "project": "examples/arduino/oled",
+    "host": "Windows-2025Server-10.0.26100-SP0",
+    "command": [
+      "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\a\\ESP32_LearningRecord\\ESP32_LearningRecord\\examples\\arduino\\oled"
+    ],
+    "source_sha256": {
+      "platformio.ini": "75a2ed806ad01103ec821634c2e3696649cb4870355ca65c407e30f186058033",
+      "include/config.example.h": "900535639bf6f09047b149293dea1c5440df2f84e8a5316c0e5f6eb9c8b5b3e8",
+      "include/config.h": "45b762a65405d2c10643b0209bb0ac11a9f9b6e81bb6966b13043408aab6de56",
+      "src/main.cpp": "2cec91777a179193fe49d45ac46ef3b1241bd2ec63c9e551707f0780458ea7dc"
+    },
+    "started_utc": "2026-11-01T12:31:27.040041+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-oled.log"
+  },
+  {
+    "project": "examples/arduino/pid",
+    "host": "Windows-2025Server-10.0.26100-SP0",
+    "command": [
+      "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\a\\ESP32_LearningRecord\\ESP32_LearningRecord\\examples\\arduino\\pid"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "src/main.cpp": "7537bbfef033b933ee41d477727dd340bde37199c54c48c9e56ee23db175fa0c"
+    },
+    "started_utc": "2026-11-01T12:32:21.595836+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-pid.log"
+  },
+  {
+    "project": "examples/arduino/pulse_touch",
+    "host": "Windows-2025Server-10.0.26100-SP0",
+    "command": [
+      "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\a\\ESP32_LearningRecord\\ESP32_LearningRecord\\examples\\arduino\\pulse_touch"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "src/main.cpp": "d355f0a3a67238f230e19693c7871c598b1fdc0cb3996e95cd83e11fdeae788c"
+    },
+    "started_utc": "2026-11-01T12:32:49.813037+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-pulse_touch.log"
+  },
+  {
+    "project": "examples/arduino/pwm_dac",
+    "host": "Windows-2025Server-10.0.26100-SP0",
+    "command": [
+      "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\a\\ESP32_LearningRecord\\ESP32_LearningRecord\\examples\\arduino\\pwm_dac"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "src/main.cpp": "244c7abdd8703949201f096faeab3c49d3b249672ea5006cb5fdde643ad92587"
+    },
+    "started_utc": "2026-11-01T12:33:13.238924+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-pwm_dac.log"
+  },
+  {
+    "project": "examples/arduino/sd_logger",
+    "host": "Windows-2025Server-10.0.26100-SP0",
+    "command": [
+      "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\a\\ESP32_LearningRecord\\ESP32_LearningRecord\\examples\\arduino\\sd_logger"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "src/main.cpp": "6021f845a6024a4af954a1ccbcd6ff67d5ea8ab4b39820468aebe8cb497a4641"
+    },
+    "started_utc": "2026-11-01T12:33:35.465640+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-sd_logger.log"
+  },
+  {
+    "project": "examples/arduino/serial_info",
+    "host": "Windows-2025Server-10.0.26100-SP0",
+    "command": [
+      "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\a\\ESP32_LearningRecord\\ESP32_LearningRecord\\examples\\arduino\\serial_info"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "src/main.cpp": "b71788fe702a737e137ec94ed43e8f4d2130d5d253fbe7656185ceab5297cc23"
+    },
+    "started_utc": "2026-11-01T12:34:00.832039+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-serial_info.log"
+  },
+  {
+    "project": "examples/arduino/sht30",
+    "host": "Windows-2025Server-10.0.26100-SP0",
+    "command": [
+      "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\a\\ESP32_LearningRecord\\ESP32_LearningRecord\\examples\\arduino\\sht30"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "src/main.cpp": "4369cf448701128ace970f8e785fdd4242750c6b7502f91d6c8f5cda89395d6a"
+    },
+    "started_utc": "2026-11-01T12:34:21.547000+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-sht30.log"
+  },
+  {
+    "project": "examples/arduino/tcp_udp",
+    "host": "Windows-2025Server-10.0.26100-SP0",
+    "command": [
+      "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\a\\ESP32_LearningRecord\\ESP32_LearningRecord\\examples\\arduino\\tcp_udp"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "include/app_network.h": "50a86f27b1ef1cf2fa7601e56c626dcbfe243ed069e4ba96f30b8f2624d9f2c1",
+      "include/config.example.h": "c871115d178e9240a73e748f513eee54b73acf87275e903f70e9be1f7a060f23",
+      "include/config.h": "45b762a65405d2c10643b0209bb0ac11a9f9b6e81bb6966b13043408aab6de56",
+      "src/main.cpp": "0d05010e0265bb1315f5e33fbeaaff88daeecde3976564468b89e1c114c8c690"
+    },
+    "started_utc": "2026-11-01T12:34:43.061102+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-tcp_udp.log"
+  },
+  {
+    "project": "examples/arduino/time_provision",
+    "host": "Windows-2025Server-10.0.26100-SP0",
+    "command": [
+      "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\a\\ESP32_LearningRecord\\ESP32_LearningRecord\\examples\\arduino\\time_provision"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "include/app_network.h": "50a86f27b1ef1cf2fa7601e56c626dcbfe243ed069e4ba96f30b8f2624d9f2c1",
+      "include/config.example.h": "c871115d178e9240a73e748f513eee54b73acf87275e903f70e9be1f7a060f23",
+      "include/config.h": "45b762a65405d2c10643b0209bb0ac11a9f9b6e81bb6966b13043408aab6de56",
+      "src/main.cpp": "bb3686a20f12b7af63502b39634642cd5236f295ab59d43b3046c25c0b10d0a1"
+    },
+    "started_utc": "2026-11-01T12:35:18.809897+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-time_provision.log"
+  },
+  {
+    "project": "examples/arduino/timing_interrupt",
+    "host": "Windows-2025Server-10.0.26100-SP0",
+    "command": [
+      "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\a\\ESP32_LearningRecord\\ESP32_LearningRecord\\examples\\arduino\\timing_interrupt"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "src/main.cpp": "a8ee295426d30687e7a778350b039651d2fff05b0d74b9dddaa2566fd3575b19"
+    },
+    "started_utc": "2026-11-01T12:36:06.683096+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-timing_interrupt.log"
+  },
+  {
+    "project": "examples/arduino/uart",
+    "host": "Windows-2025Server-10.0.26100-SP0",
+    "command": [
+      "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\a\\ESP32_LearningRecord\\ESP32_LearningRecord\\examples\\arduino\\uart"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "src/main.cpp": "96c5dec133e9432054fe22248dc4b01a119d4b2779b9e745031f12cc74d3ec78"
+    },
+    "started_utc": "2026-11-01T12:36:27.645528+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-uart.log"
+  },
+  {
+    "project": "examples/arduino/wifi",
+    "host": "Windows-2025Server-10.0.26100-SP0",
+    "command": [
+      "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\a\\ESP32_LearningRecord\\ESP32_LearningRecord\\examples\\arduino\\wifi"
+    ],
+    "source_sha256": {
+      "platformio.ini": "7361ad24a643cb1aa21cc938e834cd97672f0e39134d068dbba42b4475c4a6c5",
+      "include/app_network.h": "50a86f27b1ef1cf2fa7601e56c626dcbfe243ed069e4ba96f30b8f2624d9f2c1",
+      "include/config.example.h": "c871115d178e9240a73e748f513eee54b73acf87275e903f70e9be1f7a060f23",
+      "include/config.h": "45b762a65405d2c10643b0209bb0ac11a9f9b6e81bb6966b13043408aab6de56",
+      "src/main.cpp": "3d5f68026e86b4f9512f9c173890d8434701391eabb48eeb45b8163133cb5d00"
+    },
+    "started_utc": "2026-11-01T12:36:49.159912+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-wifi.log"
+  },
+  {
+    "project": "examples/projects/battery_node",
+    "host": "Windows-2025Server-10.0.26100-SP0",
+    "command": [
+      "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\a\\ESP32_LearningRecord\\ESP32_LearningRecord\\examples\\projects\\battery_node"
+    ],
+    "source_sha256": {
+      "platformio.ini": "dcd17bd3982919fc270777f3e52af2efe02f3d29a730ad6ee1d8e92ddd31a141",
+      "include/config.example.h": "6086d80ce760ebef0d60b457465d3afa0b9d6e42fdbc6134bb4ffc041b38f9bc",
+      "include/sensor.h": "e32a0a18d918be2da31d1b281df27907402ed88c8d6b631b1a7986261d955b21",
+      "include/settings.h": "a8837da4bfda333c5b3681b877b1240feed8c73a9c8762fdb1c6e7b11f63cb92",
+      "src/main.cpp": "fb5e9d969d9edbd3d71e608d5e5362bb97513861c523fe5bf0e81e215943d0a6"
+    },
+    "started_utc": "2026-11-01T12:37:24.622327+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-battery_node.log"
+  },
+  {
+    "project": "examples/projects/environment_station",
+    "host": "Windows-2025Server-10.0.26100-SP0",
+    "command": [
+      "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\a\\ESP32_LearningRecord\\ESP32_LearningRecord\\examples\\projects\\environment_station"
+    ],
+    "source_sha256": {
+      "platformio.ini": "f7f710d116ff408e78ff1635ad52c0ecca7fde15985364bd4d8ada3fa99476dd",
+      "include/config.example.h": "6086d80ce760ebef0d60b457465d3afa0b9d6e42fdbc6134bb4ffc041b38f9bc",
+      "include/display.h": "9ea854202acb13683457c36fec8b6119c05a04506b5b6f4e0a5bc01af410546d",
+      "include/sensor.h": "e32a0a18d918be2da31d1b281df27907402ed88c8d6b631b1a7986261d955b21",
+      "include/settings.h": "a8837da4bfda333c5b3681b877b1240feed8c73a9c8762fdb1c6e7b11f63cb92",
+      "include/wifi_support.h": "cc5d7419477bd853b7f859b46c94a2960cf5e88a6925c2d97f4fa31eb40624a5",
+      "src/main.cpp": "c2c0e60a4d64d1ba24665db25e0bcb3b9dfc357aae3b897fb476a8e38483bfbe"
+    },
+    "started_utc": "2026-11-01T12:38:02.727320+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-environment_station.log"
+  },
+  {
+    "project": "examples/projects/espnow_gateway",
+    "host": "Windows-2025Server-10.0.26100-SP0",
+    "command": [
+      "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\a\\ESP32_LearningRecord\\ESP32_LearningRecord\\examples\\projects\\espnow_gateway"
+    ],
+    "source_sha256": {
+      "platformio.ini": "faf5bd73b33afbbb575a973e390383bf0de88612802625b2e1132d16bbfad247",
+      "include/config.example.h": "6086d80ce760ebef0d60b457465d3afa0b9d6e42fdbc6134bb4ffc041b38f9bc",
+      "include/sensor.h": "e32a0a18d918be2da31d1b281df27907402ed88c8d6b631b1a7986261d955b21",
+      "include/settings.h": "a8837da4bfda333c5b3681b877b1240feed8c73a9c8762fdb1c6e7b11f63cb92",
+      "src/main.cpp": "b44b576b3329e5ef67fece8064d36cf2f3a558a32e11d88b8d5ed5476cf8ee6d"
+    },
+    "started_utc": "2026-11-01T12:39:01.166585+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-espnow_gateway.log"
+  },
+  {
+    "project": "examples/projects/low_voltage_controller",
+    "host": "Windows-2025Server-10.0.26100-SP0",
+    "command": [
+      "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\a\\ESP32_LearningRecord\\ESP32_LearningRecord\\examples\\projects\\low_voltage_controller"
+    ],
+    "source_sha256": {
+      "platformio.ini": "d3717eba9d7c6c26de3823d73c1ebb6e9e468b5ca533e978983eba6b975877fc",
+      "include/config.example.h": "6086d80ce760ebef0d60b457465d3afa0b9d6e42fdbc6134bb4ffc041b38f9bc",
+      "include/settings.h": "a8837da4bfda333c5b3681b877b1240feed8c73a9c8762fdb1c6e7b11f63cb92",
+      "include/wifi_support.h": "cc5d7419477bd853b7f859b46c94a2960cf5e88a6925c2d97f4fa31eb40624a5",
+      "src/main.cpp": "213dab84dedef17f2dbe3ee9a34d629d33f77a7173ee9d713bf86b9112b90c76"
+    },
+    "started_utc": "2026-11-01T12:40:13.769599+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-low_voltage_controller.log"
+  },
+  {
+    "project": "examples/projects/oled_clock",
+    "host": "Windows-2025Server-10.0.26100-SP0",
+    "command": [
+      "C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python.exe",
+      "-m",
+      "platformio",
+      "run",
+      "-d",
+      "D:\\a\\ESP32_LearningRecord\\ESP32_LearningRecord\\examples\\projects\\oled_clock"
+    ],
+    "source_sha256": {
+      "platformio.ini": "5b22626366cade02b29ea07b1bc301ae3bd5d9f55ad1feab88d682e2c46bef93",
+      "include/config.example.h": "6086d80ce760ebef0d60b457465d3afa0b9d6e42fdbc6134bb4ffc041b38f9bc",
+      "include/display.h": "9ea854202acb13683457c36fec8b6119c05a04506b5b6f4e0a5bc01af410546d",
+      "include/settings.h": "a8837da4bfda333c5b3681b877b1240feed8c73a9c8762fdb1c6e7b11f63cb92",
+      "include/wifi_support.h": "cc5d7419477bd853b7f859b46c94a2960cf5e88a6925c2d97f4fa31eb40624a5",
+      "src/main.cpp": "383a3e27abac1939b0db2ede6e67cc2d3f4c20e7514cd56ddb29d8a04a8dda7e"
+    },
+    "started_utc": "2026-11-01T12:40:59.651132+00:00",
+    "hardware_tested": false,
+    "status": "passed",
+    "exit_code": 0,
+    "log": "windows-oled_clock.log"
+  }
+]

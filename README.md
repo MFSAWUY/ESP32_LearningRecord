@@ -15,7 +15,7 @@
 
 **电脑运行与开发板运行：** Python上位机及仿真脚本直接运行在Windows/Linux；Arduino和ESP-IDF固件由电脑交叉编译，再在ESP32上运行。软件回环、仿真和编译成功均不能替代真机实验。
 
-**验证进展：** Ubuntu已完成28个Arduino/综合工程、11个原生IDF工程及两种OTA配置编译；Windows原生IDF已在真实路径重建，旧临时盘符不再需要。2026-11-01已上传GitHub并启用Actions，结果见[GitHub验证](validation/GITHUB_ACTIONS.md)。另见[本地验证报告](validation/REPORT.md)、[缓存与失败记录](validation/CONTINUATION-2026-10-31.md)。硬件实测仍按用户安排暂缓。
+**验证进展：** Ubuntu已完成28个Arduino/综合工程、11个原生IDF工程及两种OTA配置编译；Windows原生IDF已在真实路径重建，旧临时盘符不再需要。2026-11-01已上传GitHub，Actions的Windows、Ubuntu和IDF三个任务及下载报告校验均通过，结果见[GitHub验证](validation/GITHUB_ACTIONS.md)。另见[本地验证报告](validation/REPORT.md)、[缓存与失败记录](validation/CONTINUATION-2026-10-31.md)。硬件实测仍按用户安排暂缓。
 
 ## 完整目录
 

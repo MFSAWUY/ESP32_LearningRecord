@@ -20,8 +20,10 @@
 | Windows新缓存、ROM符号辅助文件 | 13个构建缓存无已撤销映射，ROM符号文件生成 | [检查](windows-repair/cache-check.json) |
 | Windows / Ubuntu Python | 各9项通过 | [Windows](python-windows-resume.log)、[Ubuntu](linux-resume/python-linux.log) |
 | Windows / Ubuntu桌面C++ | 各1项通过 | [Windows](cpp-windows-test.log)、[Ubuntu](cpp-linux-test.log) |
-| GitHub Actions | 已上传并启用；运行状态独立记录 | [运行记录](GITHUB_ACTIONS.md)、[配置](../.github/workflows/validate.yml) |
+| GitHub Actions | 最新运行41306203116全部3个job通过，3份产物下载校验通过 | [运行记录](GITHUB_ACTIONS.md)、[配置](../.github/workflows/validate.yml) |
 | 真机、OLED、传感器、网络恢复、NVS、OTA回滚、功耗、完整JTAG | 按用户安排暂不执行 | [规程](HARDWARE_RUNBOOK.md)、[验收表](HARDWARE_CHECKLIST.md) |
+
+以上Windows/Ubuntu主机结果为10月31日本地验收记录；11月1日新增GitHub托管环境结果见 [Actions记录](GITHUB_ACTIONS.md)。托管官方IDF6.1容器已完成11个默认工程及2种OTA配置，产物经实际下载校验；托管Ubuntu24.04与Windows Server2025各完成28个Arduino工程、29个镜像、9项Python及1项C++检查。3份产物共81个文件，下载归档SHA256/CRC与269项源码哈希核对通过。
 
 Python测试覆盖RC、滤波、混叠、功耗、PID限幅/积分约束、数据协议、HTTP成功/503故障、pySerial软件回环与CSV；HTTP503属于预期故障注入。C++测试覆盖输入边界、非法命令不改变配置、宽位累计与重置。仿真、软件回环和交叉编译均不证明实际电路和设备正常。
 
@@ -31,7 +33,7 @@ Python测试覆盖RC、滤波、混叠、功耗、PID限幅/积分约束、数�
 |---|---|
 | Windows | Windows11 x64，构建10.0.26300，Python3.12.8 |
 | Ubuntu | 22.04.5 LTS x86_64，内核6.8.0-138-generic，独立venv Python3.12.9 |
-| 文档/CI目标 | Ubuntu24.04；不能把22.04实测当作24.04已经执行 |
+| GitHub 托管环境 | Ubuntu24.04 与 Windows Server2025 已实际执行桌面测试及 Arduino 构建；详见 [Actions记录](GITHUB_ACTIONS.md) |
 | PlatformIO Core / 平台 | 6.1.18 / Espressif32 8.0.0 |
 | Arduino核心 | Arduino-ESP32 3.3.12，GCC14.2 |
 | Arduino外部库 | U8g2 2.36.18、PubSubClient2.8、WebSockets2.6.1 |
@@ -43,7 +45,7 @@ Python测试覆盖RC、滤波、混叠、功耗、PID限幅/积分约束、数�
 
 [Windows原生环境](windows-repair/environment.log)、[Ubuntu原生环境](linux-resume/idf/environment.log)、[Ubuntu IDF依赖冻结](linux-resume/idf/requirements-frozen.txt)、[安装日志](linux-resume/idf/python-install.log)记录真实版本。桌面冻结清单另见[Windows](requirements-windows.txt)、[Ubuntu](requirements-linux.txt)。
 
-原生构建调用官方tools/idf.py，框架及编译器由PlatformIO下载管理；这是包环境下的实际构建验证，**不是EIM全新安装验收**。依赖按框架requirements.core安装，IDF_PYTHON_CHECK_CONSTRAINTS=no关闭在线constraints检查，不能宣称严格复现EIM锁定依赖。Ubuntu IDF与Arduino使用不同缓存和venv。
+本地两端的原生构建调用官方tools/idf.py，框架及编译器由PlatformIO下载管理；这是包环境下的实际构建验证，**不是EIM全新安装验收**。依赖按框架requirements.core安装，IDF_PYTHON_CHECK_CONSTRAINTS=no关闭在线constraints检查，不能宣称严格复现EIM锁定依赖。Ubuntu IDF与Arduino使用不同缓存和venv。
 
 Ubuntu框架归档不含Git历史，idf.py先打印Git不可用警告，再从源码读出v6.1.0并退出0；原输出已保留。这不是源码编译失败。Windows旧框架缓存含PlatformIO生成的__pio_env空组件，交付原生工程未新增PlatformIO配置。
 

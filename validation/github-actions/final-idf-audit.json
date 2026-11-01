@@ -1,0 +1,36 @@
+{
+  "archive": "ci-final-idf.zip",
+  "sha256": "915af3a1f47f1e6ef625abbb9777f3169093e3354f769159708416647efbc920",
+  "zip_crc_passed": true,
+  "files": 19,
+  "hardware_tested": false,
+  "source_hashes_checked": 73,
+  "builds": 13,
+  "images": 13,
+  "reports": [
+    {
+      "path": "idf.json",
+      "passed": 11
+    },
+    {
+      "path": "ota/idf.json",
+      "passed": 1
+    },
+    {
+      "path": "ota-fail/idf.json",
+      "passed": 1
+    },
+    {
+      "path": "idf-sizes.json",
+      "passed": 11
+    },
+    {
+      "path": "ota/sizes.json",
+      "passed": 1
+    },
+    {
+      "path": "ota-fail/sizes.json",
+      "passed": 1
+    }
+  ]
+}

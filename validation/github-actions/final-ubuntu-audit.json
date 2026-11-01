@@ -1,0 +1,20 @@
+{
+  "archive": "ci-final-ubuntu.zip",
+  "sha256": "c98d85ce9ce16bd5458f533c881eda35e8c6918e38b4a6302c802196bb34f460",
+  "zip_crc_passed": true,
+  "files": 31,
+  "hardware_tested": false,
+  "source_hashes_checked": 98,
+  "builds": 28,
+  "images": 29,
+  "reports": [
+    {
+      "path": "arduino.json",
+      "passed": 28
+    },
+    {
+      "path": "arduino-sizes.json",
+      "passed": 29
+    }
+  ]
+}

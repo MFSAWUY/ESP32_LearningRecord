@@ -1,0 +1,366 @@
+{
+  "schema_version": 1,
+  "run_id": 41306203116,
+  "head_sha": "9b3f9b908647044b83942a713771c5346a84f3d8",
+  "html_url": "https://github.com/MFSAWUY/ESP32_LearningRecord/actions/runs/41306203116",
+  "status": "completed",
+  "conclusion": "success",
+  "created_at": "2026-11-01T12:22:44Z",
+  "updated_at": "2026-11-01T12:42:03Z",
+  "jobs": [
+    {
+      "id": 124846980369,
+      "name": "desktop (windows-latest)",
+      "status": "completed",
+      "conclusion": "success",
+      "run_id": 41306203116,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Run actions/checkout@v7",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "Run actions/setup-python@v7",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        },
+        {
+          "name": "Run python -m pip install -r examples/python/requirements.txt platformio==6.1.18",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Read-only host inventory (no physical experiment)",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5
+        },
+        {
+          "name": "Run python scripts/check_handbook.py",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6
+        },
+        {
+          "name": "Run python -m unittest discover -s examples/python/tests -v",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7
+        },
+        {
+          "name": "Configure desktop C++ model tests",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8
+        },
+        {
+          "name": "Build desktop C++ model tests",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9
+        },
+        {
+          "name": "Run desktop C++ model tests",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10
+        },
+        {
+          "name": "Build all Arduino examples",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11
+        },
+        {
+          "name": "Verify Arduino binary sizes and 4 MiB partitions",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 12
+        },
+        {
+          "name": "Run actions/upload-artifact@v7",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 13
+        },
+        {
+          "name": "Post Run actions/setup-python@v7",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 25
+        },
+        {
+          "name": "Post Run actions/checkout@v7",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 26
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 27
+        }
+      ]
+    },
+    {
+      "id": 124846980587,
+      "name": "idf",
+      "status": "completed",
+      "conclusion": "success",
+      "run_id": 41306203116,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Initialize containers",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "Run actions/checkout@v7",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        },
+        {
+          "name": "Build native ESP-IDF examples in fresh directories",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Verify IDF binary sizes and 4 MiB partitions",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5
+        },
+        {
+          "name": "Build OTA with public nonempty network settings (never flashed)",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6
+        },
+        {
+          "name": "Verify configured OTA fits both slots",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7
+        },
+        {
+          "name": "Compile OTA self-test failure branch (no hardware rollback test)",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8
+        },
+        {
+          "name": "Run actions/upload-artifact@v7",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9
+        },
+        {
+          "name": "Post Run actions/checkout@v7",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 17
+        },
+        {
+          "name": "Stop containers",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 18
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 19
+        }
+      ]
+    },
+    {
+      "id": 124846980600,
+      "name": "desktop (ubuntu-24.04)",
+      "status": "completed",
+      "conclusion": "success",
+      "run_id": 41306203116,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Run actions/checkout@v7",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "Run actions/setup-python@v7",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        },
+        {
+          "name": "Run python -m pip install -r examples/python/requirements.txt platformio==6.1.18",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Read-only host inventory (no physical experiment)",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5
+        },
+        {
+          "name": "Run python scripts/check_handbook.py",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6
+        },
+        {
+          "name": "Run python -m unittest discover -s examples/python/tests -v",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7
+        },
+        {
+          "name": "Configure desktop C++ model tests",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8
+        },
+        {
+          "name": "Build desktop C++ model tests",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9
+        },
+        {
+          "name": "Run desktop C++ model tests",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10
+        },
+        {
+          "name": "Build all Arduino examples",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11
+        },
+        {
+          "name": "Verify Arduino binary sizes and 4 MiB partitions",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 12
+        },
+        {
+          "name": "Run actions/upload-artifact@v7",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 13
+        },
+        {
+          "name": "Post Run actions/setup-python@v7",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 25
+        },
+        {
+          "name": "Post Run actions/checkout@v7",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 26
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 27
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "id": 13084105154,
+      "name": "validation-ubuntu-24.04-41306203116-1",
+      "size_in_bytes": 58530,
+      "url": "https://api.github.com/repos/MFSAWUY/ESP32_LearningRecord/actions/artifacts/13084105154",
+      "archive_download_url": "https://api.github.com/repos/MFSAWUY/ESP32_LearningRecord/actions/artifacts/13084105154/zip",
+      "expired": false,
+      "created_at": "2026-11-01T12:32:37Z",
+      "expires_at": "2026-11-15T12:32:36Z",
+      "updated_at": "2026-11-01T12:32:37Z",
+      "digest": "sha256:c98d85ce9ce16bd5458f533c881eda35e8c6918e38b4a6302c802196bb34f460",
+      "workflow_run": {
+        "id": 41306203116,
+        "repository_id": 1440632850,
+        "head_repository_id": 1440632850,
+        "head_branch": "main",
+        "head_sha": "9b3f9b908647044b83942a713771c5346a84f3d8"
+      }
+    },
+    {
+      "id": 13083980321,
+      "name": "validation-idf-41306203116-1",
+      "size_in_bytes": 157622,
+      "url": "https://api.github.com/repos/MFSAWUY/ESP32_LearningRecord/actions/artifacts/13083980321",
+      "archive_download_url": "https://api.github.com/repos/MFSAWUY/ESP32_LearningRecord/actions/artifacts/13083980321/zip",
+      "expired": false,
+      "created_at": "2026-11-01T12:30:04Z",
+      "expires_at": "2026-11-15T12:30:03Z",
+      "updated_at": "2026-11-01T12:30:04Z",
+      "digest": "sha256:915af3a1f47f1e6ef625abbb9777f3169093e3354f769159708416647efbc920",
+      "workflow_run": {
+        "id": 41306203116,
+        "repository_id": 1440632850,
+        "head_repository_id": 1440632850,
+        "head_branch": "main",
+        "head_sha": "9b3f9b908647044b83942a713771c5346a84f3d8"
+      }
+    },
+    {
+      "id": 13083862574,
+      "name": "validation-windows-latest-41306203116-1",
+      "size_in_bytes": 59313,
+      "url": "https://api.github.com/repos/MFSAWUY/ESP32_LearningRecord/actions/artifacts/13083862574",
+      "archive_download_url": "https://api.github.com/repos/MFSAWUY/ESP32_LearningRecord/actions/artifacts/13083862574/zip",
+      "expired": false,
+      "created_at": "2026-11-01T12:41:55Z",
+      "expires_at": "2026-11-15T12:41:54Z",
+      "updated_at": "2026-11-01T12:41:55Z",
+      "digest": "sha256:5742bcef43d88d237ac193ab5b709e6be22327e709232d67fd3d578b3b6f4257",
+      "workflow_run": {
+        "id": 41306203116,
+        "repository_id": 1440632850,
+        "head_repository_id": 1440632850,
+        "head_branch": "main",
+        "head_sha": "9b3f9b908647044b83942a713771c5346a84f3d8"
+      }
+    }
+  ],
+  "hardware_tested": false
+}

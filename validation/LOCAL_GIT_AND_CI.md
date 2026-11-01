@@ -38,9 +38,9 @@ git commit -m "Add ESP32 handbook and validation tools"
 
 [工作流文件](../.github/workflows/validate.yml)描述 GitHub 托管 runner 应执行的检查。工作流随源码推送到选定的 GitHub 仓库后，按 `push`、`pull_request` 或 `workflow_dispatch` 触发。GitHub 会在该仓库的 **Actions** 标签页显示任务、日志和下载产物，不需要创建网页。
 
-**GitHub Pages** 是另外的静态网站发布功能；学习手册及运行 Actions 并不要求开启 Pages。本次没有创建 GitHub 仓库、上传源代码或发布网站。
+**GitHub Pages** 是另外的静态网站发布功能；学习手册及运行 Actions 并不要求开启 Pages。10月31日阶段没有创建仓库或上传源码；11月1日已上传用户指定的现有仓库。本次仍未发布网站。
 
-后续决定仓库后，再配置远程地址和推送。不要把已有的其他课程仓库当作默认目标，也不要覆盖其文件。Actions 的 Windows runner 可能是 Windows Server，实际版本应以运行日志为准，不能据此声称 Windows 11 真机再次通过。
+10月31日尚待用户指定仓库；11月1日已配置指定远程地址并推送，未改动其他课程仓库。Actions 的 Windows runner 可能是 Windows Server，实际版本应以运行日志为准，不能据此声称 Windows 11 真机再次通过。
 
 ## 验证证据
 
@@ -48,4 +48,4 @@ git commit -m "Add ESP32 handbook and validation tools"
 
 硬件端不会自动出现在托管 runner 上。即使桌面测试和交叉编译全部通过，OLED、传感器、OTA 回滚、功耗与 JTAG 仍须在连接实际设备后另行验收。
 
-本轮工作流将新生成的报告放入 runner 临时目录，与仓库内历史结果分开；增加了C++桌面测试、实际镜像分区检查和非空联网参数OTA构建。当前使用的v7操作已核对官方发布记录：[checkout](https://github.com/actions/checkout/releases)、[setup-python](https://github.com/actions/setup-python/releases)、[upload-artifact](https://github.com/actions/upload-artifact/releases)。这里只确认操作版本存在及本地YAML可解析，尚无GitHub run结果。
+当前工作流将桌面新报告放入 runner 临时目录，IDF报告放入工作区可见目录 ci-validation/，与仓库内历史结果分开；增加了C++桌面测试、实际镜像分区检查和非空联网参数OTA构建。当前使用的v7操作已核对官方发布记录：[checkout](https://github.com/actions/checkout/releases)、[setup-python](https://github.com/actions/setup-python/releases)、[upload-artifact](https://github.com/actions/upload-artifact/releases)。10月31日仅确认操作版本和本地YAML可解析；11月1日实际运行及修复记录见 [GitHub验证](GITHUB_ACTIONS.md)。

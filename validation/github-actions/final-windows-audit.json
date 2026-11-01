@@ -1,0 +1,20 @@
+{
+  "archive": "ci-final-windows.zip",
+  "sha256": "5742bcef43d88d237ac193ab5b709e6be22327e709232d67fd3d578b3b6f4257",
+  "zip_crc_passed": true,
+  "files": 31,
+  "hardware_tested": false,
+  "source_hashes_checked": 98,
+  "builds": 28,
+  "images": 29,
+  "reports": [
+    {
+      "path": "arduino.json",
+      "passed": 28
+    },
+    {
+      "path": "arduino-sizes.json",
+      "passed": 29
+    }
+  ]
+}

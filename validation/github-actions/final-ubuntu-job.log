@@ -1,0 +1,942 @@
+2026-11-01T12:22:47.6977184Z Current runner version: '2.338.2'
+2026-11-01T12:22:47.7002574Z ##[group]Runner Image Provisioner
+2026-11-01T12:22:47.7003433Z Hosted Compute Agent
+2026-11-01T12:22:47.7004466Z Version: 20261021.618
+2026-11-01T12:22:47.7005275Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+2026-11-01T12:22:47.7005998Z Build Date: 2026-10-21T00:45:21Z
+2026-11-01T12:22:47.7006762Z Worker ID: {4a7a270a-14f9-40f0-b48f-454971eafbb2}
+2026-11-01T12:22:47.7007747Z Region: westcentralus
+2026-11-01T12:22:47.7008462Z Cloud: Azure
+2026-11-01T12:22:47.7009100Z ##[endgroup]
+2026-11-01T12:22:47.7010929Z ##[group]Operating System
+2026-11-01T12:22:47.7011684Z Ubuntu
+2026-11-01T12:22:47.7012291Z 24.04.5
+2026-11-01T12:22:47.7012810Z LTS
+2026-11-01T12:22:47.7013385Z ##[endgroup]
+2026-11-01T12:22:47.7013988Z ##[group]Runner Image
+2026-11-01T12:22:47.7014649Z Image: ubuntu-24.04
+2026-11-01T12:22:47.7015250Z Version: 20261025.353.1
+2026-11-01T12:22:47.7016563Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261025.353/images/ubuntu/Ubuntu2404-Readme.md
+2026-11-01T12:22:47.7018633Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261025.353
+2026-11-01T12:22:47.7019655Z ##[endgroup]
+2026-11-01T12:22:47.7020827Z ##[group]GITHUB_TOKEN Permissions
+2026-11-01T12:22:47.7023349Z Contents: read
+2026-11-01T12:22:47.7024450Z Metadata: read
+2026-11-01T12:22:47.7025531Z ##[endgroup]
+2026-11-01T12:22:47.7029141Z Secret source: Actions
+2026-11-01T12:22:47.7030862Z Cache mode: write
+2026-11-01T12:22:47.7032580Z Prepare workflow directory
+2026-11-01T12:22:47.7503291Z Prepare all required actions
+2026-11-01T12:22:47.7558981Z Getting action download info
+2026-11-01T12:22:48.0517290Z Download action repository 'actions/checkout@v7' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+2026-11-01T12:22:48.2111350Z Download action repository 'actions/setup-python@v7' (SHA:6d4fd22b20465ccc0f7354476588e8df7c9ca0e0)
+2026-11-01T12:22:48.8070171Z Download action repository 'actions/upload-artifact@v7' (SHA:cf430e030ddbb5b0abf93d22962f4752f3646cd9)
+2026-11-01T12:22:48.9974963Z Complete job name: desktop (ubuntu-24.04)
+2026-11-01T12:22:49.0969202Z ##[group]Run actions/checkout@v7
+2026-11-01T12:22:49.0970249Z with:
+2026-11-01T12:22:49.0970741Z   persist-credentials: false
+2026-11-01T12:22:49.0971341Z   repository: MFSAWUY/ESP32_LearningRecord
+2026-11-01T12:22:49.0975667Z   token: ***
+2026-11-01T12:22:49.0976141Z   ssh-strict: true
+2026-11-01T12:22:49.0976624Z   ssh-user: git
+2026-11-01T12:22:49.0977081Z   clean: true
+2026-11-01T12:22:49.0977742Z   sparse-checkout-cone-mode: true
+2026-11-01T12:22:49.0978354Z   fetch-depth: 1
+2026-11-01T12:22:49.0978832Z   fetch-tags: false
+2026-11-01T12:22:49.0979330Z   show-progress: true
+2026-11-01T12:22:49.0979830Z   lfs: false
+2026-11-01T12:22:49.0980290Z   submodules: false
+2026-11-01T12:22:49.0980790Z   set-safe-directory: true
+2026-11-01T12:22:49.0981343Z   allow-unsafe-pr-checkout: false
+2026-11-01T12:22:49.0982197Z env:
+2026-11-01T12:22:49.0982657Z   PYTHONUTF8: 1
+2026-11-01T12:22:49.0983158Z ##[endgroup]
+2026-11-01T12:22:49.4238757Z Syncing repository: MFSAWUY/ESP32_LearningRecord
+2026-11-01T12:22:49.4242060Z ##[group]Getting Git version info
+2026-11-01T12:22:49.4243243Z Working directory is '/home/runner/work/ESP32_LearningRecord/ESP32_LearningRecord'
+2026-11-01T12:22:49.4244579Z [command]/usr/bin/git version
+2026-11-01T12:22:49.4347237Z git version 2.56.0
+2026-11-01T12:22:49.4376351Z ##[endgroup]
+2026-11-01T12:22:49.4384629Z Temporarily overriding HOME='/home/runner/work/_temp/1915c5a0-66d8-4fbd-80db-97aeb81a1387' before making global git config changes
+2026-11-01T12:22:49.4387188Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-01T12:22:49.4392141Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/ESP32_LearningRecord/ESP32_LearningRecord
+2026-11-01T12:22:49.4462519Z Deleting the contents of '/home/runner/work/ESP32_LearningRecord/ESP32_LearningRecord'
+2026-11-01T12:22:49.4468019Z ##[group]Determining repository object format
+2026-11-01T12:22:49.4469828Z ##[endgroup]
+2026-11-01T12:22:49.4470666Z ##[group]Initializing the repository
+2026-11-01T12:22:49.4476473Z [command]/usr/bin/git init /home/runner/work/ESP32_LearningRecord/ESP32_LearningRecord
+2026-11-01T12:22:49.4619538Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-11-01T12:22:49.4621531Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-11-01T12:22:49.4623043Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-11-01T12:22:49.4624180Z hint: call:
+2026-11-01T12:22:49.4625104Z hint:
+2026-11-01T12:22:49.4626164Z hint: 	git config --global init.defaultBranch <name>
+2026-11-01T12:22:49.4627142Z hint:
+2026-11-01T12:22:49.4628842Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-11-01T12:22:49.4629973Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-11-01T12:22:49.4630781Z hint:
+2026-11-01T12:22:49.4631396Z hint: 	git branch -m <name>
+2026-11-01T12:22:49.4632021Z hint:
+2026-11-01T12:22:49.4632920Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-11-01T12:22:49.4635582Z Initialized empty Git repository in /home/runner/work/ESP32_LearningRecord/ESP32_LearningRecord/.git/
+2026-11-01T12:22:49.4650044Z [command]/usr/bin/git remote add origin https://github.com/MFSAWUY/ESP32_LearningRecord
+2026-11-01T12:22:49.4708834Z ##[endgroup]
+2026-11-01T12:22:49.4710407Z ##[group]Disabling automatic garbage collection
+2026-11-01T12:22:49.4712825Z [command]/usr/bin/git config --local gc.auto 0
+2026-11-01T12:22:49.4753938Z ##[endgroup]
+2026-11-01T12:22:49.4755985Z ##[group]Setting up auth
+2026-11-01T12:22:49.4757192Z Removing SSH command configuration
+2026-11-01T12:22:49.4759269Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-01T12:22:49.4812503Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-01T12:22:49.5264874Z Removing HTTP extra header
+2026-11-01T12:22:49.5270326Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-01T12:22:49.5317714Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-01T12:22:49.5562641Z Removing includeIf entries pointing to credentials config files
+2026-11-01T12:22:49.5567286Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-01T12:22:49.5621118Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-01T12:22:49.5875668Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-de75348f-a6fe-43ce-aff1-53f4102c3d9c.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-11-01T12:22:49.5928409Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/ESP32_LearningRecord/ESP32_LearningRecord/.git.path /home/runner/work/_temp/git-credentials-de75348f-a6fe-43ce-aff1-53f4102c3d9c.config
+2026-11-01T12:22:49.5973788Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/ESP32_LearningRecord/ESP32_LearningRecord/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-de75348f-a6fe-43ce-aff1-53f4102c3d9c.config
+2026-11-01T12:22:49.6018409Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-de75348f-a6fe-43ce-aff1-53f4102c3d9c.config
+2026-11-01T12:22:49.6062491Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-de75348f-a6fe-43ce-aff1-53f4102c3d9c.config
+2026-11-01T12:22:49.6104745Z ##[endgroup]
+2026-11-01T12:22:49.6105596Z ##[group]Fetching the repository
+2026-11-01T12:22:49.6112482Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +9b3f9b908647044b83942a713771c5346a84f3d8:refs/remotes/origin/main
+2026-11-01T12:22:50.2034152Z From https://github.com/MFSAWUY/ESP32_LearningRecord
+2026-11-01T12:22:50.2035272Z  * [new ref]         9b3f9b908647044b83942a713771c5346a84f3d8 -> origin/main
+2026-11-01T12:22:50.2043652Z [command]/usr/bin/git branch --list --remote origin/main
+2026-11-01T12:22:50.2082715Z   origin/main
+2026-11-01T12:22:50.2092224Z [command]/usr/bin/git rev-parse refs/remotes/origin/main
+2026-11-01T12:22:50.2130122Z 9b3f9b908647044b83942a713771c5346a84f3d8
+2026-11-01T12:22:50.2135177Z ##[endgroup]
+2026-11-01T12:22:50.2136442Z ##[group]Determining the checkout info
+2026-11-01T12:22:50.2137734Z ##[endgroup]
+2026-11-01T12:22:50.2140997Z [command]/usr/bin/git sparse-checkout disable
+2026-11-01T12:22:50.2208397Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-11-01T12:22:50.2252461Z ##[group]Checking out the ref
+2026-11-01T12:22:50.2256806Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-11-01T12:22:50.2747041Z Switched to a new branch 'main'
+2026-11-01T12:22:50.2752838Z branch 'main' set up to track 'origin/main'.
+2026-11-01T12:22:50.2764451Z ##[endgroup]
+2026-11-01T12:22:50.2834218Z [command]/usr/bin/git log -1 --format=%H
+2026-11-01T12:22:50.2878916Z 9b3f9b908647044b83942a713771c5346a84f3d8
+2026-11-01T12:22:50.2899001Z ##[group]Removing auth
+2026-11-01T12:22:50.2899580Z Removing SSH command configuration
+2026-11-01T12:22:50.2901318Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-01T12:22:50.2958323Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-01T12:22:50.3246508Z Removing HTTP extra header
+2026-11-01T12:22:50.3252760Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-01T12:22:50.3307032Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-01T12:22:50.3690508Z Removing includeIf entries pointing to credentials config files
+2026-11-01T12:22:50.3693571Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-01T12:22:50.3695977Z includeif.gitdir:/home/runner/work/ESP32_LearningRecord/ESP32_LearningRecord/.git.path
+2026-11-01T12:22:50.3698793Z includeif.gitdir:/home/runner/work/ESP32_LearningRecord/ESP32_LearningRecord/.git/worktrees/*.path
+2026-11-01T12:22:50.3701057Z includeif.gitdir:/github/workspace/.git.path
+2026-11-01T12:22:50.3703015Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+2026-11-01T12:22:50.3709009Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/ESP32_LearningRecord/ESP32_LearningRecord/.git.path
+2026-11-01T12:22:50.3712476Z /home/runner/work/_temp/git-credentials-de75348f-a6fe-43ce-aff1-53f4102c3d9c.config
+2026-11-01T12:22:50.3720304Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/ESP32_LearningRecord/ESP32_LearningRecord/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-de75348f\-a6fe\-43ce\-aff1\-53f4102c3d9c\.config
+2026-11-01T12:22:50.3772691Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/ESP32_LearningRecord/ESP32_LearningRecord/.git/worktrees/*.path
+2026-11-01T12:22:50.3809465Z /home/runner/work/_temp/git-credentials-de75348f-a6fe-43ce-aff1-53f4102c3d9c.config
+2026-11-01T12:22:50.3823831Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/ESP32_LearningRecord/ESP32_LearningRecord/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-de75348f\-a6fe\-43ce\-aff1\-53f4102c3d9c\.config
+2026-11-01T12:22:50.3872616Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+2026-11-01T12:22:50.3909474Z /github/runner_temp/git-credentials-de75348f-a6fe-43ce-aff1-53f4102c3d9c.config
+2026-11-01T12:22:50.3919712Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-de75348f\-a6fe\-43ce\-aff1\-53f4102c3d9c\.config
+2026-11-01T12:22:50.3965337Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+2026-11-01T12:22:50.4001106Z /github/runner_temp/git-credentials-de75348f-a6fe-43ce-aff1-53f4102c3d9c.config
+2026-11-01T12:22:50.4011166Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-de75348f\-a6fe\-43ce\-aff1\-53f4102c3d9c\.config
+2026-11-01T12:22:50.4064374Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-01T12:22:50.4314817Z Removing credentials config '/home/runner/work/_temp/git-credentials-de75348f-a6fe-43ce-aff1-53f4102c3d9c.config'
+2026-11-01T12:22:50.4323125Z ##[endgroup]
+2026-11-01T12:22:50.4724399Z ##[group]Run actions/setup-python@v7
+2026-11-01T12:22:50.4725681Z with:
+2026-11-01T12:22:50.4726578Z   python-version: 3.12
+2026-11-01T12:22:50.4727785Z   check-latest: false
+2026-11-01T12:22:50.4738588Z   token: ***
+2026-11-01T12:22:50.4739995Z   mirror: https://raw.githubusercontent.com/actions/python-versions/main
+2026-11-01T12:22:50.4741755Z   update-environment: true
+2026-11-01T12:22:50.4742866Z   allow-prereleases: false
+2026-11-01T12:22:50.4743946Z   freethreaded: false
+2026-11-01T12:22:50.4744906Z env:
+2026-11-01T12:22:50.4745756Z   PYTHONUTF8: 1
+2026-11-01T12:22:50.4746676Z ##[endgroup]
+2026-11-01T12:22:50.5990231Z ##[group]Installed versions
+2026-11-01T12:22:50.6084269Z Successfully set up CPython (3.12.15)
+2026-11-01T12:22:50.6087400Z ##[endgroup]
+2026-11-01T12:22:50.6332227Z ##[group]Run python -m pip install -r examples/python/requirements.txt platformio==6.1.18
+2026-11-01T12:22:50.6334965Z [36;1mpython -m pip install -r examples/python/requirements.txt platformio==6.1.18[0m
+2026-11-01T12:22:50.6383350Z shell: /usr/bin/bash -e {0}
+2026-11-01T12:22:50.6385199Z env:
+2026-11-01T12:22:50.6386655Z   PYTHONUTF8: 1
+2026-11-01T12:22:50.6388916Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:22:50.6391664Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+2026-11-01T12:22:50.6395261Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:22:50.6398263Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:22:50.6400470Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:22:50.6402343Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+2026-11-01T12:22:50.6403964Z ##[endgroup]
+2026-11-01T12:22:51.7483378Z Collecting platformio==6.1.18
+2026-11-01T12:22:51.8441655Z   Downloading platformio-6.1.18-py3-none-any.whl.metadata (7.1 kB)
+2026-11-01T12:22:51.8739239Z Collecting pyserial==3.5 (from -r examples/python/requirements.txt (line 1))
+2026-11-01T12:22:51.8929410Z   Downloading pyserial-3.5-py2.py3-none-any.whl.metadata (1.6 kB)
+2026-11-01T12:22:51.9210751Z Collecting paho-mqtt==2.1.0 (from -r examples/python/requirements.txt (line 2))
+2026-11-01T12:22:51.9406530Z   Downloading paho_mqtt-2.1.0-py3-none-any.whl.metadata (23 kB)
+2026-11-01T12:22:52.1582285Z Collecting matplotlib==3.9.2 (from -r examples/python/requirements.txt (line 3))
+2026-11-01T12:22:52.1788418Z   Downloading matplotlib-3.9.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)
+2026-11-01T12:22:52.2213689Z Collecting bottle==0.13.* (from platformio==6.1.18)
+2026-11-01T12:22:52.2409365Z   Downloading bottle-0.13.4-py2.py3-none-any.whl.metadata (1.6 kB)
+2026-11-01T12:22:52.2736562Z Collecting click<8.1.8,>=8.0.4 (from platformio==6.1.18)
+2026-11-01T12:22:52.2932556Z   Downloading click-8.1.7-py3-none-any.whl.metadata (3.0 kB)
+2026-11-01T12:22:52.3239627Z Collecting colorama (from platformio==6.1.18)
+2026-11-01T12:22:52.3439947Z   Downloading colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+2026-11-01T12:22:52.3955189Z Collecting marshmallow==3.* (from platformio==6.1.18)
+2026-11-01T12:22:52.4151480Z   Downloading marshmallow-3.26.2-py3-none-any.whl.metadata (7.3 kB)
+2026-11-01T12:22:52.4454769Z Collecting pyelftools<1,>=0.27 (from platformio==6.1.18)
+2026-11-01T12:22:52.4649615Z   Downloading pyelftools-0.33-py3-none-any.whl.metadata (1.0 kB)
+2026-11-01T12:22:52.5057924Z Collecting requests==2.* (from platformio==6.1.18)
+2026-11-01T12:22:52.5255247Z   Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+2026-11-01T12:22:52.5547704Z Collecting semantic_version==2.10.* (from platformio==6.1.18)
+2026-11-01T12:22:52.5743586Z   Downloading semantic_version-2.10.0-py2.py3-none-any.whl.metadata (9.7 kB)
+2026-11-01T12:22:52.6049682Z Collecting tabulate==0.* (from platformio==6.1.18)
+2026-11-01T12:22:52.6244554Z   Downloading tabulate-0.10.0-py3-none-any.whl.metadata (40 kB)
+2026-11-01T12:22:52.6639436Z Collecting ajsonrpc==1.2.* (from platformio==6.1.18)
+2026-11-01T12:22:52.6832605Z   Downloading ajsonrpc-1.2.0-py3-none-any.whl.metadata (6.9 kB)
+2026-11-01T12:22:52.7245614Z Collecting starlette<0.47,>=0.19 (from platformio==6.1.18)
+2026-11-01T12:22:52.7441257Z   Downloading starlette-0.46.2-py3-none-any.whl.metadata (6.2 kB)
+2026-11-01T12:22:52.7852761Z Collecting uvicorn<0.35,>=0.16 (from platformio==6.1.18)
+2026-11-01T12:22:52.8045880Z   Downloading uvicorn-0.34.3-py3-none-any.whl.metadata (6.5 kB)
+2026-11-01T12:22:52.8336107Z Collecting wsproto==1.* (from platformio==6.1.18)
+2026-11-01T12:22:52.8528978Z   Downloading wsproto-1.3.2-py3-none-any.whl.metadata (5.2 kB)
+2026-11-01T12:22:52.9333138Z Collecting contourpy>=1.0.1 (from matplotlib==3.9.2->-r examples/python/requirements.txt (line 3))
+2026-11-01T12:22:52.9529659Z   Downloading contourpy-1.4.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (3.8 kB)
+2026-11-01T12:22:52.9870841Z Collecting cycler>=0.10 (from matplotlib==3.9.2->-r examples/python/requirements.txt (line 3))
+2026-11-01T12:22:53.0068544Z   Downloading cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+2026-11-01T12:22:53.1818580Z Collecting fonttools>=4.22.0 (from matplotlib==3.9.2->-r examples/python/requirements.txt (line 3))
+2026-11-01T12:22:53.2014424Z   Downloading fonttools-4.68.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (139 kB)
+2026-11-01T12:22:53.3152153Z Collecting kiwisolver>=1.3.1 (from matplotlib==3.9.2->-r examples/python/requirements.txt (line 3))
+2026-11-01T12:22:53.3346172Z   Downloading kiwisolver-1.5.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (5.2 kB)
+2026-11-01T12:22:53.5515160Z Collecting numpy>=1.23 (from matplotlib==3.9.2->-r examples/python/requirements.txt (line 3))
+2026-11-01T12:22:53.5712435Z   Downloading numpy-2.5.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+2026-11-01T12:22:53.6038619Z Collecting packaging>=20.0 (from matplotlib==3.9.2->-r examples/python/requirements.txt (line 3))
+2026-11-01T12:22:53.6230498Z   Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+2026-11-01T12:22:53.8284722Z Collecting pillow>=8 (from matplotlib==3.9.2->-r examples/python/requirements.txt (line 3))
+2026-11-01T12:22:53.8480954Z   Downloading pillow-13.0.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.1 kB)
+2026-11-01T12:22:53.8895276Z Collecting pyparsing>=2.3.1 (from matplotlib==3.9.2->-r examples/python/requirements.txt (line 3))
+2026-11-01T12:22:53.9087798Z   Downloading pyparsing-3.3.3-py3-none-any.whl.metadata (5.9 kB)
+2026-11-01T12:22:53.9415353Z Collecting python-dateutil>=2.7 (from matplotlib==3.9.2->-r examples/python/requirements.txt (line 3))
+2026-11-01T12:22:53.9613732Z   Downloading python_dateutil-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+2026-11-01T12:22:54.1083002Z Collecting charset_normalizer<4,>=2 (from requests==2.*->platformio==6.1.18)
+2026-11-01T12:22:54.1284551Z   Downloading charset_normalizer-3.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (46 kB)
+2026-11-01T12:22:54.1622500Z Collecting idna<4,>=2.5 (from requests==2.*->platformio==6.1.18)
+2026-11-01T12:22:54.1816311Z   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+2026-11-01T12:22:54.2191663Z Collecting urllib3<3,>=1.26 (from requests==2.*->platformio==6.1.18)
+2026-11-01T12:22:54.2383564Z   Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+2026-11-01T12:22:54.2723718Z Collecting certifi>=2023.5.7 (from requests==2.*->platformio==6.1.18)
+2026-11-01T12:22:54.2921427Z   Downloading certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+2026-11-01T12:22:54.3277329Z Collecting anyio<5,>=3.6.2 (from starlette<0.47,>=0.19->platformio==6.1.18)
+2026-11-01T12:22:54.3473233Z   Downloading anyio-4.16.0-py3-none-any.whl.metadata (4.7 kB)
+2026-11-01T12:22:54.3813122Z Collecting typing_extensions>=4.16.0 (from anyio<5,>=3.6.2->starlette<0.47,>=0.19->platformio==6.1.18)
+2026-11-01T12:22:54.4008950Z   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+2026-11-01T12:22:54.4309548Z Collecting h11>=0.8 (from uvicorn<0.35,>=0.16->platformio==6.1.18)
+2026-11-01T12:22:54.4503842Z   Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+2026-11-01T12:22:54.4898819Z Collecting tzdata (from python-dateutil>=2.7->matplotlib==3.9.2->-r examples/python/requirements.txt (line 3))
+2026-11-01T12:22:54.5093752Z   Downloading tzdata-2026.6-py2.py3-none-any.whl.metadata (1.4 kB)
+2026-11-01T12:22:54.5341698Z Downloading platformio-6.1.18-py3-none-any.whl (420 kB)
+2026-11-01T12:22:54.5771547Z Downloading pyserial-3.5-py2.py3-none-any.whl (90 kB)
+2026-11-01T12:22:54.5990208Z Downloading paho_mqtt-2.1.0-py3-none-any.whl (67 kB)
+2026-11-01T12:22:54.6210966Z Downloading matplotlib-3.9.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (8.3 MB)
+2026-11-01T12:22:54.6919441Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.3/8.3 MB 120.8 MB/s  0:00:00
+2026-11-01T12:22:54.7117270Z Downloading ajsonrpc-1.2.0-py3-none-any.whl (22 kB)
+2026-11-01T12:22:54.7330746Z Downloading bottle-0.13.4-py2.py3-none-any.whl (103 kB)
+2026-11-01T12:22:54.7545679Z Downloading click-8.1.7-py3-none-any.whl (97 kB)
+2026-11-01T12:22:54.7766935Z Downloading marshmallow-3.26.2-py3-none-any.whl (50 kB)
+2026-11-01T12:22:54.7983616Z Downloading pyelftools-0.33-py3-none-any.whl (201 kB)
+2026-11-01T12:22:54.8208475Z Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+2026-11-01T12:22:54.8430825Z Downloading charset_normalizer-3.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (257 kB)
+2026-11-01T12:22:54.8655461Z Downloading idna-3.20-py3-none-any.whl (69 kB)
+2026-11-01T12:22:54.8878601Z Downloading semantic_version-2.10.0-py2.py3-none-any.whl (15 kB)
+2026-11-01T12:22:54.9100044Z Downloading starlette-0.46.2-py3-none-any.whl (72 kB)
+2026-11-01T12:22:54.9320344Z Downloading anyio-4.16.0-py3-none-any.whl (134 kB)
+2026-11-01T12:22:54.9538567Z Downloading tabulate-0.10.0-py3-none-any.whl (39 kB)
+2026-11-01T12:22:54.9747750Z Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+2026-11-01T12:22:54.9960972Z Downloading uvicorn-0.34.3-py3-none-any.whl (62 kB)
+2026-11-01T12:22:55.0176691Z Downloading wsproto-1.3.2-py3-none-any.whl (24 kB)
+2026-11-01T12:22:55.0390546Z Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+2026-11-01T12:22:55.0602580Z Downloading certifi-2026.10.23-py3-none-any.whl (135 kB)
+2026-11-01T12:22:55.0822127Z Downloading contourpy-1.4.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (383 kB)
+2026-11-01T12:22:55.1045629Z Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+2026-11-01T12:22:55.1262154Z Downloading fonttools-4.68.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (5.4 MB)
+2026-11-01T12:22:55.1448417Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.4/5.4 MB 331.3 MB/s  0:00:00
+2026-11-01T12:22:55.1641971Z Downloading kiwisolver-1.5.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.5 MB)
+2026-11-01T12:22:55.1711841Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 260.1 MB/s  0:00:00
+2026-11-01T12:22:55.1906861Z Downloading numpy-2.5.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.7 MB)
+2026-11-01T12:22:55.2422177Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.7/16.7 MB 336.8 MB/s  0:00:00
+2026-11-01T12:22:55.2620577Z Downloading packaging-26.3-py3-none-any.whl (129 kB)
+2026-11-01T12:22:55.2848753Z Downloading pillow-13.0.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (7.1 MB)
+2026-11-01T12:22:55.3100443Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.1/7.1 MB 307.9 MB/s  0:00:00
+2026-11-01T12:22:55.3292251Z Downloading pyparsing-3.3.3-py3-none-any.whl (126 kB)
+2026-11-01T12:22:55.3507250Z Downloading python_dateutil-4.0.0-py3-none-any.whl (92 kB)
+2026-11-01T12:22:55.3717041Z Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+2026-11-01T12:22:55.3927713Z Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+2026-11-01T12:22:55.4141894Z Downloading tzdata-2026.6-py2.py3-none-any.whl (348 kB)
+2026-11-01T12:22:55.6536107Z Installing collected packages: pyserial, bottle, urllib3, tzdata, typing_extensions, tabulate, semantic_version, pyparsing, pyelftools, pillow, paho-mqtt, packaging, numpy, kiwisolver, idna, h11, fonttools, cycler, colorama, click, charset_normalizer, certifi, ajsonrpc, wsproto, uvicorn, requests, python-dateutil, marshmallow, contourpy, anyio, starlette, matplotlib, platformio
+2026-11-01T12:23:02.3220225Z 
+2026-11-01T12:23:02.3253720Z Successfully installed ajsonrpc-1.2.0 anyio-4.16.0 bottle-0.13.4 certifi-2026.10.23 charset_normalizer-3.5.2 click-8.1.7 colorama-0.4.6 contourpy-1.4.0 cycler-0.12.1 fonttools-4.68.0 h11-0.16.0 idna-3.20 kiwisolver-1.5.1 marshmallow-3.26.2 matplotlib-3.9.2 numpy-2.5.4 packaging-26.3 paho-mqtt-2.1.0 pillow-13.0.0 platformio-6.1.18 pyelftools-0.33 pyparsing-3.3.3 pyserial-3.5 python-dateutil-4.0.0 requests-2.34.2 semantic_version-2.10.0 starlette-0.46.2 tabulate-0.10.0 typing_extensions-4.16.0 tzdata-2026.6 urllib3-2.8.0 uvicorn-0.34.3 wsproto-1.3.2
+2026-11-01T12:23:02.4232548Z ##[group]Run python scripts/hardware_preflight.py --output "/home/runner/work/_temp/handbook-validation/preflight.json"
+2026-11-01T12:23:02.4233467Z [36;1mpython scripts/hardware_preflight.py --output "/home/runner/work/_temp/handbook-validation/preflight.json"[0m
+2026-11-01T12:23:02.4255477Z shell: /usr/bin/bash -e {0}
+2026-11-01T12:23:02.4255725Z env:
+2026-11-01T12:23:02.4255910Z   PYTHONUTF8: 1
+2026-11-01T12:23:02.4256194Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:23:02.4256651Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+2026-11-01T12:23:02.4257097Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:23:02.4257789Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:23:02.4258202Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:23:02.4258610Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+2026-11-01T12:23:02.4258961Z ##[endgroup]
+2026-11-01T12:23:02.4788174Z {
+2026-11-01T12:23:02.4789110Z   "schema_version": 1,
+2026-11-01T12:23:02.4789584Z   "created_utc": "2026-11-01T12:23:02.475922+00:00",
+2026-11-01T12:23:02.4790230Z   "host": "Linux-7.0.0-1017-azure-x86_64-with-glibc2.39",
+2026-11-01T12:23:02.4790803Z   "python": "3.12.15",
+2026-11-01T12:23:02.4791506Z   "python_executable": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/python",
+2026-11-01T12:23:02.4792250Z   "hardware_tested": false,
+2026-11-01T12:23:02.4792688Z   "opened_serial_ports": false,
+2026-11-01T12:23:02.4793156Z   "firmware_flashed": false,
+2026-11-01T12:23:02.4793582Z   "serial_inventory": {
+2026-11-01T12:23:02.4793994Z     "status": "enumerated",
+2026-11-01T12:23:02.4794399Z     "ports": [
+2026-11-01T12:23:02.4794735Z       {
+2026-11-01T12:23:02.4795072Z         "device": "/dev/ttyS0",
+2026-11-01T12:23:02.4795506Z         "description": "n/a",
+2026-11-01T12:23:02.4796139Z         "hwid": "n/a",
+2026-11-01T12:23:02.4796391Z         "vid": null,
+2026-11-01T12:23:02.4796636Z         "pid": null,
+2026-11-01T12:23:02.4796885Z         "manufacturer": null,
+2026-11-01T12:23:02.4797168Z         "serial_number": null,
+2026-11-01T12:23:02.4797713Z         "location": null
+2026-11-01T12:23:02.4798062Z       },
+2026-11-01T12:23:02.4798265Z       {
+2026-11-01T12:23:02.4798485Z         "device": "/dev/ttyS1",
+2026-11-01T12:23:02.4798784Z         "description": "n/a",
+2026-11-01T12:23:02.4799057Z         "hwid": "n/a",
+2026-11-01T12:23:02.4799300Z         "vid": null,
+2026-11-01T12:23:02.4799535Z         "pid": null,
+2026-11-01T12:23:02.4799779Z         "manufacturer": null,
+2026-11-01T12:23:02.4800058Z         "serial_number": null,
+2026-11-01T12:23:02.4800334Z         "location": null
+2026-11-01T12:23:02.4800585Z       },
+2026-11-01T12:23:02.4800789Z       {
+2026-11-01T12:23:02.4801016Z         "device": "/dev/ttyS10",
+2026-11-01T12:23:02.4801310Z         "description": "n/a",
+2026-11-01T12:23:02.4801613Z         "hwid": "n/a",
+2026-11-01T12:23:02.4801859Z         "vid": null,
+2026-11-01T12:23:02.4802106Z         "pid": null,
+2026-11-01T12:23:02.4802353Z         "manufacturer": null,
+2026-11-01T12:23:02.4802630Z         "serial_number": null,
+2026-11-01T12:23:02.4802861Z         "location": null
+2026-11-01T12:23:02.4803069Z       },
+2026-11-01T12:23:02.4803238Z       {
+2026-11-01T12:23:02.4803420Z         "device": "/dev/ttyS11",
+2026-11-01T12:23:02.4803663Z         "description": "n/a",
+2026-11-01T12:23:02.4803887Z         "hwid": "n/a",
+2026-11-01T12:23:02.4804087Z         "vid": null,
+2026-11-01T12:23:02.4804291Z         "pid": null,
+2026-11-01T12:23:02.4804498Z         "manufacturer": null,
+2026-11-01T12:23:02.4804734Z         "serial_number": null,
+2026-11-01T12:23:02.4804968Z         "location": null
+2026-11-01T12:23:02.4805175Z       },
+2026-11-01T12:23:02.4805460Z       {
+2026-11-01T12:23:02.4805687Z         "device": "/dev/ttyS12",
+2026-11-01T12:23:02.4805934Z         "description": "n/a",
+2026-11-01T12:23:02.4806174Z         "hwid": "n/a",
+2026-11-01T12:23:02.4806604Z         "vid": null,
+2026-11-01T12:23:02.4806817Z         "pid": null,
+2026-11-01T12:23:02.4807026Z         "manufacturer": null,
+2026-11-01T12:23:02.4807262Z         "serial_number": null,
+2026-11-01T12:23:02.4807844Z         "location": null
+2026-11-01T12:23:02.4808088Z       },
+2026-11-01T12:23:02.4808262Z       {
+2026-11-01T12:23:02.4808453Z         "device": "/dev/ttyS13",
+2026-11-01T12:23:02.4808712Z         "description": "n/a",
+2026-11-01T12:23:02.4808943Z         "hwid": "n/a",
+2026-11-01T12:23:02.4809145Z         "vid": null,
+2026-11-01T12:23:02.4809356Z         "pid": null,
+2026-11-01T12:23:02.4809562Z         "manufacturer": null,
+2026-11-01T12:23:02.4809795Z         "serial_number": null,
+2026-11-01T12:23:02.4810024Z         "location": null
+2026-11-01T12:23:02.4810226Z       },
+2026-11-01T12:23:02.4810399Z       {
+2026-11-01T12:23:02.4810583Z         "device": "/dev/ttyS14",
+2026-11-01T12:23:02.4810836Z         "description": "n/a",
+2026-11-01T12:23:02.4811073Z         "hwid": "n/a",
+2026-11-01T12:23:02.4811280Z         "vid": null,
+2026-11-01T12:23:02.4811477Z         "pid": null,
+2026-11-01T12:23:02.4811685Z         "manufacturer": null,
+2026-11-01T12:23:02.4811923Z         "serial_number": null,
+2026-11-01T12:23:02.4812155Z         "location": null
+2026-11-01T12:23:02.4812363Z       },
+2026-11-01T12:23:02.4812536Z       {
+2026-11-01T12:23:02.4812718Z         "device": "/dev/ttyS15",
+2026-11-01T12:23:02.4812954Z         "description": "n/a",
+2026-11-01T12:23:02.4813178Z         "hwid": "n/a",
+2026-11-01T12:23:02.4813385Z         "vid": null,
+2026-11-01T12:23:02.4813582Z         "pid": null,
+2026-11-01T12:23:02.4813788Z         "manufacturer": null,
+2026-11-01T12:23:02.4814022Z         "serial_number": null,
+2026-11-01T12:23:02.4814254Z         "location": null
+2026-11-01T12:23:02.4814460Z       },
+2026-11-01T12:23:02.4814632Z       {
+2026-11-01T12:23:02.4814815Z         "device": "/dev/ttyS16",
+2026-11-01T12:23:02.4815219Z         "description": "n/a",
+2026-11-01T12:23:02.4815446Z         "hwid": "n/a",
+2026-11-01T12:23:02.4815656Z         "vid": null,
+2026-11-01T12:23:02.4815863Z         "pid": null,
+2026-11-01T12:23:02.4816068Z         "manufacturer": null,
+2026-11-01T12:23:02.4816300Z         "serial_number": null,
+2026-11-01T12:23:02.4816530Z         "location": null
+2026-11-01T12:23:02.4816735Z       },
+2026-11-01T12:23:02.4816902Z       {
+2026-11-01T12:23:02.4817082Z         "device": "/dev/ttyS17",
+2026-11-01T12:23:02.4817317Z         "description": "n/a",
+2026-11-01T12:23:02.4817917Z         "hwid": "n/a",
+2026-11-01T12:23:02.4818132Z         "vid": null,
+2026-11-01T12:23:02.4818333Z         "pid": null,
+2026-11-01T12:23:02.4818543Z         "manufacturer": null,
+2026-11-01T12:23:02.4818775Z         "serial_number": null,
+2026-11-01T12:23:02.4819006Z         "location": null
+2026-11-01T12:23:02.4819216Z       },
+2026-11-01T12:23:02.4819386Z       {
+2026-11-01T12:23:02.4819571Z         "device": "/dev/ttyS18",
+2026-11-01T12:23:02.4819823Z         "description": "n/a",
+2026-11-01T12:23:02.4820052Z         "hwid": "n/a",
+2026-11-01T12:23:02.4820256Z         "vid": null,
+2026-11-01T12:23:02.4820454Z         "pid": null,
+2026-11-01T12:23:02.4820659Z         "manufacturer": null,
+2026-11-01T12:23:02.4820893Z         "serial_number": null,
+2026-11-01T12:23:02.4821130Z         "location": null
+2026-11-01T12:23:02.4821335Z       },
+2026-11-01T12:23:02.4821504Z       {
+2026-11-01T12:23:02.4821686Z         "device": "/dev/ttyS19",
+2026-11-01T12:23:02.4821923Z         "description": "n/a",
+2026-11-01T12:23:02.4822147Z         "hwid": "n/a",
+2026-11-01T12:23:02.4822349Z         "vid": null,
+2026-11-01T12:23:02.4822546Z         "pid": null,
+2026-11-01T12:23:02.4822749Z         "manufacturer": null,
+2026-11-01T12:23:02.4822983Z         "serial_number": null,
+2026-11-01T12:23:02.4823214Z         "location": null
+2026-11-01T12:23:02.4823429Z       },
+2026-11-01T12:23:02.4823601Z       {
+2026-11-01T12:23:02.4823788Z         "device": "/dev/ttyS2",
+2026-11-01T12:23:02.4824037Z         "description": "n/a",
+2026-11-01T12:23:02.4824431Z         "hwid": "n/a",
+2026-11-01T12:23:02.4824637Z         "vid": null,
+2026-11-01T12:23:02.4824835Z         "pid": null,
+2026-11-01T12:23:02.4825041Z         "manufacturer": null,
+2026-11-01T12:23:02.4825279Z         "serial_number": null,
+2026-11-01T12:23:02.4825505Z         "location": null
+2026-11-01T12:23:02.4825710Z       },
+2026-11-01T12:23:02.4825882Z       {
+2026-11-01T12:23:02.4826068Z         "device": "/dev/ttyS20",
+2026-11-01T12:23:02.4826318Z         "description": "n/a",
+2026-11-01T12:23:02.4826550Z         "hwid": "n/a",
+2026-11-01T12:23:02.4826751Z         "vid": null,
+2026-11-01T12:23:02.4826948Z         "pid": null,
+2026-11-01T12:23:02.4827151Z         "manufacturer": null,
+2026-11-01T12:23:02.4827380Z         "serial_number": null,
+2026-11-01T12:23:02.4828155Z         "location": null
+2026-11-01T12:23:02.4828368Z       },
+2026-11-01T12:23:02.4828538Z       {
+2026-11-01T12:23:02.4828737Z         "device": "/dev/ttyS21",
+2026-11-01T12:23:02.4828980Z         "description": "n/a",
+2026-11-01T12:23:02.4829215Z         "hwid": "n/a",
+2026-11-01T12:23:02.4829418Z         "vid": null,
+2026-11-01T12:23:02.4829613Z         "pid": null,
+2026-11-01T12:23:02.4829816Z         "manufacturer": null,
+2026-11-01T12:23:02.4830058Z         "serial_number": null,
+2026-11-01T12:23:02.4830294Z         "location": null
+2026-11-01T12:23:02.4830502Z       },
+2026-11-01T12:23:02.4830672Z       {
+2026-11-01T12:23:02.4830858Z         "device": "/dev/ttyS22",
+2026-11-01T12:23:02.4831094Z         "description": "n/a",
+2026-11-01T12:23:02.4831327Z         "hwid": "n/a",
+2026-11-01T12:23:02.4831530Z         "vid": null,
+2026-11-01T12:23:02.4831726Z         "pid": null,
+2026-11-01T12:23:02.4831929Z         "manufacturer": null,
+2026-11-01T12:23:02.4832173Z         "serial_number": null,
+2026-11-01T12:23:02.4832649Z         "location": null
+2026-11-01T12:23:02.4852655Z       },
+2026-11-01T12:23:02.4852938Z       {
+2026-11-01T12:23:02.4853464Z         "device": "/dev/ttyS23",
+2026-11-01T12:23:02.4853737Z         "description": "n/a",
+2026-11-01T12:23:02.4853979Z         "hwid": "n/a",
+2026-11-01T12:23:02.4854191Z         "vid": null,
+2026-11-01T12:23:02.4854459Z         "pid": null,
+2026-11-01T12:23:02.4854795Z         "manufacturer": null,
+2026-11-01T12:23:02.4855174Z         "serial_number": null,
+2026-11-01T12:23:02.4855601Z         "location": null
+2026-11-01T12:23:02.4855943Z       },
+2026-11-01T12:23:02.4856220Z       {
+2026-11-01T12:23:02.4856528Z         "device": "/dev/ttyS24",
+2026-11-01T12:23:02.4856931Z         "description": "n/a",
+2026-11-01T12:23:02.4857291Z         "hwid": "n/a",
+2026-11-01T12:23:02.4857915Z         "vid": null,
+2026-11-01T12:23:02.4858253Z         "pid": null,
+2026-11-01T12:23:02.4858841Z         "manufacturer": null,
+2026-11-01T12:23:02.4859265Z         "serial_number": null,
+2026-11-01T12:23:02.4859641Z         "location": null
+2026-11-01T12:23:02.4859955Z       },
+2026-11-01T12:23:02.4860148Z       {
+2026-11-01T12:23:02.4860340Z         "device": "/dev/ttyS25",
+2026-11-01T12:23:02.4860598Z         "description": "n/a",
+2026-11-01T12:23:02.4860830Z         "hwid": "n/a",
+2026-11-01T12:23:02.4861036Z         "vid": null,
+2026-11-01T12:23:02.4861237Z         "pid": null,
+2026-11-01T12:23:02.4861444Z         "manufacturer": null,
+2026-11-01T12:23:02.4861689Z         "serial_number": null,
+2026-11-01T12:23:02.4861924Z         "location": null
+2026-11-01T12:23:02.4862136Z       },
+2026-11-01T12:23:02.4862310Z       {
+2026-11-01T12:23:02.4862498Z         "device": "/dev/ttyS26",
+2026-11-01T12:23:02.4862736Z         "description": "n/a",
+2026-11-01T12:23:02.4862962Z         "hwid": "n/a",
+2026-11-01T12:23:02.4863165Z         "vid": null,
+2026-11-01T12:23:02.4863361Z         "pid": null,
+2026-11-01T12:23:02.4863564Z         "manufacturer": null,
+2026-11-01T12:23:02.4863806Z         "serial_number": null,
+2026-11-01T12:23:02.4864049Z         "location": null
+2026-11-01T12:23:02.4864255Z       },
+2026-11-01T12:23:02.4864431Z       {
+2026-11-01T12:23:02.4864611Z         "device": "/dev/ttyS27",
+2026-11-01T12:23:02.4865029Z         "description": "n/a",
+2026-11-01T12:23:02.4865263Z         "hwid": "n/a",
+2026-11-01T12:23:02.4865467Z         "vid": null,
+2026-11-01T12:23:02.4865665Z         "pid": null,
+2026-11-01T12:23:02.4865883Z         "manufacturer": null,
+2026-11-01T12:23:02.4866121Z         "serial_number": null,
+2026-11-01T12:23:02.4866351Z         "location": null
+2026-11-01T12:23:02.4866563Z       },
+2026-11-01T12:23:02.4866728Z       {
+2026-11-01T12:23:02.4866913Z         "device": "/dev/ttyS28",
+2026-11-01T12:23:02.4867155Z         "description": "n/a",
+2026-11-01T12:23:02.4867381Z         "hwid": "n/a",
+2026-11-01T12:23:02.4867929Z         "vid": null,
+2026-11-01T12:23:02.4868142Z         "pid": null,
+2026-11-01T12:23:02.4868348Z         "manufacturer": null,
+2026-11-01T12:23:02.4868575Z         "serial_number": null,
+2026-11-01T12:23:02.4868803Z         "location": null
+2026-11-01T12:23:02.4869012Z       },
+2026-11-01T12:23:02.4869187Z       {
+2026-11-01T12:23:02.4869371Z         "device": "/dev/ttyS29",
+2026-11-01T12:23:02.4869615Z         "description": "n/a",
+2026-11-01T12:23:02.4869837Z         "hwid": "n/a",
+2026-11-01T12:23:02.4870037Z         "vid": null,
+2026-11-01T12:23:02.4870234Z         "pid": null,
+2026-11-01T12:23:02.4870436Z         "manufacturer": null,
+2026-11-01T12:23:02.4870665Z         "serial_number": null,
+2026-11-01T12:23:02.4870896Z         "location": null
+2026-11-01T12:23:02.4871095Z       },
+2026-11-01T12:23:02.4871264Z       {
+2026-11-01T12:23:02.4871445Z         "device": "/dev/ttyS3",
+2026-11-01T12:23:02.4871686Z         "description": "n/a",
+2026-11-01T12:23:02.4871909Z         "hwid": "n/a",
+2026-11-01T12:23:02.4872108Z         "vid": null,
+2026-11-01T12:23:02.4872305Z         "pid": null,
+2026-11-01T12:23:02.4872510Z         "manufacturer": null,
+2026-11-01T12:23:02.4872736Z         "serial_number": null,
+2026-11-01T12:23:02.4872958Z         "location": null
+2026-11-01T12:23:02.4873315Z       },
+2026-11-01T12:23:02.4873484Z       {
+2026-11-01T12:23:02.4873677Z         "device": "/dev/ttyS30",
+2026-11-01T12:23:02.4873920Z         "description": "n/a",
+2026-11-01T12:23:02.4874152Z         "hwid": "n/a",
+2026-11-01T12:23:02.4874353Z         "vid": null,
+2026-11-01T12:23:02.4874548Z         "pid": null,
+2026-11-01T12:23:02.4874750Z         "manufacturer": null,
+2026-11-01T12:23:02.4874983Z         "serial_number": null,
+2026-11-01T12:23:02.4875212Z         "location": null
+2026-11-01T12:23:02.4875417Z       },
+2026-11-01T12:23:02.4875588Z       {
+2026-11-01T12:23:02.4875767Z         "device": "/dev/ttyS31",
+2026-11-01T12:23:02.4876002Z         "description": "n/a",
+2026-11-01T12:23:02.4876226Z         "hwid": "n/a",
+2026-11-01T12:23:02.4876432Z         "vid": null,
+2026-11-01T12:23:02.4876627Z         "pid": null,
+2026-11-01T12:23:02.4876829Z         "manufacturer": null,
+2026-11-01T12:23:02.4877055Z         "serial_number": null,
+2026-11-01T12:23:02.4877286Z         "location": null
+2026-11-01T12:23:02.4877738Z       },
+2026-11-01T12:23:02.4877920Z       {
+2026-11-01T12:23:02.4878105Z         "device": "/dev/ttyS4",
+2026-11-01T12:23:02.4878339Z         "description": "n/a",
+2026-11-01T12:23:02.4878561Z         "hwid": "n/a",
+2026-11-01T12:23:02.4878760Z         "vid": null,
+2026-11-01T12:23:02.4878959Z         "pid": null,
+2026-11-01T12:23:02.4879158Z         "manufacturer": null,
+2026-11-01T12:23:02.4879388Z         "serial_number": null,
+2026-11-01T12:23:02.4879611Z         "location": null
+2026-11-01T12:23:02.4879810Z       },
+2026-11-01T12:23:02.4879978Z       {
+2026-11-01T12:23:02.4880159Z         "device": "/dev/ttyS5",
+2026-11-01T12:23:02.4880395Z         "description": "n/a",
+2026-11-01T12:23:02.4880619Z         "hwid": "n/a",
+2026-11-01T12:23:02.4880818Z         "vid": null,
+2026-11-01T12:23:02.4881014Z         "pid": null,
+2026-11-01T12:23:02.4881214Z         "manufacturer": null,
+2026-11-01T12:23:02.4881450Z         "serial_number": null,
+2026-11-01T12:23:02.4881683Z         "location": null
+2026-11-01T12:23:02.4881886Z       },
+2026-11-01T12:23:02.4882048Z       {
+2026-11-01T12:23:02.4882361Z         "device": "/dev/ttyS6",
+2026-11-01T12:23:02.4882598Z         "description": "n/a",
+2026-11-01T12:23:02.4882818Z         "hwid": "n/a",
+2026-11-01T12:23:02.4883017Z         "vid": null,
+2026-11-01T12:23:02.4883213Z         "pid": null,
+2026-11-01T12:23:02.4883416Z         "manufacturer": null,
+2026-11-01T12:23:02.4883643Z         "serial_number": null,
+2026-11-01T12:23:02.4883876Z         "location": null
+2026-11-01T12:23:02.4884078Z       },
+2026-11-01T12:23:02.4884245Z       {
+2026-11-01T12:23:02.4884424Z         "device": "/dev/ttyS7",
+2026-11-01T12:23:02.4884665Z         "description": "n/a",
+2026-11-01T12:23:02.4884895Z         "hwid": "n/a",
+2026-11-01T12:23:02.4885100Z         "vid": null,
+2026-11-01T12:23:02.4885298Z         "pid": null,
+2026-11-01T12:23:02.4885503Z         "manufacturer": null,
+2026-11-01T12:23:02.4885739Z         "serial_number": null,
+2026-11-01T12:23:02.4885975Z         "location": null
+2026-11-01T12:23:02.4886182Z       },
+2026-11-01T12:23:02.4886358Z       {
+2026-11-01T12:23:02.4886539Z         "device": "/dev/ttyS8",
+2026-11-01T12:23:02.4886776Z         "description": "n/a",
+2026-11-01T12:23:02.4887001Z         "hwid": "n/a",
+2026-11-01T12:23:02.4887203Z         "vid": null,
+2026-11-01T12:23:02.4887396Z         "pid": null,
+2026-11-01T12:23:02.4887917Z         "manufacturer": null,
+2026-11-01T12:23:02.4888186Z         "serial_number": null,
+2026-11-01T12:23:02.4888409Z         "location": null
+2026-11-01T12:23:02.4888608Z       },
+2026-11-01T12:23:02.4888782Z       {
+2026-11-01T12:23:02.4888969Z         "device": "/dev/ttyS9",
+2026-11-01T12:23:02.4889208Z         "description": "n/a",
+2026-11-01T12:23:02.4889432Z         "hwid": "n/a",
+2026-11-01T12:23:02.4889628Z         "vid": null,
+2026-11-01T12:23:02.4889823Z         "pid": null,
+2026-11-01T12:23:02.4890040Z         "manufacturer": null,
+2026-11-01T12:23:02.4890276Z         "serial_number": null,
+2026-11-01T12:23:02.4890649Z         "location": null
+2026-11-01T12:23:02.4890859Z       }
+2026-11-01T12:23:02.4891030Z     ],
+2026-11-01T12:23:02.4891205Z     "error": null
+2026-11-01T12:23:02.4891387Z   },
+2026-11-01T12:23:02.4891575Z   "selected_port": null,
+2026-11-01T12:23:02.4891806Z   "selected_port_present": null,
+2026-11-01T12:23:02.4892043Z   "usb_inventory": {
+2026-11-01T12:23:02.4892254Z     "status": "not_requested"
+2026-11-01T12:23:02.4892473Z   },
+2026-11-01T12:23:02.4892646Z   "tools_on_path": {
+2026-11-01T12:23:02.4892852Z     "git": "/usr/bin/git",
+2026-11-01T12:23:02.4893130Z     "pio": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/pio",
+2026-11-01T12:23:02.4893562Z     "platformio": "/opt/hostedtoolcache/Python/3.12.15/x64/bin/platformio",
+2026-11-01T12:23:02.4893927Z     "idf.py": null,
+2026-11-01T12:23:02.4894146Z     "cmake": "/usr/local/bin/cmake",
+2026-11-01T12:23:02.4894400Z     "ninja": "/usr/local/bin/ninja",
+2026-11-01T12:23:02.4894645Z     "openocd": null,
+2026-11-01T12:23:02.4894871Z     "xtensa-esp-elf-gdb": null
+2026-11-01T12:23:02.4895096Z   },
+2026-11-01T12:23:02.4895279Z   "idf_environment_selected": false,
+2026-11-01T12:23:02.4895524Z   "limitations": [
+2026-11-01T12:23:02.4895832Z     "A USB UART bridge or serial port does not prove an ESP32 is connected.",
+2026-11-01T12:23:02.4896352Z     "Enumeration does not verify port permissions, baud rate, firmware or flash size.",
+2026-11-01T12:23:02.4896867Z     "SSH does not forward a Windows USB device to the remote Linux host.",
+2026-11-01T12:23:02.4897318Z     "CH340 is a USB UART bridge, not the classic ESP32 JTAG interface.",
+2026-11-01T12:23:02.4898016Z     "No OLED, sensor, OTA, power or JTAG experiment is performed by this script."
+2026-11-01T12:23:02.4898383Z   ],
+2026-11-01T12:23:02.4898557Z   "experiments": {
+2026-11-01T12:23:02.4898751Z     "serial": {
+2026-11-01T12:23:02.4898948Z       "status": "not_run",
+2026-11-01T12:23:02.4899164Z       "needs": [
+2026-11-01T12:23:02.4899358Z         "identified board",
+2026-11-01T12:23:02.4899587Z         "data USB cable",
+2026-11-01T12:23:02.4899938Z         "selected usable port"
+2026-11-01T12:23:02.4900177Z       ]
+2026-11-01T12:23:02.4900348Z     },
+2026-11-01T12:23:02.4900519Z     "oled": {
+2026-11-01T12:23:02.4900702Z       "status": "not_run",
+2026-11-01T12:23:02.4900911Z       "needs": [
+2026-11-01T12:23:02.4901101Z         "I2C wiring",
+2026-11-01T12:23:02.4901305Z         "address scan",
+2026-11-01T12:23:02.4901544Z         "controller/resolution confirmation",
+2026-11-01T12:23:02.4901823Z         "visual inspection"
+2026-11-01T12:23:02.4902035Z       ]
+2026-11-01T12:23:02.4902209Z     },
+2026-11-01T12:23:02.4902376Z     "sht30": {
+2026-11-01T12:23:02.4902570Z       "status": "not_run",
+2026-11-01T12:23:02.4902777Z       "needs": [
+2026-11-01T12:23:02.4902994Z         "physical 3.3 V compatible SHT30 module",
+2026-11-01T12:23:02.4903278Z         "CRC and recovery logs"
+2026-11-01T12:23:02.4903497Z       ]
+2026-11-01T12:23:02.4903657Z     },
+2026-11-01T12:23:02.4903832Z     "ota_rollback": {
+2026-11-01T12:23:02.4904034Z       "status": "not_run",
+2026-11-01T12:23:02.4904243Z       "needs": [
+2026-11-01T12:23:02.4904444Z         "confirmed baseline image",
+2026-11-01T12:23:02.4904688Z         "two OTA slots",
+2026-11-01T12:23:02.4904910Z         "trusted HTTPS server",
+2026-11-01T12:23:02.4905148Z         "good and failing updates"
+2026-11-01T12:23:02.4905377Z       ]
+2026-11-01T12:23:02.4905539Z     },
+2026-11-01T12:23:02.4905704Z     "power": {
+2026-11-01T12:23:02.4905891Z       "status": "not_run",
+2026-11-01T12:23:02.4906096Z       "needs": [
+2026-11-01T12:23:02.4906301Z         "current measurement instrument",
+2026-11-01T12:23:02.4906575Z         "documented measurement point",
+2026-11-01T12:23:02.4906848Z         "active/sleep waveform or samples"
+2026-11-01T12:23:02.4907100Z       ]
+2026-11-01T12:23:02.4907272Z     },
+2026-11-01T12:23:02.4907641Z     "jtag": {
+2026-11-01T12:23:02.4907919Z       "status": "not_run",
+2026-11-01T12:23:02.4908138Z       "needs": [
+2026-11-01T12:23:02.4908504Z         "external ESP32 compatible JTAG probe",
+2026-11-01T12:23:02.4908796Z         "correct drivers",
+2026-11-01T12:23:02.4909015Z         "matching ELF",
+2026-11-01T12:23:02.4909241Z         "breakpoint/backtrace evidence"
+2026-11-01T12:23:02.4909488Z       ]
+2026-11-01T12:23:02.4909658Z     }
+2026-11-01T12:23:02.4909828Z   },
+2026-11-01T12:23:02.4910009Z   "exit_code": 0,
+2026-11-01T12:23:02.4910308Z   "exit_meaning": "inventory completed; no physical experiment passed"
+2026-11-01T12:23:02.4910661Z }
+2026-11-01T12:23:02.4944657Z ##[group]Run python scripts/check_handbook.py
+2026-11-01T12:23:02.4945049Z [36;1mpython scripts/check_handbook.py[0m
+2026-11-01T12:23:02.4966487Z shell: /usr/bin/bash -e {0}
+2026-11-01T12:23:02.4966734Z env:
+2026-11-01T12:23:02.4966917Z   PYTHONUTF8: 1
+2026-11-01T12:23:02.4967196Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:23:02.4967959Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+2026-11-01T12:23:02.4968411Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:23:02.4968795Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:23:02.4969186Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:23:02.4969572Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+2026-11-01T12:23:02.4969893Z ##[endgroup]
+2026-11-01T12:23:02.5777225Z {
+2026-11-01T12:23:02.5777814Z   "chapters": 72,
+2026-11-01T12:23:02.5778107Z   "markdown_characters": 236024,
+2026-11-01T12:23:02.5778496Z   "errors": [],
+2026-11-01T12:23:02.5778738Z   "warnings": []
+2026-11-01T12:23:02.5778963Z }
+2026-11-01T12:23:02.5872535Z ##[group]Run python -m unittest discover -s examples/python/tests -v
+2026-11-01T12:23:02.5873046Z [36;1mpython -m unittest discover -s examples/python/tests -v[0m
+2026-11-01T12:23:02.5894819Z shell: /usr/bin/bash -e {0}
+2026-11-01T12:23:02.5895060Z env:
+2026-11-01T12:23:02.5895250Z   PYTHONUTF8: 1
+2026-11-01T12:23:02.5895530Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:23:02.5895977Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+2026-11-01T12:23:02.5896406Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:23:02.5896786Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:23:02.5897162Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:23:02.5897832Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+2026-11-01T12:23:02.5898173Z ##[endgroup]
+2026-11-01T12:23:02.7669784Z test_alias_indistinguishable_samples (test_tools.Mathematics.test_alias_indistinguishable_samples) ... ok
+2026-11-01T12:23:02.7671403Z test_filter_constant_converges_without_overshoot (test_tools.Mathematics.test_filter_constant_converges_without_overshoot) ... ok
+2026-11-01T12:23:02.7683098Z test_pid_saturation_recovers (test_tools.Mathematics.test_pid_saturation_recovers) ... ok
+2026-11-01T12:23:02.7684446Z test_power_boundaries_and_invalid_period (test_tools.Mathematics.test_power_boundaries_and_invalid_period) ... ok
+2026-11-01T12:23:02.7685534Z test_rc_initial_and_time_constant (test_tools.Mathematics.test_rc_initial_and_time_constant) ... ok
+2026-11-01T12:23:02.7897769Z test_http_success_then_failure (test_tools.Networking.test_http_success_then_failure) ... 127.0.0.1 - - [01/Nov/2026 12:23:02] "GET /api/status HTTP/1.1" 200 -
+2026-11-01T12:23:02.8086923Z 127.0.0.1 - - [01/Nov/2026 12:23:02] "GET /api/status HTTP/1.1" 503 -
+2026-11-01T12:23:03.3096054Z ok
+2026-11-01T12:23:03.3097000Z test_missing_sensor_and_extensibility (test_tools.Protocol.test_missing_sensor_and_extensibility) ... ok
+2026-11-01T12:23:03.3109086Z test_reject_bad_records (test_tools.Protocol.test_reject_bad_records) ... ok
+2026-11-01T12:23:03.8658137Z test_loopback_csv (test_tools.SerialIntegration.test_loopback_csv) ... ok
+2026-11-01T12:23:03.8658711Z 
+2026-11-01T12:23:03.8658984Z ----------------------------------------------------------------------
+2026-11-01T12:23:03.8659544Z Ran 9 tests in 1.099s
+2026-11-01T12:23:03.8660148Z 
+2026-11-01T12:23:03.8660260Z OK
+2026-11-01T12:23:03.8849334Z ##[group]Run cmake -S examples/arduino/language_basics -B "/home/runner/work/_temp/handbook-cpp"
+2026-11-01T12:23:03.8850061Z [36;1mcmake -S examples/arduino/language_basics -B "/home/runner/work/_temp/handbook-cpp"[0m
+2026-11-01T12:23:03.8871026Z shell: /usr/bin/bash -e {0}
+2026-11-01T12:23:03.8871281Z env:
+2026-11-01T12:23:03.8871474Z   PYTHONUTF8: 1
+2026-11-01T12:23:03.8871754Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:23:03.8872197Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+2026-11-01T12:23:03.8872620Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:23:03.8873014Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:23:03.8873415Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:23:03.8873800Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+2026-11-01T12:23:03.8874137Z ##[endgroup]
+2026-11-01T12:23:04.4921951Z -- The CXX compiler identification is GNU 13.3.0
+2026-11-01T12:23:04.6861677Z -- Detecting CXX compiler ABI info
+2026-11-01T12:23:04.9759932Z -- Detecting CXX compiler ABI info - done
+2026-11-01T12:23:04.9940218Z -- Check for working CXX compiler: /usr/bin/c++ - skipped
+2026-11-01T12:23:05.0060128Z -- Detecting CXX compile features
+2026-11-01T12:23:05.0069958Z -- Detecting CXX compile features - done
+2026-11-01T12:23:05.0310758Z -- Configuring done (1.1s)
+2026-11-01T12:23:05.0347339Z -- Generating done (0.0s)
+2026-11-01T12:23:05.0351205Z -- Build files have been written to: /home/runner/work/_temp/handbook-cpp
+2026-11-01T12:23:05.0415291Z ##[group]Run cmake --build "/home/runner/work/_temp/handbook-cpp" --config Release
+2026-11-01T12:23:05.0415913Z [36;1mcmake --build "/home/runner/work/_temp/handbook-cpp" --config Release[0m
+2026-11-01T12:23:05.0436798Z shell: /usr/bin/bash -e {0}
+2026-11-01T12:23:05.0437043Z env:
+2026-11-01T12:23:05.0437231Z   PYTHONUTF8: 1
+2026-11-01T12:23:05.0437854Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:23:05.0438316Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+2026-11-01T12:23:05.0438746Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:23:05.0439129Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:23:05.0439513Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:23:05.0439887Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+2026-11-01T12:23:05.0440224Z ##[endgroup]
+2026-11-01T12:23:05.0651960Z [ 33%] Building CXX object CMakeFiles/model_tests.dir/src/model.cpp.o
+2026-11-01T12:23:05.1560286Z [ 66%] Building CXX object CMakeFiles/model_tests.dir/tests/test_model.cpp.o
+2026-11-01T12:23:05.3524500Z [100%] Linking CXX executable model_tests
+2026-11-01T12:23:05.3862585Z [100%] Built target model_tests
+2026-11-01T12:23:05.3966658Z ##[group]Run ctest --test-dir "/home/runner/work/_temp/handbook-cpp" -C Release --output-on-failure
+2026-11-01T12:23:05.3968469Z [36;1mctest --test-dir "/home/runner/work/_temp/handbook-cpp" -C Release --output-on-failure[0m
+2026-11-01T12:23:05.3999272Z shell: /usr/bin/bash -e {0}
+2026-11-01T12:23:05.3999693Z env:
+2026-11-01T12:23:05.4000020Z   PYTHONUTF8: 1
+2026-11-01T12:23:05.4000519Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:23:05.4001282Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+2026-11-01T12:23:05.4002043Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:23:05.4002750Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:23:05.4003449Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:23:05.4004156Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+2026-11-01T12:23:05.4004732Z ##[endgroup]
+2026-11-01T12:23:05.8270952Z Internal ctest changing into directory: /home/runner/work/_temp/handbook-cpp
+2026-11-01T12:23:05.9017759Z Test project /home/runner/work/_temp/handbook-cpp
+2026-11-01T12:23:05.9592003Z     Start 1: model_contract
+2026-11-01T12:23:05.9701284Z 1/1 Test #1: model_contract ...................   Passed    0.00 sec
+2026-11-01T12:23:05.9769631Z 
+2026-11-01T12:23:05.9769913Z 100% tests passed, 0 tests failed out of 1
+2026-11-01T12:23:05.9770286Z 
+2026-11-01T12:23:05.9770446Z Total Test time (real) =   0.08 sec
+2026-11-01T12:23:06.0198425Z ##[group]Run python scripts/build_examples.py --kind arduino --build-root "/home/runner/work/_temp/handbook-pio" --output "/home/runner/work/_temp/handbook-validation/arduino.json"
+2026-11-01T12:23:06.0199700Z [36;1mpython scripts/build_examples.py --kind arduino --build-root "/home/runner/work/_temp/handbook-pio" --output "/home/runner/work/_temp/handbook-validation/arduino.json"[0m
+2026-11-01T12:23:06.0220471Z shell: /usr/bin/bash -e {0}
+2026-11-01T12:23:06.0220720Z env:
+2026-11-01T12:23:06.0220909Z   PYTHONUTF8: 1
+2026-11-01T12:23:06.0221192Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:23:06.0221654Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+2026-11-01T12:23:06.0222090Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:23:06.0222471Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:23:06.0222854Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:23:06.0223275Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+2026-11-01T12:23:06.0223656Z   PLATFORMIO_CORE_DIR: /home/runner/work/_temp/pio-core
+2026-11-01T12:23:06.0223964Z ##[endgroup]
+2026-11-01T12:23:06.0675612Z BUILD examples/arduino/actuator
+2026-11-01T12:24:26.2840625Z passed
+2026-11-01T12:24:26.2850780Z BUILD examples/arduino/adc
+2026-11-01T12:24:36.4342421Z passed
+2026-11-01T12:24:36.4352103Z BUILD examples/arduino/ble
+2026-11-01T12:25:07.9959133Z passed
+2026-11-01T12:25:07.9968704Z BUILD examples/arduino/bluetooth_serial
+2026-11-01T12:25:24.4258122Z passed
+2026-11-01T12:25:24.4270477Z BUILD examples/arduino/espnow
+2026-11-01T12:25:42.9431070Z passed
+2026-11-01T12:25:42.9440308Z BUILD examples/arduino/filter
+2026-11-01T12:25:53.0862158Z passed
+2026-11-01T12:25:53.0871226Z BUILD examples/arduino/gpio_button
+2026-11-01T12:26:03.1460745Z passed
+2026-11-01T12:26:03.1475756Z BUILD examples/arduino/http
+2026-11-01T12:26:35.8415545Z passed
+2026-11-01T12:26:35.8425065Z BUILD examples/arduino/i2c_scan
+2026-11-01T12:26:46.4923352Z passed
+2026-11-01T12:26:46.4938765Z BUILD examples/arduino/language_basics
+2026-11-01T12:26:56.6609536Z passed
+2026-11-01T12:26:56.6623409Z BUILD examples/arduino/mqtt
+2026-11-01T12:27:18.3441802Z passed
+2026-11-01T12:27:18.3454044Z BUILD examples/arduino/oled
+2026-11-01T12:27:45.1893421Z passed
+2026-11-01T12:27:45.1903948Z BUILD examples/arduino/pid
+2026-11-01T12:27:55.5278740Z passed
+2026-11-01T12:27:55.5288665Z BUILD examples/arduino/pulse_touch
+2026-11-01T12:28:05.8332338Z passed
+2026-11-01T12:28:05.8341218Z BUILD examples/arduino/pwm_dac
+2026-11-01T12:28:16.0965286Z passed
+2026-11-01T12:28:16.0974501Z BUILD examples/arduino/sd_logger
+2026-11-01T12:28:28.8734150Z passed
+2026-11-01T12:28:28.8744307Z BUILD examples/arduino/serial_info
+2026-11-01T12:28:38.9775685Z passed
+2026-11-01T12:28:38.9784793Z BUILD examples/arduino/sht30
+2026-11-01T12:28:49.6952724Z passed
+2026-11-01T12:28:49.6966336Z BUILD examples/arduino/tcp_udp
+2026-11-01T12:29:08.5096123Z passed
+2026-11-01T12:29:08.5109226Z BUILD examples/arduino/time_provision
+2026-11-01T12:29:34.0249169Z passed
+2026-11-01T12:29:34.0258365Z BUILD examples/arduino/timing_interrupt
+2026-11-01T12:29:44.2864157Z passed
+2026-11-01T12:29:44.2873637Z BUILD examples/arduino/uart
+2026-11-01T12:29:54.5291698Z passed
+2026-11-01T12:29:54.5305244Z BUILD examples/arduino/wifi
+2026-11-01T12:30:13.2169190Z passed
+2026-11-01T12:30:13.2182573Z BUILD examples/projects/battery_node
+2026-11-01T12:30:32.9847955Z passed
+2026-11-01T12:30:32.9862817Z BUILD examples/projects/environment_station
+2026-11-01T12:31:04.3098624Z passed
+2026-11-01T12:31:04.3112364Z BUILD examples/projects/espnow_gateway
+2026-11-01T12:31:42.5259203Z passed
+2026-11-01T12:31:42.5271537Z BUILD examples/projects/low_voltage_controller
+2026-11-01T12:32:06.9594749Z passed
+2026-11-01T12:32:06.9608366Z BUILD examples/projects/oled_clock
+2026-11-01T12:32:35.8043586Z passed
+2026-11-01T12:32:35.8151452Z ##[group]Run python scripts/check_firmware_sizes.py --build-root "/home/runner/work/_temp/handbook-pio" --output "/home/runner/work/_temp/handbook-validation/arduino-sizes.json"
+2026-11-01T12:32:35.8152732Z [36;1mpython scripts/check_firmware_sizes.py --build-root "/home/runner/work/_temp/handbook-pio" --output "/home/runner/work/_temp/handbook-validation/arduino-sizes.json"[0m
+2026-11-01T12:32:35.8173415Z shell: /usr/bin/bash -e {0}
+2026-11-01T12:32:35.8173657Z env:
+2026-11-01T12:32:35.8173842Z   PYTHONUTF8: 1
+2026-11-01T12:32:35.8174158Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:32:35.8174589Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+2026-11-01T12:32:35.8175037Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:32:35.8175410Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:32:35.8175788Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:32:35.8176209Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+2026-11-01T12:32:35.8176535Z ##[endgroup]
+2026-11-01T12:32:35.8792442Z 29 images checked; 0 projects without binaries
+2026-11-01T12:32:35.8915329Z ##[group]Run actions/upload-artifact@v7
+2026-11-01T12:32:35.8915633Z with:
+2026-11-01T12:32:35.8915855Z   name: validation-ubuntu-24.04-41306203116-1
+2026-11-01T12:32:35.8916207Z   path: /home/runner/work/_temp/handbook-validation/
+2026-11-01T12:32:35.8916526Z   if-no-files-found: warn
+2026-11-01T12:32:35.8916758Z   retention-days: 14
+2026-11-01T12:32:35.8916975Z   compression-level: 6
+2026-11-01T12:32:35.8917195Z   overwrite: false
+2026-11-01T12:32:35.8917412Z   include-hidden-files: false
+2026-11-01T12:32:35.8917969Z   archive: true
+2026-11-01T12:32:35.8918159Z env:
+2026-11-01T12:32:35.8918335Z   PYTHONUTF8: 1
+2026-11-01T12:32:35.8918601Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:32:35.8919039Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib/pkgconfig
+2026-11-01T12:32:35.8919480Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:32:35.8919869Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:32:35.8920284Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.15/x64
+2026-11-01T12:32:35.8920669Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.15/x64/lib
+2026-11-01T12:32:35.8920983Z ##[endgroup]
+2026-11-01T12:32:36.0621207Z With the provided path, there will be 31 files uploaded
+2026-11-01T12:32:36.0625829Z Artifact name is valid!
+2026-11-01T12:32:36.0626452Z Root directory input is valid!
+2026-11-01T12:32:36.3827887Z Uploading artifact: validation-ubuntu-24.04-41306203116-1.zip
+2026-11-01T12:32:36.3870996Z Beginning upload of artifact content to blob storage
+2026-11-01T12:32:36.7610243Z Uploaded bytes 58530
+2026-11-01T12:32:36.8158328Z Finished uploading artifact content to blob storage!
+2026-11-01T12:32:36.8159235Z SHA256 digest of uploaded artifact is c98d85ce9ce16bd5458f533c881eda35e8c6918e38b4a6302c802196bb34f460
+2026-11-01T12:32:36.8159985Z Finalizing artifact upload
+2026-11-01T12:32:37.3746339Z Artifact validation-ubuntu-24.04-41306203116-1 successfully finalized. Artifact ID 13084105154
+2026-11-01T12:32:37.3748172Z Artifact validation-ubuntu-24.04-41306203116-1 has been successfully uploaded! Final size is 58530 bytes. Artifact ID is 13084105154
+2026-11-01T12:32:37.3751723Z Artifact download URL: https://github.com/MFSAWUY/ESP32_LearningRecord/actions/runs/41306203116/artifacts/13084105154
+2026-11-01T12:32:37.3962527Z Post job cleanup.
+2026-11-01T12:32:37.5320114Z Post job cleanup.
+2026-11-01T12:32:37.6271079Z [command]/usr/bin/git version
+2026-11-01T12:32:37.6321210Z git version 2.56.0
+2026-11-01T12:32:37.6360690Z Temporarily overriding HOME='/home/runner/work/_temp/e0e4179a-fee2-420a-86ec-86aaaab96b71' before making global git config changes
+2026-11-01T12:32:37.6362017Z Adding repository directory to the temporary git global config as a safe directory
+2026-11-01T12:32:37.6367042Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/ESP32_LearningRecord/ESP32_LearningRecord
+2026-11-01T12:32:37.6407211Z Removing SSH command configuration
+2026-11-01T12:32:37.6415269Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-11-01T12:32:37.6463384Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-11-01T12:32:37.6735167Z Removing HTTP extra header
+2026-11-01T12:32:37.6744042Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-11-01T12:32:37.6792505Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-11-01T12:32:37.7060518Z Removing includeIf entries pointing to credentials config files
+2026-11-01T12:32:37.7070407Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-11-01T12:32:37.7122119Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-11-01T12:32:37.7614081Z Cleaning up orphan processes
